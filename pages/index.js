@@ -222,7 +222,7 @@ export default function Home() {
               <div className="bg-slate-200 rounded-xl">
                 <div className="mt-0">
                   <img
-                    src="/images/stealth-business-work.gif"
+                    src="/images/islam-geo.gif"
                     width="446.5px"
                     alt=""
                     className="object-fill rounded-t-xl"
