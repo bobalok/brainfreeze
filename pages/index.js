@@ -158,7 +158,7 @@ export default function Home() {
             </p>
           </div>
           <div className="max-w-4xl mx-auto px-6 grid md:grid-cols-2 gap-6">
-            <div className="">
+            <div className="md:hover:shadow-2xl">
               <div className="bg-orange-400 rounded-xl">
                 <div className="mt-0">
                   <img
@@ -179,7 +179,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="">
+            <div className="md:hover:shadow-2xl">
               <div className="bg-slate-200 rounded-xl">
                 <div className="mt-0">
                   <img
