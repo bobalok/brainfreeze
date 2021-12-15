@@ -12,10 +12,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="flex flex-col items-center w-full h-full text-center">
+      <main className="flex flex-col items-center h-full text-center">
         {/* section 1 */}
-        <section id="1" className="w-full">
-          <div className="font-body max-w-2xl mx-auto mt-6 px-8 text-5xl md:text-7xl py-8 text-white font-extrabold">
+        <section id="1" className="">
+          <div className="font-body max-w-2xl mx-auto mt-6 text-5xl md:text-7xl text-white font-extrabold">
             <h1>
               a{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500">
@@ -24,7 +24,7 @@ export default function Home() {
               for new generation
             </h1>
           </div>
-          <div className="md:max-w-7xl max-w-2xl mx-auto px-8 py-10 text-lg md:text-2xl text-white">
+          <div className="md:max-w-7xl max-w-2xl mx-auto py-6 text-lg md:text-2xl text-white">
             <p>
               neutechbd.com is the most unified <br />
               internet service provider <br />
@@ -43,18 +43,20 @@ export default function Home() {
             </button>
           </div>
 
-          <div className="max-w-7xl mx-auto px-8 grid place-items-center mb-20">
-            <h3 className="text-center text-2xl mb-2 pt-20 font-bold md:font-bold text-white">
-              70% faster{" "}
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500">
-                internet
-              </span>{" "}
-              and more efficient
-            </h3>
-            <p className="text-lg text-white break-normal md:break-all">
-              consume the bandwidth efficiently more than ever before <br />{" "}
-              enjoy upto 1Gbps fast transfer speed from these servers
-            </p>
+          <div className="max-w-7xl mx-auto grid place-items-center">
+            <div className="py-10 px-6 text-center max-w-lg">
+              <h3 className="text-2xl mb-2 font-bold md:font-bold text-white">
+                70% faster{" "}
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500">
+                  internet
+                </span>{" "}
+                and more efficient
+              </h3>
+              <p className="text-white text-lg">
+                consume the bandwidth efficiently more than ever before enjoy
+                upto 1Gbps fast transfer speed from these servers
+              </p>
+            </div>
             <div className="flex flex-wrap gap-10 mb-10 justify-center items-center pt-10">
               <img
                 width="64"
@@ -142,12 +144,18 @@ export default function Home() {
         <div className="w-full h-1 bg-purple-800"></div>
 
         {/* We Provide Section */}
-        <section id="card">
-          <div className="py-10 text-center">
-            <h3 className="font-body  text-2xl mb-2 font-bold text-white">
+        <section
+          id="card"
+          className="max-w-4xl mx-auto grid place-items-center"
+        >
+          <div className="py-10 px-6 text-center max-w-lg">
+            <h3 className="font-body text-2xl mb-2 font-bold text-white">
               We provide
             </h3>
-            <p className="text-white text-lg ">asldfj asdl;fkj sadjhlf</p>
+            <p className="text-white text-lg">
+              currently we are providing our internet services at uttara only
+              but we have plans for expanding our network by
+            </p>
           </div>
           <div className="max-w-4xl mx-auto px-6 grid md:grid-cols-2 gap-6">
             <div className="">

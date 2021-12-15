@@ -5,8 +5,8 @@ export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <Navigation />
-      <main className="bg-purple-900 h-full">{children}</main>
+      {/* <Navigation /> */}
+      <main className="bg-purple-900">{children}</main>
       <Footer />
     </>
   );

@@ -6,10 +6,12 @@ function Navbar() {
       {/* <h1>i am a header</h1> */}
 
       <div className="max-w-7xl mx-auto relative flex items-center divide-x-2 divide-gray-200">
-        <img className="cursor-pointer h-14" src="./g292.webp" alt="" />
+        <Link href="/">
+          <img className="cursor-pointer h-14" src="./g292.webp" alt="" />
+        </Link>
 
         <div className="hidden md:block ml-4 space-x-6 text-gray-500 font-semibold px-4">
-          <Link href="#">
+          <Link href="/dashboard">
             <a className="hover:text-red-500 focus:text-white">Dashboard</a>
           </Link>
           <Link href="#">
