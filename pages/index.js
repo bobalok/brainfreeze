@@ -159,22 +159,21 @@ export default function Home() {
           </div>
           <div className="max-w-4xl mx-auto px-6 grid md:grid-cols-2 gap-6">
             <div className="md:hover:shadow-2xl">
-              <div className="bg-orange-400 rounded-xl">
+              <div className="bg-slate-200 rounded-xl">
                 <div className="mt-0">
                   <img
                     src="/images/wfh.gif"
+                    width="446.5px"
                     alt=""
                     className="object-fill rounded-t-xl"
                   />
                 </div>
-                <div className="max-w-fit mx-auto text-gray-900 py-2">
-                  <h2 className="text-2xl font-bold mb-2 ml-2">
-                    Home internet
-                  </h2>
-                  <ul className="ml-2 text-left">
-                    <li>✔️Surveillance system</li>
-                    <li>✔️Unified entertainment</li>
-                    <li>✔️Smart home </li>
+                <div className="mx-auto max-w-fit text-slate-900 py-2">
+                  <h2 className="text-2xl font-bold mb-2">Home</h2>
+                  <ul className="text-left">
+                    <li>✔️surveillance system</li>
+                    <li>✔️Industrial Cabling</li>
+                    <li>✔️total IoT integration</li>
                   </ul>
                 </div>
               </div>
@@ -190,10 +189,48 @@ export default function Home() {
                   />
                 </div>
                 <div className="mx-auto max-w-fit text-slate-900 py-2">
-                  <h2 className="text-2xl font-bold mb-2 ml-2">
-                    Office internet
-                  </h2>
-                  <ul className="ml-2 text-left">
+                  <h2 className="text-2xl font-bold mb-2">Office</h2>
+                  <ul className="text-left">
+                    <li>✔️surveillance system</li>
+                    <li>✔️Industrial Cabling</li>
+                    <li>✔️total IoT integration</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="md:hover:shadow-2xl">
+              <div className="bg-slate-200 rounded-xl">
+                <div className="mt-0">
+                  <img
+                    src="/images/EI.gif"
+                    width="446.5px"
+                    alt=""
+                    className="object-fill rounded-t-xl h-[230px]"
+                  />
+                </div>
+                <div className="mx-auto max-w-fit text-slate-900 py-2">
+                  <h2 className="text-2xl font-bold mb-2">School</h2>
+                  <ul className="text-left">
+                    <li>✔️surveillance system</li>
+                    <li>✔️Industrial Cabling</li>
+                    <li>✔️total IoT integration</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="md:hover:shadow-2xl">
+              <div className="bg-slate-200 rounded-xl">
+                <div className="mt-0">
+                  <img
+                    src="/images/stealth-business-work.gif"
+                    width="446.5px"
+                    alt=""
+                    className="object-fill rounded-t-xl"
+                  />
+                </div>
+                <div className="mx-auto max-w-fit text-slate-900 py-2">
+                  <h2 className="text-2xl font-bold mb-2">Islamic</h2>
+                  <ul className="text-left">
                     <li>✔️surveillance system</li>
                     <li>✔️Industrial Cabling</li>
                     <li>✔️total IoT integration</li>
