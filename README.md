@@ -1,5 +1,8 @@
 
-# # Bismillah | get started
+# # Bismillah | introduction
+
+Welcome to the neutechbd.com documentation and version controller (github.com)! It is our goal to ensure that all of our images are properly optimized ```mobileFirstInMind``` with all of the relevant information in order to help our users get started. As well as individual set up guides for each of our images, there is also general information pertaining to the running of Docker containers, and best practices.
+
 
 #### A  note from the team leader 🪄🎉
 > "It is literally true that you can succeed best and quickest by helping others to succeed"
