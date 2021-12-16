@@ -1,6 +1,6 @@
-# Next.js + Tailwind CSS Example
+# Introduction 
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Welcome to the neutechbd.com documentation and version controller (github.com)! It is our goal to ensure that all of our images are properly optimized ```bash mobileFirstInMind``` with all of the relevant information in order to help our users get started. As well as individual set up guides for each of our images, there is also general information pertaining to the running of Docker containers, and best practices.
 
 ## Preview
 
