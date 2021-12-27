@@ -1,4 +1,7 @@
-import Head from "next/head";
+import Head from 'next/head';
+import Image from 'next/image';
+import Banner from '../components/Banner';
+import Bimg from '../components/Bimg';
 
 export default function dashboard() {
   return (
@@ -8,13 +11,12 @@ export default function dashboard() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <section className="text-center flex justify-center mx-auto">
-        <div className="max-w-2xl mx-auto">
+      <section className="text-center flex justify-center mx-auto h-screen top-full">
+        <div className="max-w-2xl mx-auto pt-20">
           <h1 className="text-5xl md:text-7xl text-white font-extrabold py-20 p-6">
-            a{" "}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500">
               betternet
-            </span>{" "}
+            </span>{' '}
             for new generation
           </h1>
           <p className="text-lg md:text-2xl text-white">
@@ -25,11 +27,11 @@ export default function dashboard() {
             everywhere.
           </p>
           <div className="px-8 p-4">
-            <button className="bg-green-500 hover:bg-gradient-to-r from-green-500 to-blue-500 transition-all text-white font-semibold hover:text-white py-4 px-4 border border-green-500 hover:border-transparent rounded inline-flex items-center">
+            <button className="bg-tatsuBTN hover:bg-white transition-all ease-linear text-white text-xl font-semibold hover:text-tatsuBTN py-4 px-4 border-2 border-indigo-400 hover:border-transparent rounded inline-flex items-center">
               Get started
             </button>
             <span className="mx-1 text-white">or</span>
-            <button className="bg-transparent hover:bg-gradient-to-r from-green-500 to-blue-500 transition-all text-green-500 font-semibold hover:text-white py-4 px-4 border border-green-500 hover:border-transparent rounded inline-flex items-center">
+            <button className="bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear text-white text-xl font-semibold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center">
               Try free!
             </button>
           </div>

@@ -1,8 +1,9 @@
-import Head from "next/head";
+import Head from 'next/head';
 // import streamPic from "../public/streaming.jpg";
 // import smarthomePic from "../public/smarthome.jpg";
-import smartofficePic from "../public/smartoffice.jpg";
-import Image from "next/image";
+import smartofficePic from '../public/smartoffice.jpg';
+import Image from 'next/image';
+import Bimg from '../components/Bimg';
 
 export default function Home() {
   return (
@@ -12,15 +13,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-      <main className="flex flex-col items-center h-full text-center">
+      <div className="flex flex-col items-center h-full text-center pt-32">
         {/* section 1 */}
         <section id="1" className="">
           <div className="font-body max-w-2xl mx-auto mt-6 text-5xl md:text-7xl text-white font-extrabold">
             <h1>
-              a{" "}
+              a{' '}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500">
                 betternet
-              </span>{" "}
+              </span>{' '}
               for new generation
             </h1>
           </div>
@@ -46,10 +47,10 @@ export default function Home() {
           <div className="max-w-7xl mx-auto grid place-items-center">
             <div className="py-10 px-6 text-center max-w-lg">
               <h3 className="text-2xl mb-2 font-bold md:font-bold text-white">
-                70% faster{" "}
+                70% faster{' '}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500">
                   internet
-                </span>{" "}
+                </span>{' '}
                 and more efficient
               </h3>
               <p className="text-white text-lg">
@@ -133,7 +134,7 @@ export default function Home() {
                 alt="neutech"
               />
             </div>
-            <span className="pt-5 text-gray-500">
+            <span className="pt-5 text-gray-500 mb-4">
               and more with term and conditions applied*
             </span>
           </div>
@@ -141,7 +142,7 @@ export default function Home() {
 
         {/* section 2 */}
         <section id="2"></section>
-        <div className="w-full h-1 bg-purple-800"></div>
+        <div className="w-full h-[1.2px] bg-tatsuBTN"></div>
 
         {/* We Provide Section */}
         <section
@@ -276,7 +277,7 @@ export default function Home() {
             />
           </div>
         </section>
-      </main>
+      </div>
     </>
   );
 }
