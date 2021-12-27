@@ -1,36 +1,38 @@
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link';
+import Image from 'next/image';
 function Navbar() {
   return (
-    <div className="sticky z-50 top-0 shadow-md p-4 bg-purple-900">
+    <div className="fixed top-0 z-50 w-screen shadow-sm p-6 backdrop-blur-0 bg-black/20">
       {/* <h1>i am a header</h1> */}
 
       <div className="max-w-7xl mx-auto relative flex items-center divide-x-2 divide-gray-200">
         <Link href="/">
-          <img className="cursor-pointer h-14" src="./g292.webp" alt="" />
+          <img className="cursor-pointer h-14" src="/nlbw.svg" alt="" />
         </Link>
 
-        <div className="hidden md:block ml-4 space-x-6 text-gray-500 font-semibold px-4">
+        <div className="hidden md:block ml-4 space-x-6 text-white font-semibold px-4">
           <Link href="/dashboard">
-            <a className="hover:text-red-500 focus:text-white">Dashboard</a>
+            <a className="hover:text-tatsuBTN focus:text-tatsuBTN:bg-tatsuBG:blur">
+              Dashboard
+            </a>
           </Link>
           <Link href="#">
-            <a className="hover:text-red-500 focus:text-white">Services</a>
+            <a className="hover:text-tatsuBTN focus:text-white">Services</a>
           </Link>
           <Link href="#">
-            <a className="hover:text-red-500 focus:text-white">Pricing</a>
+            <a className="hover:text-tatsuBTN focus:text-white">Pricing</a>
           </Link>
           <Link href="#">
-            <a className="hover:text-red-500 focus:text-white">Wiki</a>
+            <a className="hover:text-tatsuBTN focus:text-white">Wiki</a>
           </Link>
           <Link href="#">
-            <a className="hover:text-red-500 focus:text-white">Contact</a>
+            <a className="hover:text-tatsuBTN focus:text-white">Contact</a>
           </Link>
 
-          <button className="absolute inset-y-0 sm:visible right-0 bg-transparent hover:bg-gradient-to-r from-green-500 to-blue-500 transition-all ease-linear text-green-500 font-semibold hover:text-white py-4 px-4 border border-green-500 hover:border-transparent rounded inline-flex items-center">
+          <button className="absolute inset-y-0 sm:visible right-0 bg-tatsuBTN hover:bg-white transition-all ease-linear text-white font-semibold hover:text-tatsuBTN py-4 px-4 border-2 border-indigo-400 hover:border-transparent rounded inline-flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-6 w-6 mr-2"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
