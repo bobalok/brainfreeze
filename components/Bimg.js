@@ -1,17 +1,17 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 function Bimg() {
   return (
     <div className="absolute">
       <Image
-        className="filter blur-lg"
+        className=""
         alt="Mountains"
-        src="/bgup.jpg"
+        src="/public/images/landing-page-background-pattern.png"
         width="1920"
         height="1080"
-        // layout="fill"
-        objectFit="cover"
-        quality={100}
+        layout="fill"
+        // objectFit="cover"
+        // quality={100}
       />
       <p className="relative">
         Image Component

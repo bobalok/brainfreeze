@@ -1,7 +1,10 @@
 function Banner() {
   return (
     // <body>
-    <div className="" style="background-image: url('/public/hero-bg.jpg')">
+    <div
+      className="bg-repeat-x bg-center"
+      style="background-image: url('/public/images/landing-page-background-pattern.png')"
+    >
       hello
     </div>
     // </body>
