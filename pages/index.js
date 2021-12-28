@@ -46,13 +46,13 @@ export default function Home() {
 
           <div className="max-w-7xl mx-auto grid place-items-center">
             <div className="py-10 px-6 text-center max-w-lg">
-              <h3 className="text-2xl mb-2 font-bold md:font-bold text-white">
+              <h1 className="text-2xl mb-2 font-bold md:font-bold text-white">
                 70% faster{' '}
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-red-500 to-yellow-500">
                   internet
                 </span>{' '}
                 and more efficient
-              </h3>
+              </h1>
               <p className="text-white text-lg">
                 consume the bandwidth efficiently more than ever before enjoy
                 upto 1Gbps fast transfer speed from these servers
