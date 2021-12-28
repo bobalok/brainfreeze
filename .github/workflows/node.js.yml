@@ -23,6 +23,10 @@ jobs:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
+    
+    - uses: borales/actions-yarn@v2.3.0
+      with:
+        cmd: add sharp # will run `yarn add sharp` command
       
     - uses: borales/actions-yarn@v2.3.0
       with:
