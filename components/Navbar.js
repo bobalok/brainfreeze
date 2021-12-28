@@ -11,7 +11,7 @@ function Navbar() {
         </Link>
 
         <div className="hidden md:block ml-4 space-x-6 text-white font-semibold px-4">
-          <Link href="/dashboard">
+          <Link href="#">
             <a className="hover:text-tatsuBTN focus:text-tatsuBTN:bg-tatsuBG:blur">
               Dashboard
             </a>
