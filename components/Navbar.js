@@ -29,7 +29,7 @@ function Navbar() {
             <a className="hover:text-tatsuBTN focus:text-white">Contact</a>
           </Link>
 
-          <button className="absolute inset-y-0 sm:visible right-0 bg-tatsuBTN hover:bg-white transition-all ease-linear text-white font-semibold hover:text-tatsuBTN py-4 px-4 border-2 border-indigo-400 hover:border-transparent rounded inline-flex items-center">
+          <button className="absolute inset-y-0 sm:visible right-0 bg-tatsuBTN hover:bg-white transition-all ease-linear hover:text-tatsuBTN py-4 px-4 border-2 border-indigo-400 hover:border-transparent rounded inline-flex items-center text-white text-base font-bold">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 mr-2"
