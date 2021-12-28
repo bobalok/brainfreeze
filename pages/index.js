@@ -198,9 +198,7 @@ export default function dashboard() {
                 </span>
 
                 <div className="ml-3 md:mt-3 md:ml-0">
-                  <dt className="text-xl font-medium">
-                    Corporate/SME Internet
-                  </dt>
+                  <dt className="text-xl font-medium">Corporate/SME Support</dt>
 
                   <dd className="mt-1 text-gray-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -223,7 +221,7 @@ export default function dashboard() {
                 </span>
 
                 <div className="ml-3 md:mt-3 md:ml-0">
-                  <dt className="text-xl font-medium">Customized Internet</dt>
+                  <dt className="text-xl font-medium">Customized Services</dt>
 
                   <dd className="mt-1 text-gray-300">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
