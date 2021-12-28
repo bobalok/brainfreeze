@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import Banner from '../components/Banner';
-import Bimg from '../components/Bimg';
+// import Image from 'next/image';
+// import Banner from '../components/Banner';
+// import Bimg from '../components/Bimg';
 
-export default function dashboard() {
+export default function Home() {
   return (
     <>
       <Head>

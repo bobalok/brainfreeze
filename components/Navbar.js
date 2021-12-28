@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+// import Image from 'next/image';
 function Navbar() {
   return (
     <div className="fixed top-0 z-50 w-screen shadow-sm p-6 backdrop-blur-0 bg-black/20">
