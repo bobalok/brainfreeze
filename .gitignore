@@ -37,7 +37,7 @@ yarn-error.log*
 README.md 
 
 # no yarn.lock|package-lock.json file
-#yarn.lock
-package-lock.json
+yarn.lock
+#package-lock.json
 
-/pages/.bakindex.js
+
