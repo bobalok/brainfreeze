@@ -10,7 +10,7 @@ function Navbar() {
           <img className="cursor-pointer h-14" src="/nlbw.svg" alt="" />
         </Link>
 
-        <div className="hidden md:block ml-4 space-x-6 text-white font-semibold px-4">
+        <div className="hidden md:block md:ml-4 md:space-x-6 text-white font-semibold md:px-4">
           <Link href="#">
             <a className="hover:text-tatsuBTN focus:text-tatsuBTN:bg-tatsuBG:blur">
               Dashboard
