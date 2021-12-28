@@ -32,7 +32,10 @@ jobs:
         cmd: build # will run `yarn build` command
     - uses: borales/actions-yarn@v2.3.0
       with:
-        cmd: test # will run `yarn test` command
+        cmd: export # will run `yarn export` command
+    - uses: borales/actions-yarn@v2.3.0
+      with:
+        cmd: start # will run `yarn start` command
     
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.8   
