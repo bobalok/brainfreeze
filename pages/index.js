@@ -137,7 +137,7 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="max-w-6xl w-full h-[2.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
+        <div className="max-w-screen-xl w-full h-[2.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
 
         <section className="text-white">
           <div className="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
@@ -171,18 +171,19 @@ export default function Home() {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth={2}
-                      d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                      d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                     />
                   </svg>
                 </span>
 
                 <div className="ml-3 md:mt-3 md:ml-0">
-                  <dt className="text-xl font-medium">Home Internet</dt>
+                  <dt className="text-xl font-medium">Broadband Internet</dt>
 
                   <dd className="mt-1 text-gray-300">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Stream movies and TV shows, plus live TV channels,
+                    instantly, without a subscription. Watch your favorite TV
+                    shows and series, live channels and free movies anywhere,
+                    from any device.
                   </dd>
                 </div>
               </div>
@@ -210,8 +211,9 @@ export default function Home() {
 
                   <dd className="mt-1 text-gray-300">
                     From security, backup and disaster recovery to Cloud
-                    services, hardware, software and IP based services, find the
-                    ideal 360° IT support for your Corporate/SME businesses with{' '}
+                    services, hardware, software and VPN or IP based services,
+                    find the ideal 360° IT support for your Corporate/SME
+                    businesses with{' '}
                     <span className="font-bold">neutech internet.</span>
                   </dd>
                 </div>
@@ -342,7 +344,7 @@ export default function Home() {
             </dl>
           </div>
         </section>
-        <div className="max-w-6xl w-full h-[2.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
+        <div className="max-w-screen-xl w-full h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
       </div>
     </>
   );
