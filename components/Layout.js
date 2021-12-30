@@ -1,10 +1,11 @@
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
+import Navi from './Navi';
 import Footer from './Footer';
 
 export default function Layout({ children }) {
   return (
     <>
-      <Navbar />
+      <Navi />
       <main className="bg-tatsuBG bg-hero-pattern bg-hero-size">
         {/* <Image
           className=""

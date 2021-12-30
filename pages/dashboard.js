@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | internet for new generation</title>
+        <title>Dashboard | internet for new generation</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
@@ -16,7 +16,7 @@ export default function Home() {
           <div className="max-w-2xl mx-auto pt-20">
             <h1 className="text-5xl md:text-7xl text-white font-extrabold px-6 py-20">
               <span className="bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
-                betternet
+                Dashboard
               </span>{' '}
               for new generation
             </h1>
