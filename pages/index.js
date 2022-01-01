@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import OttPlatform from "../components/OttPlatform";
-import plexImg from "../public/images/plex1.jpg";
+import plexImg from "../public/images/plex.jpg";
 // import Banner from '../components/Banner';
 // import Bimg from '../components/Bimg';
 
@@ -364,7 +364,7 @@ export default function Home() {
               </p>
               <div className="mx-auto pt-8">
                 <button className="hidden bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear text-white text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center">
-                  Try it free!
+                  Learn more!
                 </button>
               </div>
             </div>
