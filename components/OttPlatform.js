@@ -50,7 +50,7 @@ function OttPlatform() {
           <Image
             className="rounded-lg"
             src={netflix}
-            alt="netflix"
+            alt="Netflix"
             // width="850"
             // height="478.125"
             layout="fill"
