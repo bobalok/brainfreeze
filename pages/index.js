@@ -1,6 +1,7 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import plexImg from '../public/images/plex1.jpg';
+import Head from "next/head";
+import Image from "next/image";
+import OttPlatform from "../components/OttPlatform";
+import plexImg from "../public/images/plex1.jpg";
 // import Banner from '../components/Banner';
 // import Bimg from '../components/Bimg';
 
@@ -18,7 +19,7 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl text-white font-extrabold px-6 py-20">
               <span className="bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
                 betternet
-              </span>{' '}
+              </span>{" "}
               for new generation
             </h1>
             <p className="text-lg md:text-2xl text-white">
@@ -41,16 +42,16 @@ export default function Home() {
               <h1 className="mb-2 text-2xl font-bold">
                 <span className="bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
                   70% faster internet
-                </span>{' '}
+                </span>{" "}
                 and more efficient
               </h1>
 
               <p className="text-lg max-w-lg">
                 consume the bandwidth efficiently more than ever before enjoy
-                upto{' '}
+                upto{" "}
                 <span className="text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
                   1Gbps
-                </span>{' '}
+                </span>{" "}
                 fast transfer speed from these servers
               </p>
             </div>
@@ -145,7 +146,7 @@ export default function Home() {
             <div className="max-w-xl">
               <p className="mt-6 text-gray-300">WHY US</p>
               <h2 className="text-3xl font-bold sm:text-5xl">
-                What makes us{' '}
+                What makes us{" "}
                 <span className="text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
                   different
                 </span>
@@ -215,7 +216,7 @@ export default function Home() {
                     From security, backup and disaster recovery to Cloud
                     services, hardware, software and VPN or IP based services,
                     find the ideal 360° IT support for your Corporate/SME
-                    businesses with{' '}
+                    businesses with{" "}
                     <span className="font-bold">neutech internet.</span>
                   </dd>
                 </div>
@@ -381,6 +382,11 @@ export default function Home() {
                 // quality="100"
                 // priority
               />
+            </div>
+          </div>
+          <div className="max-w-7xl mx-auto px-4 pb-16 sm:px-6 lg:px-8 grid grid-cols-1">
+            <div className="md:h-96 h-64">
+              <OttPlatform />
             </div>
           </div>
         </section>
