@@ -213,10 +213,10 @@ export default function Home() {
                   <dt className="text-xl font-medium">Corporate/SME Support</dt>
 
                   <dd className="mt-1 text-gray-300">
-                    From security, backup and disaster recovery to Cloud
-                    services, hardware, software and VPN or IP based services,
-                    find the ideal 360° IT support for your Corporate/SME
-                    businesses with{" "}
+                    From security, backup, and disaster recovery to cloud
+                    services, hardware, software, IP-based, and other network
+                    solutions, find the ideal IT support for your Corporate/SME
+                    businesses with neutech internet.{" "}
                     <span className="font-bold">neutech internet.</span>
                   </dd>
                 </div>
