@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Image from "next/image";
-import appletv from "../public/images/appletvPlus.png";
+import reqserver from "../public/images/reqserver-bg.png";
 import primevideo from "../public/images/primevideo-bg.png";
 import netflix from "../public/images/netflix-bg.png";
 import hbomax from "../public/images/hbomax-bg.png";
@@ -97,8 +97,8 @@ function OttPlatform() {
         <SwiperSlide className="text-gray-800">
           <Image
             className="rounded-lg"
-            src={appletv}
-            alt="AppleTV+"
+            src={reqserver}
+            alt="reqserver"
             // width="850"
             // height="478.125"
             layout="fill"
