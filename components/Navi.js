@@ -1,24 +1,24 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react';
-import { Disclosure, Menu, Transition } from '@headlessui/react';
+import { Fragment } from "react";
+import { Disclosure, Menu, Transition } from "@headlessui/react";
 import {
   BriefcaseIcon,
   BellIcon,
   MenuIcon,
   XIcon,
-} from '@heroicons/react/outline';
-import Link from 'next/link';
+} from "@heroicons/react/outline";
+import Link from "next/link";
 
 const navigation = [
-  { name: 'Dashboard', href: '/', current: true },
-  { name: 'Services', href: '/dashboard', current: false },
-  { name: 'Pricing', href: '#', current: false },
-  { name: 'Wiki', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: "Dashboard", href: "/", current: true },
+  { name: "Services", href: "/dashboard", current: false },
+  { name: "Pricing", href: "#", current: false },
+  { name: "Wiki", href: "#", current: false },
+  { name: "Contact", href: "#", current: false },
 ];
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(" ");
 }
 
 function MyLink(props) {
@@ -34,7 +34,7 @@ export default function Navi() {
   return (
     <Disclosure
       as="nav"
-      className="fixed top-0 z-50 w-screen backdrop-blur-0 bg-black/60"
+      className="fixed top-0 z-50 w-screen backdrop-blur-0 bg-white/90 md:bg-black/60"
     >
       {({ open }) => (
         <>
@@ -42,7 +42,7 @@ export default function Navi() {
             <div className="relative flex items-center justify-between h-24">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-900 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -54,16 +54,16 @@ export default function Navi() {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="block lg:hidden h-14 w-auto"
-                    src="/LogosForNeutechWeb/0gradiantneutech.svg"
+                    className="block md:hidden h-14 w-auto"
+                    src="/neutechLogoColorNoText.svg"
                     // src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                    alt="Workflow"
+                    alt="neutech logo"
                   />
                   <img
-                    className="hidden lg:block h-14 w-auto"
-                    src="/nlbw.svg"
+                    className="hidden md:block h-14 w-auto"
+                    src="/neutechLogobwWithText.svg"
                     // src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-                    alt="Workflow"
+                    alt="neutech logo"
                   />
                 </div>
                 <div className="hidden sm:block sm:ml-6">
@@ -74,11 +74,11 @@ export default function Navi() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? 'lg:text-tatsuBTN2 xs:bg-gray-900'
-                            : 'text-gray-300 xs:bg-gray-700 hover:text-tatsuBTN',
-                          'px-3 py-2 rounded-md text-md font-medium'
+                            ? "md:text-tatsuBTN2 xs:bg-gray-900"
+                            : "text-gray-300 xs:bg-gray-700 hover:text-tatsuBTN",
+                          "px-3 py-2 rounded-md text-md font-medium"
                         )}
-                        aria-current={item.current ? 'page' : undefined}
+                        aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
                       </MyLink>
@@ -177,11 +177,11 @@ export default function Navi() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? 'bg-gray-900 text-white'
-                      : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                    'block px-3 py-2 rounded-md text-base font-medium'
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                    "block px-3 py-2 rounded-md text-base font-medium"
                   )}
-                  aria-current={item.current ? 'page' : undefined}
+                  aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
