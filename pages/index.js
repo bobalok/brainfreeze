@@ -128,7 +128,7 @@ export default function Home() {
                 <img
                   width="50"
                   height="auto"
-                  src="./LogosForNeutechWeb/0gradiantneutech.svg"
+                  src="./neutechLogobwNoText.svg"
                   alt="neutech"
                 />
                 <span className=" px-4 py-4 text-gray-500">
