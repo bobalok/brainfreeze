@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import OttPlatform from "../components/OttPlatform";
+import Pricing from "../components/Pricing";
 import plexImg from "../public/images/plex.jpg";
-// import Banner from '../components/Banner';
-// import Bimg from '../components/Bimg';
 
 export default function Home() {
   return (
@@ -14,6 +13,8 @@ export default function Home() {
       </Head>
 
       <div className="flex flex-col items-center h-full">
+        {/* Section I Start */}
+
         <section className="text-center">
           <div className="max-w-2xl mx-auto pt-20">
             <h1 className="text-5xl md:text-7xl text-white font-extrabold px-6 py-20">
@@ -139,7 +140,11 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Section I End */}
+
         <div className="max-w-screen-xl w-full h-[2.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
+
+        {/* Section II Start*/}
 
         <section className="text-white">
           <div className="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
@@ -347,7 +352,12 @@ export default function Home() {
             </dl>
           </div>
         </section>
+
+        {/* Section II End */}
+
         <div className="max-w-screen-xl w-full h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
+
+        {/* Section III Start*/}
 
         <section className="text-white">
           <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-4">
@@ -390,7 +400,14 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Section III End */}
+
         <div className="max-w-screen-xl w-full h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
+
+        {/* Sectionn IV Start */}
+
+        <Pricing />
       </div>
     </>
   );
