@@ -5,7 +5,7 @@ function Footer() {
         <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-12 sm:px-6 lg:px-8">
           <div className="lg:items-center lg:justify-between lg:flex">
             <span className="inline-block w-44 h-16">
-              <img src="/ntcol.svg" alt="" />
+              <img src="/neutechLogoColorWithText.svg" alt="" />
             </span>
 
             <div className="flex mt-8 space-x-6 text-gray-500 lg:mt-0">
