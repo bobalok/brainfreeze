@@ -5,6 +5,16 @@ export default function Pricing() {
     <>
       <section className="text-white">
         <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8 grid md:grid-cols-4 gap-4">
+          <div className="md:col-span-4 mb-6">
+            <p className="mt-6 text-gray-300 uppercase">monthly</p>
+            <h2 className="text-3xl font-bold sm:text-5xl">
+              Pricing{" "}
+              <span className="text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
+                plans
+              </span>
+            </h2>
+          </div>
+
           {/* package one */}
           <div className="flex flex-col md:flex-row px-2 md:px-0">
             <div className="w-full md:w-1/1 bg-white rounded-lg shadow hover:shadow-2xl  duration-300 ease-in-out transition-transform transform hover:-translate-y-2 p-6 mb-10 md:mb-0">
