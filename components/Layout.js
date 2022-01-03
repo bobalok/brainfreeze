@@ -1,6 +1,6 @@
 // import Navbar from './Navbar';
-import Navi from './Navi';
-import Footer from './Footer';
+import Navi from "./Navi";
+import Footer from "./Footer";
 
 export default function Layout({ children }) {
   return (
