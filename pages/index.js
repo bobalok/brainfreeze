@@ -47,8 +47,8 @@ export default function Home() {
               </h1>
 
               <p className="text-lg max-w-lg">
-                consume the bandwidth efficiently more than ever before enjoy
-                upto{" "}
+                consume the bandwidth more efficiently ever than before enjoy up
+                to{" "}
                 <span className="text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
                   1Gbps
                 </span>{" "}
