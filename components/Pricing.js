@@ -1,4 +1,9 @@
-import { CheckIcon, XIcon } from "@heroicons/react/solid";
+import {
+  CheckIcon,
+  XIcon,
+  ExclamationIcon,
+  PlusCircleIcon,
+} from "@heroicons/react/solid";
 
 export default function Pricing() {
   return (
@@ -39,7 +44,14 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>----------</span>
+                  <span>Secure|private FTP Access</span>
+                </p>
+                <p className="my-2 flex">
+                  <ExclamationIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Multi-platform Streaming</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckIcon
@@ -49,22 +61,22 @@ export default function Pricing() {
                   <span>----------</span>
                 </p>
                 <p className="my-2 flex">
-                  <XIcon
-                    className="h-5 w-5 mr-1 text-red-500"
+                  <ExclamationIcon
+                    className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Fixed Bandwith Speed</span>
+                  <span>Fixed Bandwith</span>
                 </p>
                 <p className="my-2 flex">
-                  <XIcon
-                    className="h-5 w-5 mr-1 text-red-500"
+                  <ExclamationIcon
+                    className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>QoS Optimization</span>
                 </p>
                 <p className="my-2 flex">
-                  <XIcon
-                    className="h-5 w-5 mr-1 text-red-500"
+                  <PlusCircleIcon
+                    className="h-5 w-5 mr-1 text-orange-500"
                     aria-hidden="true"
                   />
                   <span>Real IPv4</span>
@@ -89,7 +101,7 @@ export default function Pricing() {
                 <p className="text-xl text-gray-700 self-end">/month</p>
               </div>
               <span className="absolute top-0 right-0 text-xs font-semibold inline-block py-1 px-2 rounded-tr-lg text-fuchsia-600 bg-fuchsia-200 uppercase">
-                popular ❤️
+                popular 😎
               </span>
               <div className="text-sm text-gray-600 mt-4 space-y-3">
                 <p className="">
@@ -103,7 +115,14 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>----------</span>
+                  <span>Secure|private FTP Access</span>
+                </p>
+                <p className="my-2 flex">
+                  <ExclamationIcon
+                    className="h-5 w-5 mr-1 text-green-300"
+                    aria-hidden="true"
+                  />
+                  <span>Multi-platform Streaming</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckIcon
@@ -113,11 +132,11 @@ export default function Pricing() {
                   <span>----------</span>
                 </p>
                 <p className="my-2 flex">
-                  <XIcon
-                    className="h-5 w-5 mr-1 text-red-500"
+                  <CheckIcon
+                    className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Fixed Bandwith Speed</span>
+                  <span>Reliable Bandwith</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckIcon
@@ -127,8 +146,8 @@ export default function Pricing() {
                   <span>QoS Optimization</span>
                 </p>
                 <p className="my-2 flex">
-                  <XIcon
-                    className="h-5 w-5 mr-1 text-red-500"
+                  <PlusCircleIcon
+                    className="h-5 w-5 mr-1 text-orange-500"
                     aria-hidden="true"
                   />
                   <span>Real IPv4</span>
@@ -153,7 +172,7 @@ export default function Pricing() {
                 <p className="text-xl text-gray-700 self-end">/month</p>
               </div>
               <span className="absolute top-0 right-0 text-xs font-semibold inline-block py-1 px-2 rounded-tr-lg text-orange-600 bg-orange-200 uppercase">
-                value for money 😎
+                value for money 🎨
               </span>
               <div className="text-sm text-gray-600 mt-4 space-y-3">
                 <p className="">
@@ -167,7 +186,14 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>----------</span>
+                  <span>Secure|private FTP Access</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Multi-platform Streaming</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckIcon
@@ -181,7 +207,14 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Fixed Bandwith Speed</span>
+                  <span>----------</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Fixed Bandwith</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckIcon
@@ -208,7 +241,7 @@ export default function Pricing() {
           <div className="flex flex-col md:flex-row px-2 md:px-0">
             <div className="w-full md:w-1/1 bg-white rounded-lg shadow hover:shadow-2xl duration-300 ease-in-out transition-transform transform hover:-translate-y-2 p-6 mb-10 md:mb-0">
               <h3 className="text-gray-700 uppercase text-xl font-bold">
-                ultimate
+                supreme
               </h3>
               <div className="flex mt-8 justify-center">
                 <h1 className="text-5xl font-black bg-clip-text text-transparent bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600">
@@ -228,28 +261,49 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>----------</span>
+                  <span>Secure|private FTP Access</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>----------</span>
+                  <span>Advance Parental Controll</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Fixed Bandwith Speed</span>
+                  <span>Smart Home & IoT Support</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>QoS Optimization</span>
+                  <span>Multi-platform Streaming</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Workstation Optimization</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Fixed Bandwith</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Full QoS Support</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckIcon
@@ -264,6 +318,7 @@ export default function Pricing() {
               </button>
             </div>
           </div>
+          <div className="md:col-span-4 h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
           <div className="md:col-span-4 ">
             <div className="md:h-96 h-64 rounded-lg  bg-gradient-to-bl from-green-300 via-blue-500 to-purple-600">
               <div className="h-full w-full bg-hero-pattern bg-hero-size"></div>
