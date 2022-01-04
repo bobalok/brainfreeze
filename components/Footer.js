@@ -136,20 +136,29 @@ function Footer() {
               <p className="font-medium">Services</p>
 
               <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-                <a href="" className="hover:opacity-75">
-                  1on1 Coaching
+                <a href="#" className="hover:opacity-75">
+                  {/* 1on1 Coaching */}
+                  Broadband Internet
                 </a>
-                <a href="" className="hover:opacity-75">
-                  Company Review
+                <a href="#" className="hover:opacity-75">
+                  {/* Company Review */}
+                  Corporate/SME Support
                 </a>
-                <a href="" className="hover:opacity-75">
-                  Accounts Review
+                <a href="#" className="hover:opacity-75">
+                  {/* Accounts Review */}
+                  Institutional Internet
                 </a>
-                <a href="" className="hover:opacity-75">
-                  HR Consulting
+                <a href="#" className="hover:opacity-75">
+                  {/* HR Consulting */}
+                  Developer Friendly Network
                 </a>
-                <a href="" className="hover:opacity-75">
-                  SEO Optimisation
+                <a href="#" className="hover:opacity-75">
+                  {/* SEO Optimisation */}
+                  Research & Development
+                </a>
+                <a href="#" className="hover:opacity-75">
+                  {/* SEO Optimisation */}
+                  Customized Services
                 </a>
               </nav>
             </div>

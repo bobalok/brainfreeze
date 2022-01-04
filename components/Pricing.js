@@ -386,15 +386,7 @@ export default function Pricing() {
           <div className="md:col-span-4 h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
           <div className="md:col-span-4 ">
             <div className="md:h-96 h-64 rounded-lg  bg-gradient-to-bl from-green-300 via-blue-500 to-purple-600">
-              <div className="h-full w-full bg-hero-pattern bg-hero-size">
-                <div className="flex flex-col md:flex-row px-2 md:px-0">
-                  <div className="w-full md:w-1/1 rounded-t-lg md:shadow md:hover:shadow-lg duration-300 ease-in-out transition p-6 mb-10 md:mb-0">
-                    <h3 className="text-white uppercase text-xl font-bold">
-                      for business
-                    </h3>
-                  </div>
-                </div>
-              </div>
+              <div className="h-full w-full bg-hero-pattern bg-hero-size"></div>
             </div>
           </div>
         </div>
