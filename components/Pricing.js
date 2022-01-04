@@ -1,6 +1,6 @@
 import {
-  CheckIcon,
-  XIcon,
+  CheckCircleIcon,
+  XCircleIcon,
   ExclamationIcon,
   PlusCircleIcon,
 } from "@heroicons/react/solid";
@@ -18,6 +18,10 @@ export default function Pricing() {
                 plans
               </span>
             </h2>
+            <p className="mt-6 text-gray-300">
+              Unlimited BDIX Download, LANChace Services Stays The Same For All
+              Packages
+            </p>
           </div>
 
           {/* package one */}
@@ -40,7 +44,7 @@ export default function Pricing() {
                   (Shared)
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
@@ -54,18 +58,18 @@ export default function Pricing() {
                   <span>Multi-platform Streaming</span>
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
-                    className="h-5 w-5 mr-1 text-green-500"
-                    aria-hidden="true"
-                  />
-                  <span>----------</span>
-                </p>
-                <p className="my-2 flex">
                   <ExclamationIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>Fixed Bandwith</span>
+                </p>
+                <p className="my-2 flex">
+                  <PlusCircleIcon
+                    className="h-5 w-5 mr-1 text-orange-500"
+                    aria-hidden="true"
+                  />
+                  <span>Real IPv4</span>
                 </p>
                 <p className="my-2 flex">
                   <ExclamationIcon
@@ -75,11 +79,32 @@ export default function Pricing() {
                   <span>QoS Optimization</span>
                 </p>
                 <p className="my-2 flex">
-                  <PlusCircleIcon
-                    className="h-5 w-5 mr-1 text-orange-500"
+                  <XCircleIcon
+                    className="h-5 w-5 mr-1 text-red-500"
                     aria-hidden="true"
                   />
-                  <span>Real IPv4</span>
+                  <span>IoT Support</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Advance Parental Controll</span>
+                </p>
+                <p className="my-2 flex">
+                  <XCircleIcon
+                    className="h-5 w-5 mr-1 text-red-500"
+                    aria-hidden="true"
+                  />
+                  <span>Workstation Optimization</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>----------</span>
                 </p>
               </div>
               <button className="w-full text-purple-700 border border-purple-700 rounded hover:bg-purple-700 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
@@ -111,7 +136,7 @@ export default function Pricing() {
                   (Shared)
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
@@ -119,31 +144,17 @@ export default function Pricing() {
                 </p>
                 <p className="my-2 flex">
                   <ExclamationIcon
-                    className="h-5 w-5 mr-1 text-green-300"
+                    className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>Multi-platform Streaming</span>
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
-                    className="h-5 w-5 mr-1 text-green-500"
-                    aria-hidden="true"
-                  />
-                  <span>----------</span>
-                </p>
-                <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>Reliable Bandwith</span>
-                </p>
-                <p className="my-2 flex">
-                  <CheckIcon
-                    className="h-5 w-5 mr-1 text-green-500"
-                    aria-hidden="true"
-                  />
-                  <span>QoS Optimization</span>
                 </p>
                 <p className="my-2 flex">
                   <PlusCircleIcon
@@ -151,6 +162,41 @@ export default function Pricing() {
                     aria-hidden="true"
                   />
                   <span>Real IPv4</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>QoS Optimization</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>IoT Support</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Advance Parental Controll</span>
+                </p>
+                <p className="my-2 flex">
+                  <XCircleIcon
+                    className="h-5 w-5 mr-1 text-red-500"
+                    aria-hidden="true"
+                  />
+                  <span>Workstation Optimization</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>----------</span>
                 </p>
               </div>
               <button className="w-full text-purple-700 border border-purple-700 rounded hover:bg-purple-700 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
@@ -166,12 +212,12 @@ export default function Pricing() {
                 express
               </h3>
               <div className="flex mt-8 justify-center">
-                <h1 className="text-5xl font-black bg-clip-text text-transparent bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500">
+                <h1 className="text-5xl font-black bg-clip-text text-transparent bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600">
                   ৳2000
                 </h1>
                 <p className="text-xl text-gray-700 self-end">/month</p>
               </div>
-              <span className="absolute top-0 right-0 text-xs font-semibold inline-block py-1 px-2 rounded-tr-lg text-orange-600 bg-orange-200 uppercase">
+              <span className="absolute top-0 right-0 text-xs font-semibold inline-block py-1 px-2 rounded-tr-lg text-blue-600 bg-blue-200 uppercase">
                 value for money 🎨
               </span>
               <div className="text-sm text-gray-600 mt-4 space-y-3">
@@ -182,53 +228,68 @@ export default function Pricing() {
                   (Dedicated)
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>Secure|private FTP Access</span>
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>Multi-platform Streaming</span>
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
-                    className="h-5 w-5 mr-1 text-green-500"
-                    aria-hidden="true"
-                  />
-                  <span>----------</span>
-                </p>
-                <p className="my-2 flex">
-                  <CheckIcon
-                    className="h-5 w-5 mr-1 text-green-500"
-                    aria-hidden="true"
-                  />
-                  <span>----------</span>
-                </p>
-                <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>Fixed Bandwith</span>
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Real IPv4 </span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>QoS Optimization</span>
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Real IPv4 </span>
+                  <span>IoT Support</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Advance Parental Controll</span>
+                </p>
+                <p className="my-2 flex">
+                  <XCircleIcon
+                    className="h-5 w-5 mr-1 text-red-500"
+                    aria-hidden="true"
+                  />
+                  <span>Workstation Optimization</span>
+                </p>
+
+                <p className="my-2 flex">
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>----------</span>
                 </p>
               </div>
               <button className="w-full text-purple-700 border border-purple-700 rounded hover:bg-purple-700 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
@@ -244,7 +305,7 @@ export default function Pricing() {
                 supreme
               </h3>
               <div className="flex mt-8 justify-center">
-                <h1 className="text-5xl font-black bg-clip-text text-transparent bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600">
+                <h1 className="text-5xl font-black bg-clip-text text-transparent bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500">
                   ৳4000
                 </h1>
                 <p className="text-xl text-gray-700 self-end">/month</p>
@@ -257,60 +318,61 @@ export default function Pricing() {
                   (Dedicated)
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>Secure|private FTP Access</span>
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
-                    className="h-5 w-5 mr-1 text-green-500"
-                    aria-hidden="true"
-                  />
-                  <span>Advance Parental Controll</span>
-                </p>
-                <p className="my-2 flex">
-                  <CheckIcon
-                    className="h-5 w-5 mr-1 text-green-500"
-                    aria-hidden="true"
-                  />
-                  <span>Smart Home & IoT Support</span>
-                </p>
-                <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>Multi-platform Streaming</span>
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
-                    className="h-5 w-5 mr-1 text-green-500"
-                    aria-hidden="true"
-                  />
-                  <span>Workstation Optimization</span>
-                </p>
-                <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>Fixed Bandwith</span>
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Real IPv4</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
                   <span>Full QoS Support</span>
                 </p>
                 <p className="my-2 flex">
-                  <CheckIcon
+                  <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Real IPv4</span>
+                  <span>Smart Home & IoT Support</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Advance Parental Controll</span>
+                </p>
+
+                <p className="my-2 flex">
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>Workstation Optimization</span>
                 </p>
               </div>
               <button className="w-full text-purple-700 border border-purple-700 rounded hover:bg-purple-700 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
@@ -321,7 +383,15 @@ export default function Pricing() {
           <div className="md:col-span-4 h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
           <div className="md:col-span-4 ">
             <div className="md:h-96 h-64 rounded-lg  bg-gradient-to-bl from-green-300 via-blue-500 to-purple-600">
-              <div className="h-full w-full bg-hero-pattern bg-hero-size"></div>
+              <div className="h-full w-full bg-hero-pattern bg-hero-size">
+                <div className="flex flex-col md:flex-row px-2 md:px-0">
+                  <div className="w-full md:w-1/1 rounded-t-lg md:shadow md:hover:shadow-lg duration-300 ease-in-out transition p-6 mb-10 md:mb-0">
+                    <h3 className="text-white uppercase text-xl font-bold">
+                      for business
+                    </h3>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
