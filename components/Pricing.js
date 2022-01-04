@@ -19,8 +19,11 @@ export default function Pricing() {
               </span>
             </h2>
             <p className="mt-6 text-gray-300">
-              Unlimited BDIX Download, LANChace Services Stays The Same For All
-              Packages
+              Enjoy up to 1Gbps fast download speed from BDIX, Game-clients and
+              some local FTPs applicable for every packages{" "}
+              <a href="#" className="text-blue-600 underline">
+                learn more
+              </a>
             </p>
           </div>
 
