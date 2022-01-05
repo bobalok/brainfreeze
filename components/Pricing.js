@@ -102,13 +102,6 @@ export default function Pricing() {
                   />
                   <span>Workstation Optimization</span>
                 </p>
-                <p className="my-2 flex">
-                  <CheckCircleIcon
-                    className="h-5 w-5 mr-1 text-green-500"
-                    aria-hidden="true"
-                  />
-                  <span>----------</span>
-                </p>
               </div>
               <button className="w-full text-purple-700 border border-purple-700 rounded hover:bg-purple-700 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
                 Choose Plan
@@ -194,13 +187,6 @@ export default function Pricing() {
                   />
                   <span>Workstation Optimization</span>
                 </p>
-                <p className="my-2 flex">
-                  <CheckCircleIcon
-                    className="h-5 w-5 mr-1 text-green-500"
-                    aria-hidden="true"
-                  />
-                  <span>----------</span>
-                </p>
               </div>
               <button className="w-full text-purple-700 border border-purple-700 rounded hover:bg-purple-700 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
                 Choose Plan
@@ -285,14 +271,6 @@ export default function Pricing() {
                     aria-hidden="true"
                   />
                   <span>Workstation Optimization</span>
-                </p>
-
-                <p className="my-2 flex">
-                  <CheckCircleIcon
-                    className="h-5 w-5 mr-1 text-green-500"
-                    aria-hidden="true"
-                  />
-                  <span>----------</span>
                 </p>
               </div>
               <button className="w-full text-purple-700 border border-purple-700 rounded hover:bg-purple-700 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
@@ -386,7 +364,27 @@ export default function Pricing() {
           <div className="md:col-span-4 h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
           <div className="md:col-span-4 ">
             <div className="md:h-96 h-64 rounded-lg  bg-gradient-to-bl from-green-300 via-blue-500 to-purple-600">
-              <div className="h-full w-full bg-hero-pattern bg-hero-size"></div>
+              <div className="h-full  bg-hero-pattern bg-hero-size">
+                <div className="min-h-full flex items-center justify-center text-black">
+                  <div className="grid md:grid-cols-4 gap-4 p-4 max-w-7xl">
+                    {/* card 1 */}
+                    <div className="p-3 rounded md:row-span-3 md:col-span-2">
+                      <h1 className="text-3xl text-neutral-200 font-bold sm:text-5xl">
+                        We have business plans for you
+                      </h1>
+                    </div>
+                    <div className="bg-white p-3 rounded md:col-span-2">
+                      1. Small Business
+                    </div>
+                    <div className="bg-white p-3 rounded md:col-span-2">
+                      2. Medium Business
+                    </div>
+                    <div className="bg-white p-3 rounded md:col-span-2">
+                      3. Enterpise Business
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

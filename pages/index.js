@@ -216,7 +216,7 @@ export default function Home() {
                     From security, backup, and disaster recovery to cloud
                     services, hardware, software, IP-based, and other network
                     solutions, find the ideal IT support for your Corporate/SME
-                    businesses with neutech internet.{" "}
+                    businesses with{" "}
                     <span className="font-bold">neutech internet.</span>
                   </dd>
                 </div>
