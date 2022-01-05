@@ -362,11 +362,11 @@ export default function Pricing() {
             </div>
           </div>
           <div className="md:col-span-4 h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
-          <div className="md:col-span-4 ">
-            <div className="md:h-96 h-64 rounded-lg  bg-gradient-to-bl from-green-300 via-blue-500 to-purple-600">
-              <div className="h-full  bg-hero-pattern bg-hero-size">
+          <div className="md:col-span-4">
+            <div className="rounded-lg bg-gradient-to-bl from-green-300 via-blue-500 to-purple-600">
+              <div className="h-full bg-hero-pattern bg-hero-size">
                 <div className="min-h-full flex items-center justify-center text-black">
-                  <div className="grid md:grid-cols-4 gap-4 p-4 max-w-7xl">
+                  <div className="grid md:grid-cols-4 gap-4 p-24 max-w-7xl">
                     {/* card 1 */}
                     <div className="p-3 rounded md:row-span-3 md:col-span-2">
                       <h1 className="text-3xl text-neutral-200 font-bold sm:text-5xl">
