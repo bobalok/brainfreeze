@@ -34,7 +34,7 @@ export default function Navi() {
   return (
     <Disclosure
       as="nav"
-      className="fixed top-0 z-50 w-screen backdrop-blur-0 bg-black/90"
+      className="md:fixed top-0 z-50 w-screen backdrop-blur-0 bg-black/90"
     >
       {({ open }) => (
         <>
