@@ -363,24 +363,86 @@ export default function Pricing() {
           </div>
           <div className="md:col-span-4 h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
           <div className="md:col-span-4">
-            <div className="rounded-lg bg-gradient-to-bl from-green-300 via-blue-500 to-purple-600">
+            <div className="rounded-lg bg-gradient-to-bl from-gray-700 via-gray-900 to-black">
               <div className="h-full bg-hero-pattern bg-hero-size">
-                <div className="min-h-full flex items-center justify-center text-black">
-                  <div className="grid md:grid-cols-4 gap-4 p-24 max-w-7xl">
+                <div className="min-h-full flex items-center justify-center text-white">
+                  <div className="grid md:grid-cols-4 gap-4 md:p-24 p-6 max-w-7xl">
                     {/* card 1 */}
-                    <div className="p-3 rounded md:row-span-3 md:col-span-2">
-                      <h1 className="text-3xl text-neutral-200 font-bold sm:text-5xl">
-                        We have business plans for you
+                    <div className="p-3 rounded md:row-span-5 md:col-span-2 bg-black/20 ">
+                      <h1 className="uppercase">Enhance Your Business</h1>
+                      <h1 className="text-3xl font-bold sm:text-5xl">
+                        Work{" "}
+                        <span className="text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
+                          Smarter
+                        </span>{" "}
+                        Not Harder
                       </h1>
+                      <p className="mt-6 ">
+                        When looking forward to what will drive technology
+                        trends in 2021, it is not surprising that many result
+                        from the significant upheaval caused by COVID-19,
+                        including its impact on the economy, the workforce, and
+                        our growing need for flexible I.T. solutions. According
+                        to a recent Gartner report, technology trends for 2021
+                        fall into three often interrelated themes: people
+                        centricity, location independence, and resilient
+                        delivery.
+                      </p>
+                      <div className="py-6 md:py-8">
+                        <button className="bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear text-white text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center">
+                          Get a quotation
+                        </button>
+                      </div>
                     </div>
-                    <div className="bg-white p-3 rounded md:col-span-2">
-                      1. Small Business
+                    <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
+                      <h1 className="text-lg font-bold">Managed IT Services</h1>
+                      <p>
+                        It is usually a part of an MSP (managed service
+                        provider) which deals with single or multiple IT service
+                        needs. Most commonly, managed IT services handle remote
+                        server, desktop, and device management. Other common
+                        uses involve remote cybersecurity.
+                      </p>
                     </div>
-                    <div className="bg-white p-3 rounded md:col-span-2">
-                      2. Medium Business
+                    <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
+                      <h1 className="text-lg font-bold">Networking Services</h1>
+                      <p>
+                        This involves the building of network infrastructure,
+                        the setup of devices like LAN routers and modems, the
+                        layout of the networks (such as breaking a network into
+                        different tiers), security, optimization, and many other
+                        factors
+                      </p>
                     </div>
-                    <div className="bg-white p-3 rounded md:col-span-2">
-                      3. Enterpise Business
+                    <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
+                      <h1 className="text-lg font-bold">
+                        Data Backup and Restoration
+                      </h1>
+                      <p>
+                        Regardless of the method used, data backup involves the
+                        preservation of information in case of unforeseen
+                        problems, such as natural disaster, malicious
+                        intrusions, hardware failure, and more
+                      </p>
+                    </div>
+                    <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
+                      <h1 className="text-lg font-bold">
+                        Cybersecurity Services
+                      </h1>
+                      <p>
+                        It is the act of protecting networks and data from
+                        malicious attacks by deploying a variety of methods,
+                        from network monitoring, firewalls, anti-virus, layered
+                        networks, and more.
+                      </p>
+                    </div>
+                    <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
+                      <h1 className="text-lg font-bold">Remote Support</h1>
+                      <p>
+                        This can be used for IT assistance, software repair, or
+                        other needs. Very useful when IT experts are not
+                        physically available.
+                      </p>
                     </div>
                   </div>
                 </div>
