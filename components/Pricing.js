@@ -86,7 +86,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-red-500"
                     aria-hidden="true"
                   />
-                  <span>IoT Support</span>
+                  <span>IoT Integration Support</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckCircleIcon
@@ -171,7 +171,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>IoT Support</span>
+                  <span>IoT Integration Support</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckCircleIcon
@@ -256,7 +256,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>IoT Support</span>
+                  <span>IoT Integration Support</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckCircleIcon
@@ -338,7 +338,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Smart Home & IoT Support</span>
+                  <span>Smart Home & IoT Integration Support</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckCircleIcon

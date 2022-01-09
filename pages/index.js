@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import OttPlatform from "../components/OttPlatform";
 import Pricing from "../components/Pricing";
+import Section from "../components/Section";
 import plexImg from "../public/images/plex.jpg";
 
 export default function Home() {
@@ -397,6 +398,7 @@ export default function Home() {
         <Pricing />
         {/* Sectionn IV End */}
         <div className="max-w-screen-xl w-full h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
+        <Section />
       </div>
     </>
   );
