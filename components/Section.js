@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CCC from "../public/images/ccc1.png";
+import CCC from "../public/images/businessSol.png";
 
 export default function Section() {
   return (

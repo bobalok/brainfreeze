@@ -20,7 +20,7 @@ export default function Pricing() {
             </h2>
             <p className="mt-6 text-gray-300">
               Enjoy up to 1Gbps fast download speed from BDIX, Game-clients and
-              some local FTPs applicable for every packages{" "}
+              some local FTPs applicable for every plans{" "}
               <a href="#" className="text-blue-600 underline">
                 learn more
               </a>
@@ -369,13 +369,13 @@ export default function Pricing() {
                   <div className="grid md:grid-cols-4 gap-4 md:p-24 p-6 max-w-7xl">
                     {/* card 1 */}
                     <div className="p-3 rounded md:row-span-5 md:col-span-2 bg-black/20 ">
-                      <h1 className="uppercase">Enhance Your Business</h1>
+                      <h1 className="uppercase">Enhance Your Business With</h1>
                       <h1 className="text-3xl font-bold sm:text-5xl">
-                        Work{" "}
+                        Our{" "}
                         <span className="text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
-                          Smarter
+                          Customized
                         </span>{" "}
-                        Not Harder
+                        Services
                       </h1>
                       <p className="mt-6 ">
                         When looking forward to what will drive technology
