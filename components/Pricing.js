@@ -363,7 +363,7 @@ export default function Pricing() {
           </div>
           <div className="md:col-span-4 h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
           <div className="md:col-span-4">
-            <div className="rounded-lg bg-gradient-to-bl from-gray-700 via-gray-900 to-black">
+            <div className="rounded-lg bg-gradient-to-bl from-sky-400 to-blue-500">
               <div className="h-full bg-hero-pattern bg-hero-size">
                 <div className="min-h-full flex items-center justify-center text-white">
                   <div className="grid md:grid-cols-4 gap-4 md:p-24 p-6 max-w-7xl">
@@ -371,11 +371,7 @@ export default function Pricing() {
                     <div className="p-3 rounded md:row-span-5 md:col-span-2 bg-black/20 ">
                       <h1 className="uppercase">Enhance Your Business With</h1>
                       <h1 className="text-3xl font-bold sm:text-5xl">
-                        Our{" "}
-                        <span className="text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
-                          Customized
-                        </span>{" "}
-                        Services
+                        Our Customized Services
                       </h1>
                       <p className="mt-6 ">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -385,32 +381,32 @@ export default function Pricing() {
                         commodo consequat.
                       </p>
                       <div className="py-6 md:py-8">
-                        <button className="bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear text-white text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center">
+                        <button className="bg-transparent hover:bg-gray-600 transition-all ease-linear text-white text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center">
                           Get a quotation
                         </button>
                       </div>
                     </div>
-                    <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
+                    <div className=" p-3 rounded border-l-4 md:col-span-2 bg-black/50">
                       <h1 className="text-lg font-bold">Managed IT Services</h1>
                       <p>------------------------</p>
                     </div>
-                    <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
-                      <h1 className="text-lg font-bold">Networking Services</h1>
+                    <div className=" p-3 rounded border-l-4 md:col-span-2 bg-black/50">
+                      <h1 className="text-lg font-bold">Networking Solution</h1>
                       <p>------------------------</p>
                     </div>
-                    <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
+                    <div className=" p-3 rounded border-l-4 md:col-span-2 bg-black/50">
                       <h1 className="text-lg font-bold">
                         Data Backup and Restoration
                       </h1>
                       <p>------------------------</p>
                     </div>
-                    <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
+                    <div className=" p-3 rounded border-l-4 md:col-span-2 bg-black/50">
                       <h1 className="text-lg font-bold">
                         Cybersecurity Services
                       </h1>
                       <p>------------------------</p>
                     </div>
-                    <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
+                    <div className=" p-3 rounded border-l-4  md:col-span-2 bg-black/50">
                       <h1 className="text-lg font-bold">Remote Support</h1>
                       <p>------------------------</p>
                     </div>
