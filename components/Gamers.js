@@ -1,5 +1,5 @@
 import Image from "next/image";
-import GamersBG from "../public/images/games-bg-4.jpg";
+import GamersBG from "../public/images/games-bg-5.jpg";
 
 export default function Gamers() {
   return (
