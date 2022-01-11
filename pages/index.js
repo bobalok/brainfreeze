@@ -20,6 +20,8 @@ export default function Home() {
         <WhatMakesUsDifferent />
         <HorizontalLine />
         <UnifiedMediaService />
+        {/* <HorizontalLine /> */}
+        <Gamers />
         <HorizontalLine />
         <Pricing />
       </div>

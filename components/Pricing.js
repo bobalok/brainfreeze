@@ -378,15 +378,11 @@ export default function Pricing() {
                         Services
                       </h1>
                       <p className="mt-6 ">
-                        When looking forward to what will drive technology
-                        trends in 2021, it is not surprising that many result
-                        from the significant upheaval caused by COVID-19,
-                        including its impact on the economy, the workforce, and
-                        our growing need for flexible I.T. solutions. According
-                        to a recent Gartner report, technology trends for 2021
-                        fall into three often interrelated themes: people
-                        centricity, location independence, and resilient
-                        delivery.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo consequat.
                       </p>
                       <div className="py-6 md:py-8">
                         <button className="bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear text-white text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center">
@@ -396,53 +392,27 @@ export default function Pricing() {
                     </div>
                     <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
                       <h1 className="text-lg font-bold">Managed IT Services</h1>
-                      <p>
-                        It is usually a part of an MSP (managed service
-                        provider) which deals with single or multiple IT service
-                        needs. Most commonly, managed IT services handle remote
-                        server, desktop, and device management. Other common
-                        uses involve remote cybersecurity.
-                      </p>
+                      <p>------------------------</p>
                     </div>
                     <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
                       <h1 className="text-lg font-bold">Networking Services</h1>
-                      <p>
-                        This involves the building of network infrastructure,
-                        the setup of devices like LAN routers and modems, the
-                        layout of the networks (such as breaking a network into
-                        different tiers), security, optimization, and many other
-                        factors
-                      </p>
+                      <p>------------------------</p>
                     </div>
                     <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
                       <h1 className="text-lg font-bold">
                         Data Backup and Restoration
                       </h1>
-                      <p>
-                        Regardless of the method used, data backup involves the
-                        preservation of information in case of unforeseen
-                        problems, such as natural disaster, malicious
-                        intrusions, hardware failure, and more
-                      </p>
+                      <p>------------------------</p>
                     </div>
                     <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
                       <h1 className="text-lg font-bold">
                         Cybersecurity Services
                       </h1>
-                      <p>
-                        It is the act of protecting networks and data from
-                        malicious attacks by deploying a variety of methods,
-                        from network monitoring, firewalls, anti-virus, layered
-                        networks, and more.
-                      </p>
+                      <p>------------------------</p>
                     </div>
                     <div className=" p-3 rounded border-l-4 border-l-emerald-400 md:col-span-2 bg-black/50">
                       <h1 className="text-lg font-bold">Remote Support</h1>
-                      <p>
-                        This can be used for IT assistance, software repair, or
-                        other needs. Very useful when IT experts are not
-                        physically available.
-                      </p>
+                      <p>------------------------</p>
                     </div>
                   </div>
                 </div>

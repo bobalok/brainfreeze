@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Image from "next/image";
+import GamersBG from "../public/images/gamer-bg.png";
 import reqserver from "../public/images/reqserver-bg.png";
 import primevideo from "../public/images/primevideo-bg.png";
 import netflix from "../public/images/netflix-bg.png";
@@ -30,7 +31,11 @@ export default function UnifiedMediaService() {
           <div className="max-w-xl">
             <p className="mt-6 text-gray-300">STREMING SERVICE FOR FREE</p>
             <h1 className="text-3xl font-bold sm:text-5xl">
-              Unified media service
+              Unified{" "}
+              <span className="text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
+                media
+              </span>{" "}
+              service
             </h1>
             <p className="mt-6 text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -136,6 +141,21 @@ export default function UnifiedMediaService() {
                 <Image
                   className="rounded-lg"
                   src={reqserver}
+                  alt="reqserver"
+                  // width="850"
+                  // height="478.125"
+                  layout="fill"
+                  objectFit="cover"
+                  // blurDataURL="data:" //automatically provided
+                  placeholder="blur"
+                  // quality="100"
+                  // priority />
+                />
+              </SwiperSlide>
+              <SwiperSlide className="text-gray-800">
+                <Image
+                  className="rounded-lg"
+                  src={GamersBG}
                   alt="reqserver"
                   // width="850"
                   // height="478.125"
