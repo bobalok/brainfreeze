@@ -1,6 +1,7 @@
 // import Navbar from './Navbar';
 import Navi from "./Navi";
 import Footer from "./Footer";
+import ContactUs from "./ContactUs";
 
 export default function Layout({ children }) {
   return (
@@ -17,7 +18,7 @@ export default function Layout({ children }) {
         /> */}
         {children}
       </main>
-
+      <ContactUs />
       <Footer />
     </>
   );
