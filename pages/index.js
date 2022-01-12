@@ -1,5 +1,6 @@
 import Head from "next/head";
 import BetterNetForNewGeneration from "../components/BetterNetForNewGeneration";
+import ContactUs from "../components/ContactUs";
 import Gamers from "../components/Gamers";
 import HorizontalLine from "../components/HorizontalLine";
 import Pricing from "../components/Pricing";
@@ -10,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home | internet for new generation</title>
+        <title>betternet | Home</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
 
@@ -24,6 +25,8 @@ export default function Home() {
         <Gamers />
         <HorizontalLine />
         <Pricing />
+        <HorizontalLine />
+        <ContactUs />
       </div>
     </>
   );

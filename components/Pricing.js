@@ -27,7 +27,7 @@ export default function Pricing() {
             </p>
           </div>
 
-          {/* package one */}
+          {/* GRAPPLER package one */}
           <div className="flex flex-col md:flex-row px-2 md:px-0">
             <div className="w-full md:w-1/1 bg-white rounded-lg shadow hover:shadow-2xl  duration-300 ease-in-out transition-transform transform hover:-translate-y-2 p-6 mb-10 md:mb-0">
               <h3 className="text-gray-700 uppercase text-xl font-bold">
@@ -86,6 +86,13 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-red-500"
                     aria-hidden="true"
                   />
+                  <span>Smart Home Solutions</span>
+                </p>
+                <p className="my-2 flex">
+                  <XCircleIcon
+                    className="h-5 w-5 mr-1 text-red-500"
+                    aria-hidden="true"
+                  />
                   <span>IoT Integration Support</span>
                 </p>
                 <p className="my-2 flex">
@@ -103,13 +110,13 @@ export default function Pricing() {
                   <span>Workstation Optimization</span>
                 </p>
               </div>
-              <button className="w-full text-purple-700 border border-purple-700 rounded hover:bg-purple-700 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
+              <button className="w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
                 Choose Plan
               </button>
             </div>
           </div>
 
-          {/* package two */}
+          {/* MAINSTREAM package two */}
           <div className="flex flex-col md:flex-row px-2 md:px-0">
             <div className="w-full md:w-1/1 bg-white rounded-lg shadow hover:shadow-2xl duration-300 ease-in-out transition-transform transform hover:-translate-y-2 p-6 mb-10 md:mb-0">
               <h3 className="text-gray-700 uppercase text-xl font-bold">
@@ -167,6 +174,13 @@ export default function Pricing() {
                   <span>QoS Optimization</span>
                 </p>
                 <p className="my-2 flex">
+                  <XCircleIcon
+                    className="h-5 w-5 mr-1 text-red-500"
+                    aria-hidden="true"
+                  />
+                  <span>Smart Home Solutions</span>
+                </p>
+                <p className="my-2 flex">
                   <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
@@ -188,13 +202,13 @@ export default function Pricing() {
                   <span>Workstation Optimization</span>
                 </p>
               </div>
-              <button className="w-full text-purple-700 border border-purple-700 rounded hover:bg-purple-700 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
+              <button className="w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
                 Choose Plan
               </button>
             </div>
           </div>
 
-          {/* package three */}
+          {/* EXPRESS package three */}
           <div className="flex flex-col md:flex-row px-2 md:px-0">
             <div className="w-full md:w-1/1 bg-white rounded-lg shadow hover:shadow-2xl duration-300 ease-in-out transition-transform transform hover:-translate-y-2 p-6 mb-10 md:mb-0">
               <h3 className="text-gray-700 uppercase text-xl font-bold">
@@ -252,6 +266,13 @@ export default function Pricing() {
                   <span>QoS Optimization</span>
                 </p>
                 <p className="my-2 flex">
+                  <XCircleIcon
+                    className="h-5 w-5 mr-1 text-red-500"
+                    aria-hidden="true"
+                  />
+                  <span>Smart Home Solutions</span>
+                </p>
+                <p className="my-2 flex">
                   <CheckCircleIcon
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
@@ -273,13 +294,13 @@ export default function Pricing() {
                   <span>Workstation Optimization</span>
                 </p>
               </div>
-              <button className="w-full text-purple-700 border border-purple-700 rounded hover:bg-purple-700 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
+              <button className="w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
                 Choose Plan
               </button>
             </div>
           </div>
 
-          {/* package four */}
+          {/* SUPREME package four */}
           <div className="flex flex-col md:flex-row px-2 md:px-0">
             <div className="w-full md:w-1/1 bg-white rounded-lg shadow hover:shadow-2xl duration-300 ease-in-out transition-transform transform hover:-translate-y-2 p-6 mb-10 md:mb-0">
               <h3 className="text-gray-700 uppercase text-xl font-bold">
@@ -338,7 +359,14 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Smart Home & IoT Integration Support</span>
+                  <span>Smart Home Solutions</span>
+                </p>
+                <p className="my-2 flex">
+                  <CheckCircleIcon
+                    className="h-5 w-5 mr-1 text-green-500"
+                    aria-hidden="true"
+                  />
+                  <span>IoT Integration Support</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckCircleIcon
@@ -356,7 +384,8 @@ export default function Pricing() {
                   <span>Workstation Optimization</span>
                 </p>
               </div>
-              <button className="w-full text-purple-700 border border-purple-700 rounded hover:bg-purple-700 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
+
+              <button className="w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4">
                 Choose Plan
               </button>
             </div>
