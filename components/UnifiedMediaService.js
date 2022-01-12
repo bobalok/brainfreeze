@@ -55,12 +55,13 @@ export default function UnifiedMediaService() {
               src={plexImg}
               className="rounded-lg"
               alt="smarthome"
-              // width="850"
-              // height="478.125"
-              layout="intrinsic"
+              width={600}
+              height={328}
+              layout="responsive"
+              // objectFit="cover"
               // blurDataURL="data:" //automatically provided
               placeholder="blur"
-              // quality="100"
+              // quality="60"
               // priority
             />
           </div>
