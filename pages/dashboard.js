@@ -1,4 +1,5 @@
 import Head from "next/head";
+import FAQ from "../components/FAQ";
 import Testimonials from "../components/Testimonials";
 // import Image from 'next/image';
 // import Banner from '../components/Banner';
@@ -146,6 +147,7 @@ export default function Home() {
         {/* ############################################################################################### */}
         <div className="max-w-screen-xl w-full h-[1.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700"></div>
       </div>
+      <FAQ />
     </>
   );
 }
