@@ -5,7 +5,7 @@ export default function Gamers() {
   return (
     <>
       <section className="text-white">
-        <div className="max-w-7xl mx-auto px-4 pb-16 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-4">
+        <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-4">
           <div className="max-w-xl">
             <p className="mt-6 text-gray-300 uppercase">play without lag</p>
             <h1 className="text-3xl font-bold sm:text-5xl">
@@ -51,10 +51,10 @@ export default function Gamers() {
               src={GamersBG}
               className="rounded-lg"
               alt="Games"
-              width={600}
-              height={328}
-              layout="responsive"
-              // objectFit="cover"
+              // width={600}
+              // height={328}
+              layout="intrinsic"
+              objectFit="cover"
               // blurDataURL="data:" //automatically provided
               placeholder="blur"
               quality="70"

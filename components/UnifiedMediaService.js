@@ -55,10 +55,10 @@ export default function UnifiedMediaService() {
               src={plexImg}
               className="rounded-lg"
               alt="smarthome"
-              width={600}
-              height={328}
-              layout="responsive"
-              // objectFit="cover"
+              // width={600}
+              // height={328}
+              layout="intrinsic"
+              objectFit="cover"
               // blurDataURL="data:" //automatically provided
               placeholder="blur"
               // quality="60"
@@ -66,7 +66,7 @@ export default function UnifiedMediaService() {
             />
           </div>
         </div>
-        <div className="max-w-7xl mx-auto px-4 pb-16 sm:px-6 lg:px-8 grid grid-cols-1">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1">
           <div className="md:h-96 h-64">
             <Swiper
               effect={"fade"}
