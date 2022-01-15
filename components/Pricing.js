@@ -516,7 +516,7 @@ export default function Pricing() {
                           </label>
                           <textarea
                             className="w-full p-3 text-sm border-gray-200 rounded-lg"
-                            placeholder="Brief description about the company"
+                            placeholder="Message"
                             rows="8"
                             id="message"
                           ></textarea>
