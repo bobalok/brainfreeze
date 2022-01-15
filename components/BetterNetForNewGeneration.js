@@ -1,11 +1,12 @@
+import { LinkIcon } from "@heroicons/react/solid";
 export default function BetterNetForNewGeneration() {
   return (
     <>
-      <section className="max-w-2xl mx-auto my-10">
+      <section className="max-w-2xl mx-auto md:my-10">
         {/* Heading Goes Here */}
 
         <div className="text-center">
-          <h1 className="text-5xl md:text-7xl text-white font-extrabold px-6 py-20">
+          <h1 className="text-5xl md:text-7xl text-white font-extrabold px-6 py-16 lg:mt-16">
             <span className="bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
               betternet
             </span>{" "}
@@ -13,8 +14,7 @@ export default function BetterNetForNewGeneration() {
           </h1>
           {/* Subheading Goes Here */}
           <p className="text-lg md:text-2xl text-white">
-            neutechbd.com is the most unified <br />
-            internet service provider, <br />
+            unified internet service provider, <br />
             enterprise grade solution
             <br />
             everywhere.
@@ -23,12 +23,13 @@ export default function BetterNetForNewGeneration() {
           {/* CTA Buttons */}
 
           <div className="px-8 py-10">
-            <button className="bg-tatsuBTN hover:bg-white transition-all ease-linear text-white text-base font-bold hover:text-tatsuBTN py-4 px-4 border-2 border-indigo-400 hover:border-transparent rounded inline-flex items-center">
+            {/* <button className="bg-tatsuBTN hover:bg-white transition-all ease-linear text-white text-base font-bold hover:text-tatsuBTN py-4 px-4 border-2 border-indigo-400 hover:border-transparent rounded inline-flex items-center">
               Get started
             </button>
-            <span className="mx-1 text-white">or</span>
+            <span className="mx-1 text-white">or</span> */}
             <button className="bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear text-white text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center">
-              Try free!
+              <LinkIcon className="w-6 h-6 mr-1" />
+              Connect me
             </button>
           </div>
           {/* ShortParagraph/marketing Goes Here */}

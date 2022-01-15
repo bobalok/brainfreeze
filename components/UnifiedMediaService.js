@@ -27,7 +27,7 @@ export default function UnifiedMediaService() {
   return (
     <>
       <section className="text-white">
-        <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-4">
+        <div className="max-w-7xl mx-auto px-4 lg:py-16 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-4">
           <div className="max-w-xl">
             <p className="mt-6 text-gray-300">STREMING SERVICE FOR FREE</p>
             <h1 className="text-3xl font-bold sm:text-5xl">

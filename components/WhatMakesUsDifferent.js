@@ -4,7 +4,7 @@ export default function WhatMakesUsDifferent() {
   return (
     <>
       <section className="text-white">
-        <div className="max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="max-w-screen-xl px-4 md:py-16 sm:px-6 lg:px-8">
           <div className="max-w-xl">
             <p className="mt-6 text-gray-300">WHY US</p>
             <h2 className="text-3xl font-bold sm:text-5xl">
@@ -118,21 +118,24 @@ export default function WhatMakesUsDifferent() {
             <div className="flex items-start md:flex-col">
               <span className="flex-shrink-0 p-4 bg-tatsuBTN rounded-lg">
                 <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="gamepad"
                   className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
+                  role="img"
                   xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 640 512"
                 >
                   <path
-                    fillRule="evenodd"
-                    d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
-                    clipRule="evenodd"
-                  />
+                    fill="currentColor"
+                    d="M480.07 96H160a160 160 0 1 0 114.24 272h91.52A160 160 0 1 0 480.07 96zM248 268a12 12 0 0 1-12 12h-52v52a12 12 0 0 1-12 12h-24a12 12 0 0 1-12-12v-52H84a12 12 0 0 1-12-12v-24a12 12 0 0 1 12-12h52v-52a12 12 0 0 1 12-12h24a12 12 0 0 1 12 12v52h52a12 12 0 0 1 12 12zm216 76a40 40 0 1 1 40-40 40 40 0 0 1-40 40zm64-96a40 40 0 1 1 40-40 40 40 0 0 1-40 40z"
+                  ></path>
                 </svg>
               </span>
 
               <div className="ml-3 md:mt-3 md:ml-0">
-                <dt className="text-xl font-medium">Developer Friendly</dt>
+                <dt className="text-xl font-medium">Gamer Community</dt>
 
                 <dd className="mt-1 text-gray-300">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
