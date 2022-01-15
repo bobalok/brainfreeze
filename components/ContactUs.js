@@ -26,9 +26,13 @@ export default function ContactUs() {
               </p>
 
               <div className="mt-8">
-                <a href="" className="text-2xl font-bold text-pink-600">
+                <a
+                  href=""
+                  className="text-2xl font-bold text-pink-600"
+                  href="tel:+8801316196567"
+                >
                   {" "}
-                  0151 475 4450{" "}
+                  0131 619 6567{" "}
                 </a>
 
                 <address className="mt-2 not-italic text-white">
