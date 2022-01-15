@@ -9,7 +9,7 @@ export default function ContactUs() {
   return (
     <>
       <section className="bg-tatsuBG">
-        <div className="bg-hero-pattern bg-hero-size max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+        <div className="bg-hero-pattern bg-hero-size max-w-screen-xl px-4 md:py-16 pb-6 mx-auto sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
             <div className="lg:py-12 lg:col-span-2">
               <p className="mt-6 text-gray-300 uppercase">let's communicate</p>

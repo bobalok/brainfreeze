@@ -66,7 +66,7 @@ export default function UnifiedMediaService() {
             />
           </div>
         </div>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1">
+        <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8 grid grid-cols-1">
           <div className="md:h-96 h-64">
             <Swiper
               effect={"fade"}
