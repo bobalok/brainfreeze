@@ -36,7 +36,7 @@ export default function ContactUs() {
                 </a>
 
                 <address className="mt-2 not-italic text-white">
-                  282 Kevin Brook, Imogeneborough, CA 58517
+                  Sonargaon Janapath, Sector-11, Uttara Dhaka-1230
                 </address>
               </div>
             </div>
