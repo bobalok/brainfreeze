@@ -9,7 +9,7 @@ export default function Pricing() {
   return (
     <>
       <section className="text-white">
-        <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8 grid md:grid-cols-4 gap-4">
+        <div className="max-w-7xl mx-auto px-4 md:py-16 pb-6 sm:px-6 lg:px-8 grid md:grid-cols-4 gap-4">
           <div className="md:col-span-4 mb-6">
             <p className="mt-6 text-gray-300 uppercase">monthly</p>
             <h2 className="text-3xl font-bold sm:text-5xl">
@@ -51,7 +51,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Secure|private FTP Access</span>
+                  <span>Secure | private FTP Access</span>
                 </p>
                 <p className="my-2 flex">
                   <ExclamationIcon
@@ -86,7 +86,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-red-500"
                     aria-hidden="true"
                   />
-                  <span>Smart Home Solutions</span>
+                  <span>Smart Home Integration</span>
                 </p>
                 <p className="my-2 flex">
                   <XCircleIcon
@@ -143,7 +143,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Secure|private FTP Access</span>
+                  <span>Secure | private FTP Access</span>
                 </p>
                 <p className="my-2 flex">
                   <ExclamationIcon
@@ -178,7 +178,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-red-500"
                     aria-hidden="true"
                   />
-                  <span>Smart Home Solutions</span>
+                  <span>Smart Home Integration</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckCircleIcon
@@ -235,7 +235,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Secure|private FTP Access</span>
+                  <span>Secure | private FTP Access</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckCircleIcon
@@ -270,7 +270,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-red-500"
                     aria-hidden="true"
                   />
-                  <span>Smart Home Solutions</span>
+                  <span>Smart Home Integration</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckCircleIcon
@@ -324,7 +324,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Secure|private FTP Access</span>
+                  <span>Secure | private FTP Access</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckCircleIcon
@@ -359,7 +359,7 @@ export default function Pricing() {
                     className="h-5 w-5 mr-1 text-green-500"
                     aria-hidden="true"
                   />
-                  <span>Smart Home Solutions</span>
+                  <span>Smart Home Integration</span>
                 </p>
                 <p className="my-2 flex">
                   <CheckCircleIcon
@@ -397,7 +397,7 @@ export default function Pricing() {
                 <div className="min-h-full flex items-center justify-center text-white">
                   <div className="grid md:grid-cols-4 gap-4 md:p-24 p-6 max-w-7xl">
                     {/* card 1 */}
-                    <div className="p-3 rounded md:row-span-5 md:col-span-2 bg-black/20 ">
+                    <div className="p-6 rounded  md:col-span-2 bg-black/20 ">
                       <h1 className="uppercase">Enhance Your Business With</h1>
                       <h1 className="text-3xl font-bold sm:text-5xl">
                         Our Customized Services
@@ -409,35 +409,146 @@ export default function Pricing() {
                         exercitation ullamco laboris nisi ut aliquip ex ea
                         commodo consequat.
                       </p>
-                      <div className="py-6 md:py-8">
-                        <button className="bg-transparent hover:bg-gray-600 transition-all ease-linear text-white text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center">
-                          Get a quotation
-                        </button>
-                      </div>
                     </div>
-                    <div className=" p-3 rounded border-l-4 md:col-span-2 bg-black/50">
-                      <h1 className="text-lg font-bold">Managed IT Services</h1>
-                      <p>------------------------</p>
-                    </div>
-                    <div className=" p-3 rounded border-l-4 md:col-span-2 bg-black/50">
-                      <h1 className="text-lg font-bold">Networking Solution</h1>
-                      <p>------------------------</p>
-                    </div>
-                    <div className=" p-3 rounded border-l-4 md:col-span-2 bg-black/50">
-                      <h1 className="text-lg font-bold">
-                        Data Backup and Restoration
-                      </h1>
-                      <p>------------------------</p>
-                    </div>
-                    <div className=" p-3 rounded border-l-4 md:col-span-2 bg-black/50">
-                      <h1 className="text-lg font-bold">
-                        Cybersecurity Services
-                      </h1>
-                      <p>------------------------</p>
-                    </div>
-                    <div className=" p-3 rounded border-l-4  md:col-span-2 bg-black/50">
-                      <h1 className="text-lg font-bold">Remote Support</h1>
-                      <p>------------------------</p>
+                    {/* form */}
+                    <div className=" p-6 rounded md:col-span-2  bg-white text-gray-800">
+                      <form action="" className="space-y-4">
+                        <div>
+                          <label className="sr-only" for="cname">
+                            Company Name
+                          </label>
+                          <input
+                            className="w-full p-3 text-sm border-gray-200 rounded-lg"
+                            placeholder="Company Name"
+                            type="text"
+                            id="cname"
+                          />
+                        </div>
+
+                        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                          <div>
+                            <label className="sr-only" for="email">
+                              Email
+                            </label>
+                            <input
+                              className="w-full p-3 text-sm border-gray-200 rounded-lg"
+                              placeholder="Company Email address"
+                              type="email"
+                              id="email"
+                            />
+                          </div>
+
+                          <div>
+                            <label className="sr-only" for="phone">
+                              Phone
+                            </label>
+                            <input
+                              className="w-full p-3 text-sm border-gray-200 rounded-lg"
+                              placeholder="Phone Number"
+                              type="tel"
+                              id="phone"
+                            />
+                          </div>
+                        </div>
+
+                        <div className="grid grid-cols-1 gap-4 text-center sm:grid-cols-3">
+                          <div>
+                            <input
+                              className="sr-only"
+                              id="option1"
+                              type="radio"
+                              tabindex="-1"
+                            />
+                            <label
+                              for="option1"
+                              className="block w-full p-3 border border-gray-200 rounded-lg"
+                              tabindex="0"
+                            >
+                              <span className="text-sm font-medium">
+                                {" "}
+                                Small{" "}
+                              </span>
+                            </label>
+                          </div>
+
+                          <div>
+                            <input
+                              className="sr-only"
+                              id="option2"
+                              type="radio"
+                              tabindex="-1"
+                            />
+                            <label
+                              for="option2"
+                              className="block w-full p-3 border border-gray-200 rounded-lg"
+                              tabindex="0"
+                            >
+                              <span className="text-sm font-medium">
+                                {" "}
+                                Medium{" "}
+                              </span>
+                            </label>
+                          </div>
+
+                          <div>
+                            <input
+                              className="sr-only"
+                              id="option3"
+                              type="radio"
+                              tabindex="-1"
+                            />
+                            <label
+                              for="option3"
+                              className="block w-full p-3 border border-gray-200 rounded-lg"
+                              tabindex="0"
+                            >
+                              <span className="text-sm font-medium">
+                                {" "}
+                                Enterprise{" "}
+                              </span>
+                            </label>
+                          </div>
+                        </div>
+
+                        <div>
+                          <label className="sr-only" for="message">
+                            Message
+                          </label>
+                          <textarea
+                            className="w-full p-3 text-sm border-gray-200 rounded-lg"
+                            placeholder="Brief description about the company"
+                            rows="8"
+                            id="message"
+                          ></textarea>
+                        </div>
+
+                        <div className="mt-4">
+                          <button
+                            type="submit"
+                            className="inline-flex items-center justify-center w-full px-5 py-3 text-white bg-gradient-to-bl from-rose-400 via-fuchsia-500 to-indigo-500 rounded-lg sm:w-auto"
+                          >
+                            <span className="font-medium">
+                              {" "}
+                              Get A Quotation{" "}
+                            </span>
+
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="w-5 h-5 ml-3"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M14 5l7 7m0 0l-7 7m7-7H3"
+                              />
+                            </svg>
+                          </button>
+                        </div>
+                      </form>
                     </div>
                   </div>
                 </div>
