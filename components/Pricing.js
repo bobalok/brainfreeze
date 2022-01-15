@@ -414,7 +414,7 @@ export default function Pricing() {
                     <div className=" p-6 rounded md:col-span-2  bg-white text-gray-800">
                       <form action="" className="space-y-4">
                         <div>
-                          <label className="sr-only" for="cname">
+                          <label className="sr-only" for="company-name">
                             Company Name
                           </label>
                           <input
