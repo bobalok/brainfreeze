@@ -6,6 +6,12 @@
 
 module.exports = {
   images: {
-    domains: ["https://cdn.pixabay.com", "https://www.tailwind-kit.com"],
+    domains: [
+      "https://cdn.pixabay.com",
+      "https://www.tailwind-kit.com",
+      "https://www.hyperui.dev",
+      "https://th.bing.com",
+      "https://mdbcdn.b-cdn.net",
+    ],
   },
 };

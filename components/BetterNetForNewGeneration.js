@@ -2,11 +2,11 @@ import { LinkIcon } from "@heroicons/react/solid";
 export default function BetterNetForNewGeneration() {
   return (
     <>
-      <section className="max-w-2xl mx-auto md:my-10">
+      <section className="max-w-2xl mx-auto">
         {/* Heading Goes Here */}
 
         <div className="text-center">
-          <h1 className="text-5xl md:text-7xl text-white font-extrabold px-6 py-16 lg:mt-16">
+          <h1 className="text-5xl md:text-7xl text-white font-extrabold px-6 py-16">
             <span className="bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
               betternet
             </span>{" "}

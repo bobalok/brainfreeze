@@ -10,7 +10,7 @@ import {
 import Link from "next/link";
 
 const navigation = [
-  { name: "Dashboard", href: "/", current: true },
+  { name: "Home", href: "/", current: true },
   { name: "Services", href: "/dashboard", current: false },
   { name: "Pricing", href: "#", current: false },
   { name: "Blog", href: "#", current: false },
@@ -34,7 +34,7 @@ export default function Navi() {
   return (
     <Disclosure
       as="nav"
-      className="md:fixed top-0 z-50 w-full backdrop-blur-0 bg-black/90"
+      className="stiky top-0 z-50 w-full backdrop-blur-0 bg-black/90"
     >
       {({ open }) => (
         <>
