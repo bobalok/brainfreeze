@@ -4,6 +4,7 @@ import {
   ExclamationIcon,
   PlusCircleIcon,
 } from "@heroicons/react/solid";
+// import { motion } from "framer-motion";
 
 export default function Pricing() {
   return (
@@ -395,7 +396,12 @@ export default function Pricing() {
             <div className="rounded-lg bg-gradient-to-bl from-sky-400 to-blue-500">
               <div className="h-full bg-hero-pattern bg-hero-size">
                 <div className="min-h-full flex items-center justify-center text-white">
-                  <div className="grid md:grid-cols-4 gap-4 md:p-24 p-6 max-w-7xl">
+                  <div className="grid md:grid-cols-4 gap-4 p-6 md:p-20 max-w-7xl">
+                    <div className="hidden md:col-span-4 md:flex md:justify-center pb-8">
+                      <h1 className="text-5xl font-bold">
+                        Unmatched Perfomance Optimization
+                      </h1>
+                    </div>
                     {/* card 1 */}
                     <div className="p-6 rounded  md:col-span-2 bg-black/20 ">
                       <h1 className="uppercase">Enhance Your Business With</h1>

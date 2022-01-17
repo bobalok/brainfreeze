@@ -2,6 +2,7 @@ import Head from "next/head";
 import BetterNetForNewGeneration from "../components/BetterNetForNewGeneration";
 import ContactUs from "../components/ContactUs";
 import Gamers from "../components/Gamers";
+import HANetwork from "../components/HANetwork";
 import HorizontalLine from "../components/HorizontalLine";
 import Pricing from "../components/Pricing";
 import UnifiedMediaService from "../components/UnifiedMediaService";
@@ -21,8 +22,9 @@ export default function Home() {
         <WhatMakesUsDifferent />
         <HorizontalLine />
         <UnifiedMediaService />
-        {/* <HorizontalLine /> */}
         <Gamers />
+        <HorizontalLine />
+        <HANetwork />
         <HorizontalLine />
         <Pricing />
         <HorizontalLine />
