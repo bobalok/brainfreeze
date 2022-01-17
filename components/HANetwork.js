@@ -1,3 +1,4 @@
+// import NetworkBlip from "../public/videos/video2.mp4";
 export default function HANetwork() {
   return (
     <>
@@ -15,11 +16,13 @@ export default function HANetwork() {
             </p>
           </div>
           <video
-            id="vid"
             className="w-full aspect-video shadow-2xl rounded-lg my-10"
-            src="/videos/video2.mp4"
+            // controls
             autoPlay
+            muted
             loop
+            src="/videos/video2.mp4"
+            type="video/mp4"
           ></video>
         </div>
       </section>
