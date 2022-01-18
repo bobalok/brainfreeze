@@ -45,11 +45,12 @@ export default function HANetwork() {
               needs
             </h1>
             <p className="text-gray-300 max-w-xl">
-              Institutions like schools, universities, or any Islamic
-              organization need to have distinctive internet connectivity. Our
-              R&D team has developed a few ways to provide internet services to
-              end-users, so the students or employees don't get distracted while
-              they are learning or trying to be more productive
+              Institutions like schools, universities, and Islamic training
+              centers need distinctive internet connectivity. So our R&D team
+              has developed a few ways to provide internet services to an
+              institution like these, so the students or employees don't get
+              distracted while they are learning or trying to be more
+              productive...
             </p>
           </div>
 
