@@ -5,6 +5,7 @@ import Gamers from "../components/Gamers";
 import HANetwork from "../components/HANetwork";
 import HorizontalLine from "../components/HorizontalLine";
 import Pricing from "../components/Pricing";
+import PricingPlans from "../components/PricingPlans";
 import UnifiedMediaService from "../components/UnifiedMediaService";
 import WhatMakesUsDifferent from "../components/WhatMakesUsDifferent";
 
@@ -26,7 +27,7 @@ export default function Home() {
         <HorizontalLine />
         <HANetwork />
         <HorizontalLine />
-        <Pricing />
+        <PricingPlans />
         <HorizontalLine />
         <ContactUs />
       </div>

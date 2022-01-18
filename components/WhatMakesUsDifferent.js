@@ -105,7 +105,7 @@ export default function WhatMakesUsDifferent() {
               </span>
 
               <div className="ml-3 md:mt-3 md:ml-0">
-                <dt className="text-xl font-medium">Institutional Internet</dt>
+                <dt className="text-xl font-medium">EDU-internet</dt>
 
                 <dd className="mt-1 text-gray-300">
                   Besides the library, the Internet is an important source for
