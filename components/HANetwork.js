@@ -54,7 +54,7 @@ export default function HANetwork() {
             </p>
           </div>
 
-          <div className="mt-6 py-6 grid sm:grid-cols-2 sm:gap-6 gap-4 place-items-center md:grid-cols-4">
+          <div className="mt-6 py-6 grid sm:grid-cols-2 sm:gap-6 gap-4 place-items-center md:grid-cols-4 grid-cols-2">
             <div className="rounded-lg">
               <Image
                 className="rounded-lg"
