@@ -1929,6 +1929,11 @@ react-refresh@0.8.3:
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
+react-scroll-to-top@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/react-scroll-to-top/-/react-scroll-to-top-1.0.8.tgz#b78731e77fb4463aa39907a3da9b153e2f0079a4"
+  integrity sha512-GXaRZnET2YUy+teAQTcd6qy3Dn8Xme4Qk+7AFhK/2DCwTuo0gu8+p6aARHyoG1TVcvzRE7QCCZYNiFZmy8HW7Q==
+
 react-scroll@^1.8.4:
   version "1.8.4"
   resolved "https://registry.npmjs.org/react-scroll/-/react-scroll-1.8.4.tgz"
