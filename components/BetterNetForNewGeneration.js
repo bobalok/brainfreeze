@@ -19,7 +19,7 @@ export default function BetterNetForNewGeneration() {
               unified internet service provider, <br />
               enterprise grade solution
               <br />
-              everywhere.
+              everywhere. <br />
             </p>
 
             {/* CTA Buttons */}
@@ -39,7 +39,7 @@ export default function BetterNetForNewGeneration() {
               <span className="bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
                 70% faster internet
               </span>{" "}
-              and more efficient
+              🚀 and more efficient
             </h1>
             <p className="text-lg max-w-lg text-white md:mx-auto mx-2 pb-8">
               consume the bandwidth more efficiently ever than before enjoy up

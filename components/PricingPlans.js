@@ -116,20 +116,23 @@ export default function PricingPlans() {
               </div>
             </div>
             {/* MAINSTREAM package two */}
+
             <div className="flex flex-col md:flex-row px-2 md:px-0">
               <div className="w-full md:w-1/1 bg-white rounded-lg shadow hover:shadow-2xl duration-300 ease-in-out transition-transform transform hover:-translate-y-2 p-6 mb-10 md:mb-0">
                 <h3 className="text-gray-700 uppercase text-xl font-bold">
                   mainstream
                 </h3>
+
                 <div className="flex mt-8 justify-center">
                   <h1 className="text-5xl font-black bg-clip-text text-transparent bg-gradient-to-bl from-rose-400 via-fuchsia-500 to-indigo-500">
                     ৳1000
                   </h1>
                   <p className="text-xl text-gray-700 self-end">/month</p>
                 </div>
-                <span className="absolute top-0 right-0 text-xs font-semibold inline-block py-1 px-2 rounded-tr-lg text-fuchsia-600 bg-fuchsia-200 uppercase">
+                <span className="absolute -mt-3 mr-3 top-0 shadow-xl right-0 text-xs font-semibold inline-block py-1 px-2 rounded text-fuchsia-600 bg-fuchsia-200 uppercase">
                   popular 😎
                 </span>
+
                 <div className="text-sm text-gray-600 mt-4 space-y-3">
                   <p className="">
                     <span className="text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500">
@@ -219,7 +222,7 @@ export default function PricingPlans() {
                   </h1>
                   <p className="text-xl text-gray-700 self-end">/month</p>
                 </div>
-                <span className="absolute top-0 right-0 text-xs font-semibold inline-block py-1 px-2 rounded-tr-lg text-blue-600 bg-blue-200 uppercase">
+                <span className="absolute -mt-3 mr-3 top-0 shadow-xl right-0 text-xs font-semibold inline-block py-1 px-2 rounded text-blue-600 bg-blue-200 uppercase">
                   value for money 🎨
                 </span>
                 <div className="text-sm text-gray-600 mt-4 space-y-3">
@@ -419,7 +422,7 @@ export default function PricingPlans() {
                     <div className=" p-6 rounded md:col-span-2  bg-white text-gray-800">
                       <form action="" className="space-y-4">
                         <div>
-                          <label className="sr-only" for="company-name">
+                          <label className="sr-only" htmlFor="company-name">
                             Company Name
                           </label>
                           <input
@@ -432,7 +435,7 @@ export default function PricingPlans() {
 
                         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                           <div>
-                            <label className="sr-only" for="email">
+                            <label className="sr-only" htmlFor="email">
                               Email
                             </label>
                             <input
@@ -444,7 +447,7 @@ export default function PricingPlans() {
                           </div>
 
                           <div>
-                            <label className="sr-only" for="phone">
+                            <label className="sr-only" htmlFor="phone">
                               Phone
                             </label>
                             <input
@@ -462,12 +465,12 @@ export default function PricingPlans() {
                               className="sr-only"
                               id="option1"
                               type="radio"
-                              tabindex="-1"
+                              tabIndex="-1"
                             />
                             <label
-                              for="option1"
+                              htmlFor="option1"
                               className="block w-full p-3 border border-gray-200 rounded-lg"
-                              tabindex="0"
+                              tabIndex="0"
                             >
                               <span className="text-sm font-medium">
                                 {" "}
@@ -481,12 +484,12 @@ export default function PricingPlans() {
                               className="sr-only"
                               id="option2"
                               type="radio"
-                              tabindex="-1"
+                              tabIndex="-1"
                             />
                             <label
-                              for="option2"
+                              htmlFor="option2"
                               className="block w-full p-3 border border-gray-200 rounded-lg"
-                              tabindex="0"
+                              tabIndex="0"
                             >
                               <span className="text-sm font-medium">
                                 {" "}
@@ -500,12 +503,12 @@ export default function PricingPlans() {
                               className="sr-only"
                               id="option3"
                               type="radio"
-                              tabindex="-1"
+                              tabIndex="-1"
                             />
                             <label
-                              for="option3"
+                              htmlFor="option3"
                               className="block w-full p-3 border border-gray-200 rounded-lg"
-                              tabindex="0"
+                              tabIndex="0"
                             >
                               <span className="text-sm font-medium">
                                 {" "}
@@ -516,7 +519,7 @@ export default function PricingPlans() {
                         </div>
 
                         <div>
-                          <label className="sr-only" for="message">
+                          <label className="sr-only" htmlFor="message">
                             Message
                           </label>
                           <textarea

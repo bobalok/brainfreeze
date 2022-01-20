@@ -198,8 +198,12 @@ function Footer() {
               </nav>
             </div>
           </div>
-
-          <p className="text-xs text-gray-500">&copy; 2021 neutech internet</p>
+          <div className="flex justify-between">
+            <p className="text-xs text-gray-500">made with ❤️+🧠=🌏</p>
+            <p className="text-xs text-gray-500">
+              &copy; 2022 neutech internet
+            </p>
+          </div>
         </div>
       </footer>
     </>
