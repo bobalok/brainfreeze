@@ -5,7 +5,7 @@ export default function Gamers() {
   return (
     <>
       <section className="text-white">
-        <div className="max-w-7xl mx-auto px-4 md:py-16 sm:px-6 pb-4 lg:px-8 grid md:grid-cols-2 gap-4">
+        <div className="lg:max-w-7xl md:max-w-2xl mx-auto px-4 md:py-16 sm:px-6 pb-4 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div className="max-w-xl">
             <p className="mt-6 text-gray-300 uppercase">play without lag</p>
             <h1 className="text-3xl font-bold sm:text-5xl">

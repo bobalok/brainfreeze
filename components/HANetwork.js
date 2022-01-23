@@ -13,7 +13,7 @@ export default function HANetwork() {
   return (
     <>
       <section>
-        <div className="max-w-7xl mx-auto px-4 md:py-16 sm:px-6 lg:px-8">
+        <div className="lg:max-w-7xl md:max-w-2xl mx-auto px-4 md:py-16 sm:px-6 lg:px-8">
           <div className="">
             <h1 className="text-3xl font-bold sm:text-5xl text-white pb-4 md:text-center mt-6">
               High Availability 24x7
@@ -34,7 +34,7 @@ export default function HANetwork() {
           ></video>
         </div>
         {/* ------------##################==================+++++++++++++++ */}
-        <div className="max-w-7xl mx-auto px-4 md:py-16 sm:px-6 lg:px-8 text-white">
+        <div className="lg:max-w-7xl md:max-w-2xl mx-auto px-4 md:py-16 sm:px-6 lg:px-8 text-white">
           <div className="max-w-2xl">
             <p className="text-gray-300 uppercase">special services</p>
             <h1 className="text-3xl font-bold sm:text-5xl text-white pb-4">
@@ -54,7 +54,7 @@ export default function HANetwork() {
             </p>
           </div>
 
-          <div className="mt-6 py-6 grid sm:grid-cols-2 sm:gap-6 gap-4 place-items-center md:grid-cols-4 grid-cols-2">
+          <div className="mt-6 py-6 grid  sm:gap-6 gap-4 place-items-center lg:grid-cols-4 grid-cols-2">
             <div className="rounded-lg">
               <Image
                 className="rounded-lg"

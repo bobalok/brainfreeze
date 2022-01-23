@@ -199,7 +199,7 @@ function Footer() {
             </div>
           </div>
           <div className="flex justify-between">
-            <p className="text-xs text-gray-500">made with ❤️+🧠=🌏</p>
+            <p className="text-xs text-gray-500">made with ❤️+🧠=neutech</p>
             <p className="text-xs text-gray-500">
               &copy; 2022 neutech internet
             </p>
