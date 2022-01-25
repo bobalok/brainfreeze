@@ -31,10 +31,12 @@ export default function BetterNetForNewGeneration() {
               Get started
             </button>
             <span className="mx-1 text-white">or</span> */}
-              <button className='bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear text-white text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center'>
-                <LinkIcon className='w-6 h-6 mr-1' />
-                Connect me
-              </button>
+              <a href='https://forms.gle/F2MHHRhDhCW9YDdXA' target='_blank'>
+                <button className='bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear text-white text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center'>
+                  <LinkIcon className='w-6 h-6 mr-1' />
+                  Connect me
+                </button>
+              </a>
             </div>
             {/* ShortParagraph/marketing Goes Here */}
             <h1 className='text-2xl font-bold text-white mx-2'>

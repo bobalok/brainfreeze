@@ -9,7 +9,7 @@ export default function PricingPlans() {
   return (
     <>
       <section>
-        <div className='max-w-7xl w-screen lg:py-16 px-4 sm:px-10 md:px-8 lg:px-8 lg:pb-16'>
+        <div className='xl:max-w-5xl 2xl:max-w-7xl w-screen lg:py-16 px-4 sm:px-10 md:px-8 lg:px-8 lg:pb-16'>
           <div className='mb-6' id='pricing'>
             <p className='mt-6 text-gray-300 uppercase'>monthly</p>
             <h2 className='text-3xl font-bold sm:text-5xl text-white'>
@@ -26,12 +26,12 @@ export default function PricingPlans() {
               </a>
             </p>
           </div>
-          <div className='space-y-8 pb-4 mt-14 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-4'>
+          <div className='space-y-8 pb-4 mt-14 sm:mt-16 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-6 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mx-0 xl:grid-cols-2 2xl:grid-cols-4'>
             {/* GRAPPLER package one */}
             <div className='flex flex-col md:flex-row px-2 md:px-0'>
               <div className='w-full md:w-1/1 bg-white rounded-lg shadow hover:shadow-2xl  duration-300 ease-in-out transition-transform transform hover:-translate-y-2 p-6 mb-10 md:mb-0'>
                 <h3 className='text-gray-700 uppercase text-xl font-bold'>
-                  grappler
+                  grappler 🔰
                 </h3>
                 <div className='flex mt-8 justify-center'>
                   <h1 className='text-5xl font-black bg-clip-text text-transparent bg-gradient-to-bl from-green-200 via-green-400 to-purple-700'>
@@ -110,9 +110,14 @@ export default function PricingPlans() {
                     <span>Workstation Optimization</span>
                   </p>
                 </div>
-                <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
-                  Choose Plan
-                </button>
+                <a
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=GRAPPLER+%7C%7C+TK.700+%7C%7C%F0%9F%94%B0'
+                  target='_blank'
+                >
+                  <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
+                    Choose Plan
+                  </button>
+                </a>
               </div>
             </div>
             {/* MAINSTREAM package two */}
@@ -120,7 +125,7 @@ export default function PricingPlans() {
             <div className='flex flex-col md:flex-row px-2 md:px-0'>
               <div className='w-full md:w-1/1 bg-white rounded-lg shadow hover:shadow-2xl duration-300 ease-in-out transition-transform transform hover:-translate-y-2 p-6 mb-10 md:mb-0'>
                 <h3 className='text-gray-700 uppercase text-xl font-bold'>
-                  mainstream
+                  mainstream ✨
                 </h3>
 
                 <div className='flex mt-8 justify-center'>
@@ -130,7 +135,7 @@ export default function PricingPlans() {
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
                 <span className='absolute -mt-3 mr-3 top-0 shadow-xl right-0 text-xs font-semibold inline-block py-1 px-2 rounded text-fuchsia-600 bg-fuchsia-200 uppercase'>
-                  popular 😎
+                  popular
                 </span>
 
                 <div className='text-sm text-gray-600 mt-4 space-y-3'>
@@ -204,9 +209,14 @@ export default function PricingPlans() {
                     <span>Workstation Optimization</span>
                   </p>
                 </div>
-                <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
-                  Choose Plan
-                </button>
+                <a
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=MAINSTREAM+%7C%7C+TK.1000+%7C%7C%E2%9C%A8'
+                  target='_blank'
+                >
+                  <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
+                    Choose Plan
+                  </button>
+                </a>
               </div>
             </div>
 
@@ -214,7 +224,7 @@ export default function PricingPlans() {
             <div className='flex flex-col md:flex-row px-2 md:px-0'>
               <div className='w-full md:w-1/1 bg-white rounded-lg shadow hover:shadow-2xl duration-300 ease-in-out transition-transform transform hover:-translate-y-2 p-6 mb-10 md:mb-0'>
                 <h3 className='text-gray-700 uppercase text-xl font-bold'>
-                  express
+                  express 🎨
                 </h3>
                 <div className='flex mt-8 justify-center'>
                   <h1 className='text-5xl font-black bg-clip-text text-transparent bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600'>
@@ -223,7 +233,7 @@ export default function PricingPlans() {
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
                 <span className='absolute -mt-3 mr-3 top-0 shadow-xl right-0 text-xs font-semibold inline-block py-1 px-2 rounded text-blue-600 bg-blue-200 uppercase'>
-                  value for money 🎨
+                  value for money
                 </span>
                 <div className='text-sm text-gray-600 mt-4 space-y-3'>
                   <p className=''>
@@ -296,9 +306,14 @@ export default function PricingPlans() {
                     <span>Workstation Optimization</span>
                   </p>
                 </div>
-                <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
-                  Choose Plan
-                </button>
+                <a
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=EXPRESS+%7C%7C+TK.2000+%7C%7C%F0%9F%8E%A8'
+                  target='_blank'
+                >
+                  <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
+                    Choose Plan
+                  </button>
+                </a>
               </div>
             </div>
 
@@ -306,7 +321,7 @@ export default function PricingPlans() {
             <div className='flex flex-col md:flex-row px-2 md:px-0'>
               <div className='w-full md:w-1/1 bg-white rounded-lg shadow hover:shadow-2xl duration-300 ease-in-out transition-transform transform hover:-translate-y-2 p-6 mb-10 md:mb-0'>
                 <h3 className='text-gray-700 uppercase text-xl font-bold'>
-                  supreme
+                  supreme 🚀
                 </h3>
                 <div className='flex mt-8 justify-center'>
                   <h1 className='text-5xl font-black bg-clip-text text-transparent bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500'>
@@ -386,20 +401,25 @@ export default function PricingPlans() {
                     <span>Workstation Optimization</span>
                   </p>
                 </div>
-                <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
-                  Choose Plan
-                </button>
+                <a
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=SUPREME+%7C%7C+TK.4000+%7C%7C%F0%9F%9A%80'
+                  target='_blank'
+                >
+                  <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
+                    Choose Plan
+                  </button>
+                </a>
               </div>
             </div>
           </div>
 
           <div className='h-[.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700'></div>
           <div className='py-14 lg:py-4'>
-            <div className='rounded-lg bg-gradient-to-bl from-sky-400 to-blue-500'>
+            <div className='rounded-lg bg-gradient-to-bl from-sky-400 to-blue-500 md:max-w-4xl xl:max-w-7xl mx-auto'>
               <div className='h-full bg-hero-pattern bg-hero-size'>
                 <div className='min-h-full flex items-center justify-center text-white'>
-                  <div className='grid md:grid-cols-4 gap-4 p-6 md:p-20 max-w-7xl'>
-                    <div className='hidden md:col-span-4 md:flex md:justify-center pb-8'>
+                  <div className='grid md:grid-cols-2 2xl:grid-cols-4 gap-4 p-6 md:p-20 max-w-7xl'>
+                    <div className='hidden md:col-span-2 2xl:col-span-4 md:flex md:justify-center pb-8'>
                       <h1 className='text-5xl font-bold'>
                         Unmatched Perfomance Optimization
                       </h1>

@@ -4,7 +4,7 @@ export default function WhatMakesUsDifferent() {
   return (
     <>
       <section className='text-white'>
-        <div className='max-w-screen-xl px-4 pb-6 md:py-16 sm:px-6 lg:px-8'>
+        <div className='xl:max-w-5xl 2xl:max-w-7xl px-4 pb-6 md:py-16 sm:px-6 lg:px-8'>
           <div className='max-w-xl'>
             <p className='mt-6 text-gray-300'>WHY US</p>
             <h2 className='text-3xl font-bold sm:text-5xl'>
