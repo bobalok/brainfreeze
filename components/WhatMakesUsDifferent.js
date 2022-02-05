@@ -24,7 +24,7 @@ export default function WhatMakesUsDifferent() {
 
           <dl className='grid grid-cols-1 gap-8 mt-8 md:grid-cols-3 sm:mt-16'>
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-tatsuBTN rounded-lg'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -54,7 +54,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-tatsuBTN rounded-lg'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -85,7 +85,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-tatsuBTN rounded-lg'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -116,7 +116,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-tatsuBTN rounded-lg'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
                 <svg
                   aria-hidden='true'
                   focusable='false'
@@ -145,7 +145,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-tatsuBTN rounded-lg'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -173,7 +173,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-tatsuBTN rounded-lg'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
                 <svg
                   className='w-6 h-6'
                   fill='none'

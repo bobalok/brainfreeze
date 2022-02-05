@@ -87,7 +87,7 @@ export default function Navi() {
                 </div>
               </div>
               <div className=' absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0'>
-                <button className='hidden bg-tatsuBTN hover:bg-white transition-all ease-linear hover:text-tatsuBTN py-4 px-4 border-2 border-indigo-400 hover:border-transparent rounded md:inline-flex items-center text-white text-base font-bold'>
+                <button className='hidden bg-secondaryBlue hover:bg-white transition-all ease-linear hover:text-secondaryBlue py-4 px-4 border-2 border-secondaryBlue hover:border-transparent rounded md:inline-flex items-center text-white text-base font-bold'>
                   <BriefcaseIcon className='h-6 w-6 mr-1' aria-hidden='true' />
                   <span>We are hiring!</span>
                 </button>

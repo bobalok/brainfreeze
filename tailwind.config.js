@@ -9,6 +9,8 @@ module.exports = {
         tatsuBG: "#282a2e",
         tatsuBTN: "#5865f2",
         tatsuBTN2: "#00a3ff",
+        primaryBlue: "#0056ff",
+        secondaryBlue: "#3378FF",
       },
       backgroundImage: {
         "hero-pattern": "url('/images/hero-pattern-1.png')",

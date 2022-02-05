@@ -3,16 +3,16 @@
 import Navi from "./Navi";
 import Footer from "./Footer";
 import ScrollToTop from "react-scroll-to-top";
-import { ChevronDoubleUpIcon } from "@heroicons/react/solid";
+import { ChevronDoubleUpIcon, ChevronUpIcon } from "@heroicons/react/solid";
 export default function Layout({ children }) {
   return (
     <>
       <Navi />
       <ScrollToTop
-        color='red'
+        color='blue'
         smooth
         top={1000}
-        component={<ChevronDoubleUpIcon />}
+        component={<ChevronUpIcon />}
       />
       <main className='bg-tatsuBG bg-hero-pattern bg-hero-size'>
         {/* <Image

@@ -151,7 +151,7 @@ export default function BetterNetForNewGeneration() {
                 width='84'
                 height='auto'
                 src='./LogosForNeutechWeb/betternetLogoBW.svg'
-                alt='neutech'
+                alt='betternet logo'
               />
             </div>
           </div>

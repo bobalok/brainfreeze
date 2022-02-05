@@ -13,10 +13,17 @@ export default function Home() {
     <>
       <Head>
         <title>betternet | Home</title>
-        <link rel="icon" href="/favicon.png" />
+
+        <link
+          rel='icon'
+          type='image/png'
+          // sizes='120x120'
+          // href='./LogosForNeutechWeb/betternetLogoBW.svg'
+          href='/favicon2.png'
+        />
       </Head>
 
-      <div className="flex flex-col items-center h-full">
+      <div className='flex flex-col items-center h-full'>
         <BetterNetForNewGeneration />
         <HorizontalLine />
         <WhatMakesUsDifferent />
