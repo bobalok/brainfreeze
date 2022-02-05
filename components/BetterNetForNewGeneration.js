@@ -148,9 +148,9 @@ export default function BetterNetForNewGeneration() {
             </div>
             <div>
               <img
-                width='50'
+                width='84'
                 height='auto'
-                src='./neutechLogobwNoText.svg'
+                src='./LogosForNeutechWeb/betternetLogoBW.svg'
                 alt='neutech'
               />
             </div>

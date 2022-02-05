@@ -60,7 +60,7 @@ export default function Navi() {
                     alt='neutech logo'
                   />
                   <img
-                    className='hidden md:block h-14 w-auto'
+                    className='hidden md:block h-16 w-auto'
                     src='/LogosForNeutechWeb/betternetTextBW.svg'
                     // src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
                     alt='neutech logo'
