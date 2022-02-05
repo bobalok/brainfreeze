@@ -12,7 +12,7 @@ import Link from "next/link";
 const navigation = [
   { name: "Home", href: "/", current: false },
   { name: "Gaming", href: "/dashboard", current: false },
-  { name: "Pricing", href: "/pricing", current: false },
+  { name: "Pricing", href: "/#pricing", current: false },
   { name: "Blog", href: "#", current: false },
   { name: "Contact", href: "#", current: false },
 ];
@@ -55,13 +55,13 @@ export default function Navi() {
                 <div className='flex-shrink-0 flex items-center'>
                   <img
                     className='block md:hidden h-14 w-auto'
-                    src='/neutechLogobwNoText.svg'
+                    src='/LogosForNeutechWeb/betternetLogoBW.svg'
                     // src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                     alt='neutech logo'
                   />
                   <img
                     className='hidden md:block h-14 w-auto'
-                    src='/neutechLogobwWithText.svg'
+                    src='/LogosForNeutechWeb/betternetTextBW.svg'
                     // src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
                     alt='neutech logo'
                   />
