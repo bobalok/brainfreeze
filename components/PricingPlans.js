@@ -8,9 +8,9 @@ import {
 export default function PricingPlans() {
   return (
     <>
-      <section>
+      <section id='pricing'>
         <div className='xl:max-w-5xl 2xl:max-w-7xl w-screen lg:py-16 px-4 sm:px-10 md:px-8 lg:px-8 lg:pb-16'>
-          <div className='mb-6' id='pricing'>
+          <div className='mb-6'>
             <p className='mt-6 text-gray-300 uppercase'>monthly</p>
             <h2 className='text-3xl font-bold sm:text-5xl text-white'>
               Pricing{" "}
