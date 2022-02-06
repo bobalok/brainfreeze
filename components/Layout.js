@@ -4,9 +4,19 @@ import Navi from "./Navi";
 import Footer from "./Footer";
 import ScrollToTop from "react-scroll-to-top";
 import { ChevronDoubleUpIcon, ChevronUpIcon } from "@heroicons/react/solid";
+import Head from "next/head";
 export default function Layout({ children }) {
   return (
     <>
+      <Head>
+        <link
+          rel='icon'
+          type='image/svg'
+          // sizes='120x120'
+          // href='./LogosForNeutechWeb/betternetLogoBW.svg'
+          href='./LogosForNeutechWeb/betternetLogoBW.svg'
+        />
+      </Head>
       <Navi />
       <ScrollToTop
         color='blue'

@@ -13,7 +13,6 @@ export default function Home() {
     <>
       <Head>
         <title>Dashboard | internet for new generation</title>
-        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <motion.div exit={{ opacity: 0 }}>
