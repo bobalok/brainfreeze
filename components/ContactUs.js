@@ -24,18 +24,18 @@ export default function ContactUs() {
 
   return (
     <>
-      <section className='bg-tatsuBG'>
+      <section className='dark:text-white text-textGray'>
         <div className='bg-hero-pattern bg-hero-size max-w-screen-xl px-4 md:py-16 pb-6 mx-auto sm:px-6 lg:px-8'>
           <div className='grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5'>
             <div className='lg:py-12 lg:col-span-2'>
               <p className='mt-6 text-gray-300 uppercase'>let's communicate</p>
-              <h1 className='text-3xl font-bold sm:text-5xl text-white '>
+              <h1 className='text-3xl font-bold sm:text-5xl'>
                 Send us a{" "}
                 <span className='text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                   message
                 </span>
               </h1>
-              <p className='max-w-xl text-lg mt-6 text-gray-300'>
+              <p className='max-w-xl text-lg mt-6'>
                 At the same time, the fact that we are wholly owned and totally
                 independent from manufacturer and other group control gives you
                 confidence that we will only recommend what is right for you.

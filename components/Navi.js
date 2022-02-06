@@ -1,6 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment, useState } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Disclosure, Menu, Transition, Switch } from "@headlessui/react";
 import {
   BriefcaseIcon,
   BellIcon,
@@ -8,6 +8,7 @@ import {
   XIcon,
 } from "@heroicons/react/outline";
 import Link from "next/link";
+import Image from "next/image";
 
 const navigation = [
   { name: "Home", href: "/", current: false },
@@ -16,7 +17,6 @@ const navigation = [
   { name: "Blog", href: "#", current: false },
   { name: "Contact", href: "#", current: false },
 ];
-false;
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -31,10 +31,12 @@ function MyLink(props) {
 }
 
 export default function Navi() {
+  const myhref = "/";
+  const [enabled, setEnabled] = useState(false);
   return (
     <Disclosure
       as='nav'
-      className='stiky top-0 z-50 w-full backdrop-blur-0 bg-black/90'
+      className='stiky top-0 z-50 w-full backdrop-blur-0 bg-white/90 dark:bg-black/90'
     >
       {({ open }) => (
         <>
@@ -53,18 +55,20 @@ export default function Navi() {
               </div>
               <div className='flex-1 flex items-center justify-center md:items-stretch md:justify-start'>
                 <div className='flex-shrink-0 flex items-center'>
-                  <img
+                  {/* <img
                     className='block md:hidden h-14 w-auto'
                     src='/LogosForNeutechWeb/betternetLogoBW.svg'
-                    // src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                    alt='neutech logo'
-                  />
-                  <img
-                    className='hidden md:block h-16 w-auto'
+                    alt='betternet logo'
+                  /> */}
+                  {/* <img
+                    className='hidden md:block h-16 w-auto bg-logo-white bg-no-repeat'
                     src='/LogosForNeutechWeb/betternetTextBW.svg'
-                    // src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-                    alt='neutech logo'
-                  />
+                    alt='betternet logo'
+                  /> */}
+                  {/* <Link href=''>
+                    <span className="className='bg-logo-white bg-no-repeat w-48 h-14 dark:bg-logo-dark"></span>
+                  </Link> */}
+                  <a className='bg-logo-white bg-no-repeat w-48 h-14 dark:bg-logo-dark'></a>
                 </div>
                 <div className='hidden md:block sm:ml-6'>
                   <div className='flex md:space-x-0 lg:space-x-4 py-4'>
@@ -75,7 +79,7 @@ export default function Navi() {
                         className={classNames(
                           item.current
                             ? "focus:text-tatsuBTN2 xs:bg-gray-900"
-                            : "text-gray-300 hover:text-tatsuBTN",
+                            : "dark:text-gray-300 text-gray-700 hover:text-tatsuBTN",
                           "px-3 py-2 rounded-md text-md font-medium focus:text-tatsuBTN2"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -83,6 +87,24 @@ export default function Navi() {
                         {item.name}
                       </MyLink>
                     ))}
+                    {/* MyToggle */}
+                    {/* <Switch
+                      checked={enabled}
+                      onChange={setEnabled}
+                      className={`${
+                        enabled ? "bg-primaryBlue" : "bg-secondaryBlue"
+                      }
+          relative inline-flex flex-shrink-0 h-[28px] w-[44px] border-2 border-transparent rounded-full cursor-pointer transition-colors ease-in-out duration-200 focus:outline-none focus-visible:ring-2  focus-visible:ring-white focus-visible:ring-opacity-75`}
+                    >
+                      <span className='sr-only'>Use setting</span>
+                      <span
+                        aria-hidden='true'
+                        className={`${
+                          enabled ? "translate-x-4" : "translate-x-0"
+                        }
+            pointer-events-none inline-block h-[24px] w-[24px] rounded-full bg-white shadow-lg transform ring-0 transition ease-in-out duration-200`}
+                      />
+                    </Switch> */}
                   </div>
                 </div>
               </div>

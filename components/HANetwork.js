@@ -12,13 +12,13 @@ import EDU2 from "../public/images/edu2.gif";
 export default function HANetwork() {
   return (
     <>
-      <section>
+      <section className='dark:text-white text-textGray'>
         <div className='xl:max-w-5xl 2xl:max-w-7xl mx-auto px-4 md:py-16 sm:px-6 lg:px-8'>
           <div className=''>
-            <h1 className='text-3xl font-bold sm:text-5xl text-white pb-4 md:text-center mt-6'>
+            <h1 className='text-3xl font-bold sm:text-5xl  pb-4 md:text-center mt-6'>
               High Availability 24x7
             </h1>
-            <p className='text-gray-300 md:text-center max-w-xl mx-auto'>
+            <p className='0 md:text-center max-w-xl mx-auto'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
             </p>
@@ -36,15 +36,17 @@ export default function HANetwork() {
         {/* ------------##################==================+++++++++++++++ */}
         <div className='xl:max-w-5xl 2xl:max-w-7xl mx-auto px-4 md:py-16 sm:px-6 lg:px-8 text-white'>
           <div className='max-w-2xl'>
-            <p className='text-gray-300 uppercase'>special services</p>
-            <h1 className='text-3xl font-bold sm:text-5xl text-white pb-4'>
+            <p className='dark:text-white text-textGray uppercase'>
+              special services
+            </p>
+            <h1 className='text-3xl font-bold sm:text-5xl dark:text-white text-textGray pb-4'>
               Filtered for{" "}
               <span className='text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                 specific
               </span>{" "}
               needs
             </h1>
-            <p className='text-gray-300 max-w-xl'>
+            <p className='dark:text-white text-textGray max-w-xl'>
               Institutions like schools, universities, and Islamic training
               centers need distinctive internet connectivity. So our R&D team
               has developed a few ways to provide internet services to an

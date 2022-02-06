@@ -11,14 +11,16 @@ export default function PricingPlans() {
       <section id='pricing'>
         <div className='xl:max-w-5xl 2xl:max-w-7xl w-screen lg:py-16 px-4 sm:px-10 md:px-8 lg:px-8 lg:pb-16'>
           <div className='mb-6'>
-            <p className='mt-6 text-gray-300 uppercase'>monthly</p>
-            <h2 className='text-3xl font-bold sm:text-5xl text-white'>
+            <p className='mt-6 dark:text-white text-textGray uppercase'>
+              monthly
+            </p>
+            <h2 className='text-3xl font-bold sm:text-5xl dark:text-white text-textGray'>
               Pricing{" "}
               <span className='text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                 plans
               </span>
             </h2>
-            <p className='mt-6 text-gray-300'>
+            <p className='mt-6 dark:text-white text-textGray'>
               Enjoy up to 1Gbps fast download speed from BDIX, Game-clients and
               some local FTPs applicable for every plans{" "}
               <a href='#' className='text-blue-600 underline'>
@@ -419,11 +421,11 @@ export default function PricingPlans() {
               <div className='h-full bg-hero-pattern bg-hero-size'>
                 <div className='min-h-full flex items-center justify-center text-white'>
                   <div className='grid md:grid-cols-2 2xl:grid-cols-4 gap-4 p-6 md:p-20 max-w-7xl'>
-                    <div className='hidden md:col-span-2 2xl:col-span-4 md:flex md:justify-center pb-8'>
+                    {/* <div className='hidden md:col-span-2 2xl:col-span-4 md:flex md:justify-center pb-8'>
                       <h1 className='text-5xl font-bold'>
                         Unmatched Perfomance Optimization
                       </h1>
-                    </div>
+                    </div> */}
                     {/* card 1 */}
                     <div className='p-6 rounded  md:col-span-2 bg-black/20 '>
                       <h1 className='uppercase'>Enhance Your Business With</h1>

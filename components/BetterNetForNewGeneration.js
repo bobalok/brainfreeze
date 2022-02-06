@@ -8,14 +8,14 @@ export default function BetterNetForNewGeneration() {
 
         <motion.div exit={{ opacity: 0 }}>
           <div className='text-center'>
-            <h1 className='text-5xl md:text-7xl text-white font-extrabold px-6 py-16'>
+            <h1 className='text-5xl md:text-7xl dark:text-white text-textGray font-extrabold px-6 py-16'>
               <span className='bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                 betternet
               </span>{" "}
               for new generation
             </h1>
             {/* Subheading Goes Here */}
-            <p className='text-lg md:text-2xl text-white'>
+            <p className='text-lg md:text-2xl dark:text-white text-textGray'>
               unified internet service provider,
               <br />
               enterprise grade solution
@@ -32,20 +32,20 @@ export default function BetterNetForNewGeneration() {
             </button>
             <span className="mx-1 text-white">or</span> */}
               <a href='https://forms.gle/F2MHHRhDhCW9YDdXA' target='_blank'>
-                <button className='bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear text-white text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center'>
+                <button className='bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear dark:text-white text-textGray text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center'>
                   <LinkIcon className='w-6 h-6 mr-1' />
                   Connect me
                 </button>
               </a>
             </div>
             {/* ShortParagraph/marketing Goes Here */}
-            <h1 className='text-2xl font-bold text-white mx-2'>
+            <h1 className='text-2xl font-bold dark:text-white text-textGray mx-2'>
               <span className='bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                 70% faster internet
               </span>{" "}
               🚀 and more efficient
             </h1>
-            <p className='text-lg max-w-lg text-white md:mx-auto mx-2 pb-8'>
+            <p className='text-lg max-w-lg dark:text-white text-textGray md:mx-auto mx-2 pb-8'>
               consume the bandwidth more efficiently ever than before enjoy up
               to{" "}
               <span className='text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>

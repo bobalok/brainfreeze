@@ -6,15 +6,15 @@ export default function WhatMakesUsDifferent() {
       <section className='text-white'>
         <div className='xl:max-w-5xl 2xl:max-w-7xl px-4 pb-6 md:py-16 sm:px-6 lg:px-8'>
           <div className='max-w-xl'>
-            <p className='mt-6 text-gray-300'>WHY US</p>
-            <h2 className='text-3xl font-bold sm:text-5xl'>
+            <p className='mt-6 text-gray-400'>WHY US</p>
+            <h2 className='text-3xl font-bold sm:text-5xl dark:text-white text-textGray'>
               What makes us{" "}
               <span className='text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                 different
               </span>
             </h2>
 
-            <p className='mt-6 text-gray-300'>
+            <p className='mt-6 dark:text-white text-textGray'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -26,7 +26,7 @@ export default function WhatMakesUsDifferent() {
             <div className='flex items-start md:flex-col'>
               <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
                 <svg
-                  className='w-6 h-6'
+                  className='w-6 h-6 '
                   fill='none'
                   stroke='currentColor'
                   viewBox='0 0 24 24'
@@ -41,10 +41,10 @@ export default function WhatMakesUsDifferent() {
                 </svg>
               </span>
 
-              <div className='ml-3 md:mt-3 md:ml-0'>
-                <dt className='text-xl font-medium'>Broadband Internet</dt>
+              <div className='ml-3 md:mt-3 md:ml-0 dark:text-white text-textGray'>
+                <dt className='text-xl font-medium '>Broadband Internet</dt>
 
-                <dd className='mt-1 text-gray-300'>
+                <dd className='mt-1 dark:text-white text-textGray'>
                   Stream movies and TV shows, plus live TV channels, instantly,
                   without a subscription. Watch your favorite TV shows and
                   series, live channels and free movies anywhere, from any
@@ -72,9 +72,11 @@ export default function WhatMakesUsDifferent() {
               </span>
 
               <div className='ml-3 md:mt-3 md:ml-0'>
-                <dt className='text-xl font-medium'>Corporate/SME Support</dt>
+                <dt className='text-xl font-medium dark:text-white text-textGray'>
+                  Corporate/SME Support
+                </dt>
 
-                <dd className='mt-1 text-gray-300'>
+                <dd className='mt-1 dark:text-white text-textGray'>
                   From security, backup, and disaster recovery to cloud
                   services, hardware, software, IP-based, and other network
                   solutions, find the ideal IT support for your Corporate/SME
@@ -105,9 +107,11 @@ export default function WhatMakesUsDifferent() {
               </span>
 
               <div className='ml-3 md:mt-3 md:ml-0'>
-                <dt className='text-xl font-medium'>EDU-Internet</dt>
+                <dt className='text-xl dark:text-white text-textGray font-medium'>
+                  EDU-Internet
+                </dt>
 
-                <dd className='mt-1 text-gray-300'>
+                <dd className='mt-1 dark:text-white text-textGray'>
                   Besides the library, the Internet is an important source for
                   information for learning and research. The Internet allows
                   students and other ones to broaden their academic experience.
@@ -135,9 +139,11 @@ export default function WhatMakesUsDifferent() {
               </span>
 
               <div className='ml-3 md:mt-3 md:ml-0'>
-                <dt className='text-xl font-medium'>Broader Community</dt>
+                <dt className='text-xl font-medium dark:text-white text-textGray'>
+                  Broader Community
+                </dt>
 
-                <dd className='mt-1 text-gray-300'>
+                <dd className='mt-1 dark:text-white text-textGray'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </dd>
@@ -163,9 +169,11 @@ export default function WhatMakesUsDifferent() {
               </span>
 
               <div className='ml-3 md:mt-3 md:ml-0'>
-                <dt className='text-xl font-medium'>Research & Development</dt>
+                <dt className='text-xl font-medium dark:text-white text-textGray'>
+                  Research & Development
+                </dt>
 
-                <dd className='mt-1 text-gray-300'>
+                <dd className='mt-1 dark:text-white text-textGray'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </dd>
@@ -191,9 +199,11 @@ export default function WhatMakesUsDifferent() {
               </span>
 
               <div className='ml-3 md:mt-3 md:ml-0'>
-                <dt className='text-xl font-medium'>Customized Services</dt>
+                <dt className='text-xl font-medium dark:text-white text-textGray'>
+                  Customized Services
+                </dt>
 
-                <dd className='mt-1 text-gray-300'>
+                <dd className='mt-1 dark:text-white text-textGray'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </dd>

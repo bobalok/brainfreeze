@@ -4,10 +4,10 @@ import GamersBG from "../public/images/games-bg-5.jpg";
 export default function Gamers() {
   return (
     <>
-      <section className='text-white'>
+      <section className='dark:text-white text-textGray'>
         <div className='xl:max-w-5xl 2xl:max-w-7xl mx-auto px-4 md:py-16 sm:px-6 pb-4 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-4'>
           <div className='max-w-xl'>
-            <p className='mt-6 text-gray-300 uppercase'>play without lag</p>
+            <p className='mt-6  uppercase'>play without lag</p>
             <h1 className='text-3xl font-bold sm:text-5xl'>
               {" "}
               Immersive{" "}
@@ -16,7 +16,7 @@ export default function Gamers() {
               </span>{" "}
               experience{" "}
             </h1>
-            <p className='mt-6 text-gray-300'>
+            <p className='mt-6 '>
               if you use 'betternet' and want to unlock your gaming experience
               set your DNS to 152.145.54.46, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Ut enim ad minim veniam, if you're
@@ -25,7 +25,7 @@ export default function Gamers() {
               consequat.
             </p>
             <div className='mx-auto pt-8'>
-              <button className='hidden bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear text-white text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center'>
+              <button className='hidden bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear dark:text-white text-textGray text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center'>
                 <svg
                   aria-hidden='true'
                   focusable='false'
