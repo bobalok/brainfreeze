@@ -20,7 +20,7 @@ export default function BetterNetForNewGeneration() {
               <br />
               enterprise grade solution
               <br />
-              everywhere.
+              everywhere in dhaka.
               <br />
             </p>
 

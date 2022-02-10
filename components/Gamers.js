@@ -48,16 +48,16 @@ export default function Gamers() {
 
           <div className=''>
             <Image
-              src={GamersBG}
+              src='https://images.unsplash.com/photo-1560253023-3ec5d502959f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
               className='rounded-lg'
               alt='Games'
-              // width={600}
-              // height={328}
+              width={600}
+              height={328}
               layout='intrinsic'
               objectFit='cover'
-              // blurDataURL="data:" //automatically provided
+              blurDataURL='data:' //automatically provided
               placeholder='blur'
-              quality='70'
+              // quality='70'
               // priority
             />
           </div>

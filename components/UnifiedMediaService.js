@@ -9,7 +9,8 @@ import primevideo from "../public/images/primevideo-bg.png";
 import netflix from "../public/images/netflix-bg.png";
 import hbomax from "../public/images/hbomax-bg.png";
 import disneyplus from "../public/images/disneyplus-bg.png";
-import plexImg from "../public/images/plex.jpg";
+// import plexImg from "../public/images/plex.jpg";
+// import remote from "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80";
 
 // Import Swiper styles
 import "swiper/css";
@@ -40,8 +41,9 @@ export default function UnifiedMediaService() {
             <p className='mt-6'>
               Take your home entertainment to the next level. Enjoy all your
               favorite TV Shows, Movies, and songs directly from your Smart TV,
-              Mobile, PC, Consoles and more, included with all plans. Also, you
-              can request media-on-demand using our user-friendly web app.{" "}
+              Mobile, PC, Consoles, and more without any extra charges included
+              with all plans. Also, you can request media-on-demand using our
+              user-friendly web app.{" "}
             </p>
             <div className='mx-auto pt-8 '>
               <button className='hidden bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center'>
@@ -52,14 +54,14 @@ export default function UnifiedMediaService() {
 
           <div className=''>
             <Image
-              src={plexImg}
+              src='https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80'
               className='rounded-lg'
               alt='smarthome'
-              // width={600}
-              // height={328}
+              width={600}
+              height={328}
               layout='intrinsic'
               objectFit='cover'
-              // blurDataURL="data:" //automatically provided
+              blurDataURL='data:' //automatically provided
               placeholder='blur'
               // quality="60"
               // priority
