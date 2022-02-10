@@ -19,8 +19,8 @@ export default function HANetwork() {
               High Availability 24x7
             </h1>
             <p className='0 md:text-center max-w-xl mx-auto'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              Your Internet should be at its best every day. We’re committed to
+              investing in the capacity and reliability of our network
             </p>
           </div>
           <video

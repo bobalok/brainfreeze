@@ -21,8 +21,13 @@ export default function PricingPlans() {
               </span>
             </h2>
             <p className='mt-6 dark:text-white text-textGray'>
-              Enjoy up to 1Gbps fast download speed from BDIX, Game-clients and
-              some local FTPs applicable for every plans{" "}
+              Are you a light surfer or a high speed streamer? Just checking
+              email or gaming for hours online? Whether you use the Internet a
+              lot or a little, we have packages that will suit your needs.{" "}
+              <span className='italic'>
+                Enjoy up to 1Gbps fast download speed from BDIX, Game-clients
+                and some local FTPs applicable for every plans
+              </span>{" "}
               <a href='#' className='text-blue-600 underline'>
                 learn more
               </a>

@@ -29,7 +29,7 @@ export default function UnifiedMediaService() {
       <section className='dark:text-white text-textGray'>
         <div className='xl:max-w-5xl 2xl:max-w-7xl mx-auto px-4 lg:py-16 sm:px-6 lg:px-8 grid lg:grid-cols-2 md:grid-cols-1 gap-4'>
           <div className='max-w-xl'>
-            <p className='mt-6 '>STREMING SERVICE FOR FREE</p>
+            <p className='mt-6 '>ENTERTAINMENT & STREAMING</p>
             <h1 className='text-3xl font-bold sm:text-5xl'>
               Unified{" "}
               <span className='text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
@@ -38,10 +38,10 @@ export default function UnifiedMediaService() {
               service
             </h1>
             <p className='mt-6'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Take your home entertainment to the next level. Enjoy all your
+              favorite TV Shows, Movies, and songs directly from your Smart TV,
+              Mobile, PC, Consoles and more, included with all plans. Also, you
+              can request media-on-demand using our user-friendly web app.{" "}
             </p>
             <div className='mx-auto pt-8 '>
               <button className='hidden bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center'>

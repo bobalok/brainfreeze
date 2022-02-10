@@ -15,10 +15,11 @@ export default function WhatMakesUsDifferent() {
             </h2>
 
             <p className='mt-6 dark:text-white text-textGray'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              At <strong>betternet</strong>, we offer internet service options
+              so you can choose a cost-effective internet plan best suited to
+              your day-to-day activities. We will work with you every step of
+              the way to identify and build the perfect solution to meet your
+              current and future needs
             </p>
           </div>
 

@@ -11,9 +11,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navigation = [
-  { name: "Home", href: "/", current: false },
-  { name: "Gaming", href: "/dashboard", current: false },
-  { name: "Pricing", href: "/#pricing", current: false },
+  { name: "Residential", href: "/", current: false },
+  { name: "Business", href: "/dashboard", current: false },
+  { name: "Gaming", href: "/#pricing", current: false },
   { name: "Blog", href: "#", current: false },
   { name: "Contact", href: "#", current: false },
 ];
@@ -68,7 +68,10 @@ export default function Navi() {
                   {/* <Link href=''>
                     <span className="className='bg-logo-white bg-no-repeat w-48 h-14 dark:bg-logo-dark"></span>
                   </Link> */}
-                  <a className='bg-logo-white bg-no-repeat w-48 h-14 dark:bg-logo-dark'></a>
+
+                  <Link href='/'>
+                    <a className='bg-logo-white bg-no-repeat w-48 h-14 dark:bg-logo-dark'></a>
+                  </Link>
                 </div>
                 <div className='hidden md:block sm:ml-6'>
                   <div className='flex md:space-x-0 lg:space-x-4 py-4'>
