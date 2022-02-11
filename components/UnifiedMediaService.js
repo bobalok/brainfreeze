@@ -61,8 +61,8 @@ export default function UnifiedMediaService() {
               height={328}
               layout='intrinsic'
               objectFit='cover'
-              blurDataURL='data:' //automatically provided
-              placeholder='blur'
+              blurDataURL='data:'
+              // placeholder='blur'
               // quality="60"
               // priority
             />

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import BetterNetForNewGeneration from "../components/BetterNetForNewGeneration";
+import CompleteWifi from "../components/CompleteWifi";
 import ContactUs from "../components/ContactUs";
 import Gamers from "../components/Gamers";
 import HANetwork from "../components/HANetwork";
@@ -24,6 +25,7 @@ export default function Home() {
         <Gamers />
         <HorizontalLine />
         <HANetwork />
+        <CompleteWifi />
         <HorizontalLine />
         <PricingPlans />
         <HorizontalLine />
