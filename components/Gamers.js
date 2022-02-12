@@ -20,9 +20,6 @@ export default function Gamers() {
               if you use 'betternet' and want to unlock your gaming experience
               set your DNS to 152.145.54.46, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Ut enim ad minim veniam, if you're
-              a user of neutech internet use this 'DNS 8.8.8.8' quis nostrud
-              exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat.
             </p>
             <div className='mx-auto pt-8'>
               <button className='hidden bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear dark:text-white text-textGray text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center'>
@@ -46,7 +43,7 @@ export default function Gamers() {
             </div>
           </div>
 
-          <div className=''>
+          <div className='self-center'>
             <Image
               src='https://images.unsplash.com/photo-1560253023-3ec5d502959f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'
               className='rounded-lg'

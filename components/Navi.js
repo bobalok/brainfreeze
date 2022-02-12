@@ -31,8 +31,6 @@ function MyLink(props) {
 }
 
 export default function Navi() {
-  const myhref = "/";
-  const [enabled, setEnabled] = useState(false);
   return (
     <Disclosure
       as='nav'

@@ -1,4 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
+// Import heroicon component
+import { ArrowNarrowRight } from "@heroicons/react/solid";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -20,6 +23,7 @@ import "swiper/css/effect-fade";
 
 // import Swiper core and required modules
 import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
+import Link from "next/link";
 
 // install Swiper modules
 SwiperCore.use([Autoplay, Pagination, EffectFade]);
@@ -45,14 +49,32 @@ export default function UnifiedMediaService() {
               with all plans. Also, you can request media-on-demand using our
               user-friendly web app.{" "}
             </p>
-            <div className='mx-auto pt-8 '>
-              <button className='hidden bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center'>
-                Learn more!
+            <div className='pt-8'>
+              <button>
+                <Link href='/dashboard'>
+                  <a className="className='hidden bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center'">
+                    Learn More
+                    <svg
+                      className='ml-1 w-6 h-6'
+                      fill='none'
+                      stroke='currentColor'
+                      viewBox='0 0 24 24'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth={2}
+                        d='M17 8l4 4m0 0l-4 4m4-4H3'
+                      />
+                    </svg>
+                  </a>
+                </Link>
               </button>
             </div>
           </div>
 
-          <div className=''>
+          <div className='self-center'>
             <Image
               src='https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80'
               className='rounded-lg'

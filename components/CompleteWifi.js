@@ -24,15 +24,31 @@ export default function CompleteWifi() {
               Wi-Fi solution allows you to have the strongest Wi-Fi signal
               possible in all areas of your home.
             </p>
-            <div className='mx-auto pt-8 '>
-              <button className='hidden bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center'>
-                <Link href='/meshnetwork' replace>
-                  <a>What is a mesh network ?</a>
+            <div className='pt-8 '>
+              <button>
+                <Link href='/meshnetwork'>
+                  <a className="className='hidden bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center'">
+                    What is a mesh network
+                    <svg
+                      className='ml-1 w-6 h-6'
+                      fill='none'
+                      stroke='currentColor'
+                      viewBox='0 0 24 24'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth={2}
+                        d='M17 8l4 4m0 0l-4 4m4-4H3'
+                      />
+                    </svg>
+                  </a>
                 </Link>
               </button>
             </div>
           </div>
-          <div className=''>
+          <div className='self-center'>
             <Image
               src={completeWifi}
               className='rounded-lg'
