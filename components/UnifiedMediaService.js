@@ -52,7 +52,7 @@ export default function UnifiedMediaService() {
             <div className='pt-8'>
               <button>
                 <Link href='/dashboard'>
-                  <a className="className='hidden bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center'">
+                  <a className="bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex flex items-center'">
                     Learn More
                     <svg
                       className='ml-1 w-6 h-6'
