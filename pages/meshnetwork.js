@@ -8,6 +8,8 @@ import {
 } from "@heroicons/react/solid";
 import Image from "next/image";
 import FAQ from "../components/FAQ";
+import meshrouter from "../public/images/meshrouter.jpg";
+import Completewifi from "../components/CompleteWifi";
 
 export default function meshnetwork() {
   return (
@@ -23,21 +25,39 @@ export default function meshnetwork() {
           <div className=''>
             {/* headline */}
 
-            <div className='w-full'>
-              <div className='max-w-2xl mx-auto py-16 text-center'>
-                <h1 className='text-5xl md:text-7xl font-extrabold px-6 dark:text-white text-textGray'>
-                  Experience{" "}
-                  <span className='bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
-                    Wi-Fi
-                  </span>{" "}
-                  Like Never Before
-                </h1>
-                <p className='text-lg md:text-2xl dark:text-white text-textGray pt-10'>
-                  Try out the Mesh technology to cover your entire home in
-                  powerful Wi-Fi. Multiple units seamlessly work together to
-                  create a home network like nothing you’ve ever experienced.
-                </p>
+            <div className='max-w-7xl mx-auto'>
+              <div className='py-16 px-8 grid sm:grid-cols-2 gap-4'>
+                <div className=''>
+                  <h1 className='text-5xl md:text-7xl font-extrabold dark:text-white text-textGray'>
+                    Experience{" "}
+                    <span className='bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
+                      Wi-Fi
+                    </span>{" "}
+                    Like Never Before
+                  </h1>
+                  <p className='text-lg md:text-2xl dark:text-white text-textGray pt-10'>
+                    Try out the Mesh technology to cover your entire home in
+                    powerful Wi-Fi. Multiple units seamlessly work together to
+                    create a home network like nothing you’ve ever experienced.
+                  </p>
+                </div>
+                <div className='self-center'>
+                  <Image
+                    src={meshrouter}
+                    className='rounded-lg'
+                    alt='Games'
+                    width={600}
+                    height={328}
+                    layout='responsive'
+                    objectFit='cover'
+                    // blurDataURL='data:' //automatically provided
+                    // placeholder='blur'
+                    // quality='70'
+                    // priority
+                  />
+                </div>
               </div>
+
               {/* Grid Logos goes here */}
               {/* <div className='max-w-2xl mx-auto h-32 bg-slate-700 rounded-lg place-items-center'>
                 <div className='grid grid-cols-3 gap-4 items-center justify-items-center'>

@@ -90,14 +90,14 @@ export default function PricingPlans() {
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
-                      className='h-5 w-5 mr-1 text-red-500'
+                      className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Smart Home Integration</span>
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
-                      className='h-5 w-5 mr-1 text-red-500'
+                      className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>IoT Integration Support</span>
@@ -111,7 +111,7 @@ export default function PricingPlans() {
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
-                      className='h-5 w-5 mr-1 text-red-500'
+                      className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Workstation Optimization</span>
@@ -189,7 +189,7 @@ export default function PricingPlans() {
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
-                      className='h-5 w-5 mr-1 text-red-500'
+                      className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Smart Home Integration</span>
@@ -210,7 +210,7 @@ export default function PricingPlans() {
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
-                      className='h-5 w-5 mr-1 text-red-500'
+                      className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Workstation Optimization</span>
@@ -286,7 +286,7 @@ export default function PricingPlans() {
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
-                      className='h-5 w-5 mr-1 text-red-500'
+                      className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Smart Home Integration</span>
@@ -307,7 +307,7 @@ export default function PricingPlans() {
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
-                      className='h-5 w-5 mr-1 text-red-500'
+                      className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Workstation Optimization</span>
