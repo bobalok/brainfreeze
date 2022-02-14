@@ -15,47 +15,17 @@ export default function WhatMakesUsDifferent() {
             </h2>
 
             <p className='mt-6 dark:text-white text-textGray'>
-              At <strong>betternet</strong>, we offer internet service options
-              so you can choose a cost-effective internet plan best suited to
-              your day-to-day activities. We will work with you every step of
-              the way to identify and build the perfect solution to meet your
-              current and future needs
+              At <strong>betternet</strong>, our primary goal is to provide
+              enterprise-grade internet service with other value-added services
+              to our end-users. We always use cutting-edge technology to build
+              and upgrade our infrastructure, so our end-users always get the
+              best internet experience they deserve.
             </p>
           </div>
 
           <dl className='grid grid-cols-1 gap-8 mt-8 md:grid-cols-3 sm:mt-16'>
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
-                <svg
-                  className='w-6 h-6 '
-                  fill='none'
-                  stroke='currentColor'
-                  viewBox='0 0 24 24'
-                  xmlns='http://www.w3.org/2000/svg'
-                >
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth={2}
-                    d='M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9'
-                  />
-                </svg>
-              </span>
-
-              <div className='ml-3 md:mt-3 md:ml-0 dark:text-white text-textGray'>
-                <dt className='text-xl font-medium '>Broadband Internet</dt>
-
-                <dd className='mt-1 dark:text-white text-textGray'>
-                  Stream movies and TV shows, plus live TV channels, instantly,
-                  without a subscription. Watch your favorite TV shows and
-                  series, live channels and free movies anywhere, from any
-                  device.
-                </dd>
-              </div>
-            </div>
-
-            <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -67,17 +37,48 @@ export default function WhatMakesUsDifferent() {
                     strokeLinecap='round'
                     strokeLinejoin='round'
                     strokeWidth={2}
-                    d='M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4'
+                    d='M13 10V3L4 14h7v7l9-11h-7z'
+                  />
+                </svg>
+              </span>
+
+              <div className='ml-3 md:mt-3 md:ml-0 dark:text-white text-textGray text-justify'>
+                <dt className='text-xl font-medium '>Broadband Internet</dt>
+
+                <dd className='mt-1 dark:text-white text-textGray'>
+                  Connect your home, office, or institutions with blazing-fast
+                  internet connectivity. We offer internet service options with
+                  QoS optimization to enhance your user exeperience, choose a
+                  cost-effective internet plan best suited to your day-to-day
+                  online activities.
+                </dd>
+              </div>
+            </div>
+
+            <div className='flex items-start md:flex-col'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
+                <svg
+                  className='w-6 h-6'
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                  xmlns='http://www.w3.org/2000/svg'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth={2}
+                    d='M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z'
                   />
                 </svg>
               </span>
 
               <div className='ml-3 md:mt-3 md:ml-0'>
                 <dt className='text-xl font-medium dark:text-white text-textGray'>
-                  Corporate/SME Support
+                  Network Infrastructure
                 </dt>
 
-                <dd className='mt-1 dark:text-white text-textGray'>
+                <dd className='mt-1 dark:text-white text-textGray text-justify'>
                   From security, backup, and disaster recovery to cloud
                   services, hardware, software, IP-based, and other network
                   solutions, find the ideal IT support for your Corporate/SME
@@ -88,7 +89,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -96,55 +97,21 @@ export default function WhatMakesUsDifferent() {
                   viewBox='0 0 24 24'
                   xmlns='http://www.w3.org/2000/svg'
                 >
-                  <path d='M12 14l9-5-9-5-9 5 9 5z' />
-                  <path d='M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z' />
                   <path
                     strokeLinecap='round'
                     strokeLinejoin='round'
                     strokeWidth={2}
-                    d='M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222'
+                    d='M14 10l-2 1m0 0l-2-1m2 1v2.5M20 7l-2 1m2-1l-2-1m2 1v2.5M14 4l-2-1-2 1M4 7l2-1M4 7l2 1M4 7v2.5M12 21l-2-1m2 1l2-1m-2 1v-2.5M6 18l-2-1v-2.5M18 18l2-1v-2.5'
                   />
                 </svg>
               </span>
 
               <div className='ml-3 md:mt-3 md:ml-0'>
                 <dt className='text-xl dark:text-white text-textGray font-medium'>
-                  EDU-Internet
+                  Smart IoT Implementation
                 </dt>
 
-                <dd className='mt-1 dark:text-white text-textGray'>
-                  Besides the library, the Internet is an important source for
-                  information for learning and research. The Internet allows
-                  students and other ones to broaden their academic experience.
-                </dd>
-              </div>
-            </div>
-
-            <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
-                <svg
-                  aria-hidden='true'
-                  focusable='false'
-                  data-prefix='fas'
-                  data-icon='gamepad'
-                  className='w-6 h-6'
-                  role='img'
-                  xmlns='http://www.w3.org/2000/svg'
-                  viewBox='0 0 640 512'
-                >
-                  <path
-                    fill='currentColor'
-                    d='M480.07 96H160a160 160 0 1 0 114.24 272h91.52A160 160 0 1 0 480.07 96zM248 268a12 12 0 0 1-12 12h-52v52a12 12 0 0 1-12 12h-24a12 12 0 0 1-12-12v-52H84a12 12 0 0 1-12-12v-24a12 12 0 0 1 12-12h52v-52a12 12 0 0 1 12-12h24a12 12 0 0 1 12 12v52h52a12 12 0 0 1 12 12zm216 76a40 40 0 1 1 40-40 40 40 0 0 1-40 40zm64-96a40 40 0 1 1 40-40 40 40 0 0 1-40 40z'
-                  ></path>
-                </svg>
-              </span>
-
-              <div className='ml-3 md:mt-3 md:ml-0'>
-                <dt className='text-xl font-medium dark:text-white text-textGray'>
-                  Broader Community
-                </dt>
-
-                <dd className='mt-1 dark:text-white text-textGray'>
+                <dd className='mt-1 dark:text-white text-textGray text-justify'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </dd>
@@ -152,7 +119,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -164,25 +131,69 @@ export default function WhatMakesUsDifferent() {
                     strokeLinecap='round'
                     strokeLinejoin='round'
                     strokeWidth={2}
-                    d='M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z'
+                    d='M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z'
+                  />
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth={2}
+                    d='M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
                   />
                 </svg>
               </span>
 
               <div className='ml-3 md:mt-3 md:ml-0'>
                 <dt className='text-xl font-medium dark:text-white text-textGray'>
-                  Research & Development
+                  On-demand Media
                 </dt>
 
-                <dd className='mt-1 dark:text-white text-textGray'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <dd className='mt-1 dark:text-white text-textGray text-justify'>
+                  We proudly offer you the most{" "}
+                  <strong>unified media service</strong> by utilizing the best
+                  tools and software currently available and used by thousands
+                  of people worldwide. Stream movies and shows or request
+                  unavailable titles with a counter-intuitive and easy-to-use
+                  application get notified when the requested media is available
+                  to the server.
                 </dd>
               </div>
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded-lg'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
+                <svg
+                  className='w-6 h-6'
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                  xmlns='http://www.w3.org/2000/svg'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth={2}
+                    d='M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z'
+                  />
+                </svg>
+              </span>
+
+              <div className='ml-3 md:mt-3 md:ml-0'>
+                <dt className='text-xl font-medium dark:text-white text-textGray'>
+                  Better Customer Support
+                </dt>
+
+                <dd className='mt-1 dark:text-white text-textGray text-justify'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  labore et dolore magna aliqua.
+                </dd>
+              </div>
+            </div>
+
+            <div className='flex items-start md:flex-col'>
+              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -204,9 +215,12 @@ export default function WhatMakesUsDifferent() {
                   Customized Services
                 </dt>
 
-                <dd className='mt-1 dark:text-white text-textGray'>
+                <dd className='mt-1 dark:text-white text-textGray text-justify'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  labore et dolore magna aliqua.
                 </dd>
               </div>
             </div>
