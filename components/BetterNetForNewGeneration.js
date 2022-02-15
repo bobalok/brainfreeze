@@ -10,7 +10,7 @@ export default function BetterNetForNewGeneration() {
           <div className='text-center'>
             <h1 className='text-5xl md:text-7xl dark:text-white text-textGray font-extrabold px-6 py-16'>
               <span className='bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
-                betternet
+                an ISP
               </span>{" "}
               for new generation
             </h1>
@@ -41,7 +41,7 @@ export default function BetterNetForNewGeneration() {
             {/* ShortParagraph/marketing Goes Here */}
             <h1 className='text-2xl font-bold dark:text-white text-textGray mx-2'>
               <span className='bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
-                70% faster internet
+                3x faster internet
               </span>{" "}
               🚀 and more efficient
             </h1>

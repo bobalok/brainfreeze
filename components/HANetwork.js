@@ -24,7 +24,7 @@ export default function HANetwork() {
             </p>
           </div>
           <video
-            className='w-full aspect-video shadow-2xl rounded-lg my-10'
+            className='w-full aspect-video shadow-2xl rounded my-10'
             // controls
             autoPlay
             muted
@@ -57,9 +57,9 @@ export default function HANetwork() {
           </div>
 
           <div className='mt-6 py-6 grid  sm:gap-6 gap-4 place-items-center lg:grid-cols-4 grid-cols-2'>
-            <div className='rounded-lg'>
+            <div className='rounded'>
               <Image
-                className='rounded-lg'
+                className='rounded'
                 src={IIS2}
                 width={310}
                 height={220}
@@ -68,9 +68,9 @@ export default function HANetwork() {
                 quality={70}
               />
             </div>
-            <div className='rounded-lg'>
+            <div className='rounded'>
               <Image
-                className='rounded-lg'
+                className='rounded'
                 src={WFH}
                 width={310}
                 height={220}
@@ -79,9 +79,9 @@ export default function HANetwork() {
                 quality={70}
               />
             </div>
-            <div className='rounded-lg'>
+            <div className='rounded'>
               <Image
-                className='rounded-lg'
+                className='rounded'
                 src={EDU1}
                 width={310}
                 height={220}
@@ -90,9 +90,9 @@ export default function HANetwork() {
                 quality={70}
               />
             </div>
-            <div className='rounded-lg'>
+            <div className='rounded'>
               <Image
-                className='rounded-lg'
+                className='rounded'
                 src={WFO}
                 width={310}
                 height={220}

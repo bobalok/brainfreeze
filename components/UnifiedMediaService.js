@@ -77,7 +77,7 @@ export default function UnifiedMediaService() {
           <div className='self-center'>
             <Image
               src='https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80'
-              className='rounded-lg'
+              className='rounded'
               alt='smarthome'
               width={600}
               height={328}
@@ -100,11 +100,11 @@ export default function UnifiedMediaService() {
                 delay: 2600,
                 disableOnInteraction: false,
               }}
-              className='mySwiper rounded-lg'
+              className='mySwiper rounded'
             >
               <SwiperSlide className='text-gray-800'>
                 <Image
-                  className='rounded-lg'
+                  className='rounded'
                   src={netflix}
                   alt='Netflix'
                   // width="850"
@@ -119,7 +119,7 @@ export default function UnifiedMediaService() {
               </SwiperSlide>
               <SwiperSlide className='text-gray-800'>
                 <Image
-                  className='rounded-lg'
+                  className='rounded'
                   src={hbomax}
                   alt='HBO MAX'
                   // width="850"
@@ -134,7 +134,7 @@ export default function UnifiedMediaService() {
               </SwiperSlide>
               <SwiperSlide className='text-gray-800'>
                 <Image
-                  className='rounded-lg'
+                  className='rounded'
                   src={disneyplus}
                   alt='Disney+'
                   // width="850"
@@ -149,7 +149,7 @@ export default function UnifiedMediaService() {
               </SwiperSlide>
               <SwiperSlide className='text-gray-800'>
                 <Image
-                  className='rounded-lg'
+                  className='rounded'
                   src={primevideo}
                   alt='Amazon Prive Video'
                   // width="850"
@@ -164,7 +164,7 @@ export default function UnifiedMediaService() {
               </SwiperSlide>
               <SwiperSlide className='text-gray-800'>
                 <Image
-                  className='rounded-lg'
+                  className='rounded'
                   src={reqserver}
                   alt='reqserver'
                   // width="850"
@@ -179,7 +179,7 @@ export default function UnifiedMediaService() {
               </SwiperSlide>
               <SwiperSlide className='text-gray-800'>
                 <Image
-                  className='rounded-lg'
+                  className='rounded'
                   src={GamersBG}
                   alt='reqserver'
                   // width="850"

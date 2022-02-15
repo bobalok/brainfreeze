@@ -51,7 +51,7 @@ export default function CompleteWifi() {
           <div className='self-center'>
             <Image
               src={completeWifi}
-              className='rounded-lg'
+              className='rounded'
               alt='smarthome'
               //   width={600}
               //   height={328}
