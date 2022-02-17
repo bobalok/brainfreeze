@@ -10,7 +10,7 @@ export default function Gamers() {
             <p className='mt-6  uppercase'>play without lag</p>
             <h1 className='text-3xl font-bold sm:text-5xl'>
               {" "}
-              Immersive{" "}
+              Better{" "}
               <span className='text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                 gaming
               </span>{" "}
