@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import residentialPic from "../public/images/residential.jpg";
 import completeWifi from "../public/images/complete-wifi.gif";
+// import video1 from "../public/videos/Streamingservice.webm";
 
 export default function residential() {
   return (
@@ -127,7 +128,7 @@ export default function residential() {
               // autoPlay
               muted
               loop
-              src='/videos/StreamingService.webm'
+              src='/videos/Streamingservice.webm'
               type='video/webm'
             ></video>
           </div>
