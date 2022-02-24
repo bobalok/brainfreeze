@@ -49,7 +49,7 @@ export default function WhatMakesUsDifferent() {
                 </svg>
               </span>
 
-              <div className='ml-3 md:mt-3 md:ml-0 dark:text-white text-textGray text-justify'>
+              <div className='ml-3 md:mt-3 md:ml-0 dark:text-white text-textGray'>
                 <dt className='text-xl font-medium '>Broadband Internet</dt>
 
                 <dd className='mt-1 dark:text-white text-textGray'>
@@ -85,7 +85,7 @@ export default function WhatMakesUsDifferent() {
                   Network Infrastructure
                 </dt>
 
-                <dd className='mt-1 dark:text-white text-textGray text-justify'>
+                <dd className='mt-1 dark:text-white text-textGray'>
                   Building a reliable network infrastructure is essential for
                   every use case for a <strong>better</strong> security and user
                   experience. Our network engineer will work with you cohesively
@@ -119,7 +119,7 @@ export default function WhatMakesUsDifferent() {
                   Smart IoT Implementation
                 </dt>
 
-                <dd className='mt-1 dark:text-white text-textGray text-justify'>
+                <dd className='mt-1 dark:text-white text-textGray'>
                   Regardless of your subscribed plans, betternet offers you
                   comprehensive integration of IoT devices like Surveillance
                   systems, Smart home solutions, Mesh Wi-Fi Zone, and other
@@ -158,7 +158,7 @@ export default function WhatMakesUsDifferent() {
                   Built-in Entertainment
                 </dt>
 
-                <dd className='mt-1 dark:text-white text-textGray text-justify'>
+                <dd className='mt-1 dark:text-white text-textGray'>
                   We proudly offer you the most{" "}
                   <strong>unified media service</strong> by utilizing the best
                   tools and software currently available and used by thousands
@@ -193,7 +193,7 @@ export default function WhatMakesUsDifferent() {
                   Work Station Optimization
                 </dt>
 
-                <dd className='mt-1 dark:text-white text-textGray text-justify'>
+                <dd className='mt-1 dark:text-white text-textGray'>
                   As we know that the methodology of the workplace is changing
                   day by day because of the pandemic, with that in mind, we are
                   providing many solutions to make your remote work experience
