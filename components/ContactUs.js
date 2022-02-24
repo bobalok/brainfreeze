@@ -28,7 +28,7 @@ export default function ContactUs() {
         <div className='bg-hero-pattern bg-hero-size max-w-screen-xl px-4 md:py-16 pb-6 mx-auto sm:px-6 lg:px-8'>
           <div className='grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5'>
             <div className='lg:py-12 lg:col-span-2'>
-              <p className='mt-6 uppercase'>let's communicate</p>
+              <p className='mt-6 uppercase'>CONTACT US</p>
               <h1 className='text-3xl font-bold sm:text-5xl'>
                 Send us a{" "}
                 <span className='text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
@@ -36,10 +36,14 @@ export default function ContactUs() {
                 </span>
               </h1>
               <p className='max-w-xl text-lg mt-6'>
-                At the same time, the fact that we are wholly owned and totally
-                independent from manufacturer and other group control gives you
-                confidence that we will only recommend what is right for you.
+                Your telecom services don’t take a break – and neither do we!
+                We’re happy to be available 24/7 for any questions or concerns.
               </p>
+              <br />
+              <strong className='max-w-xl text-lg mt-6'>
+                Please call, chat, e-mail or visit us using the information
+                below. We’re here to help!
+              </strong>
 
               <div className='mt-8'>
                 <a
@@ -190,7 +194,7 @@ export default function ContactUs() {
                   >
                     <span className='font-medium'> Send Enquiry </span>
 
-                    <svg
+                    {/* <svg
                       xmlns='http://www.w3.org/2000/svg'
                       className='w-5 h-5 ml-3'
                       fill='none'
@@ -203,7 +207,7 @@ export default function ContactUs() {
                         stroke-width='2'
                         d='M14 5l7 7m0 0l-7 7m7-7H3'
                       />
-                    </svg>
+                    </svg> */}
                   </button>
                 </div>
               </form>

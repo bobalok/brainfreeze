@@ -1,5 +1,6 @@
 import { LinkIcon } from "@heroicons/react/solid";
 import { motion } from "framer-motion";
+import Link from "next/link";
 export default function BetterNetForNewGeneration() {
   return (
     <>
@@ -18,9 +19,9 @@ export default function BetterNetForNewGeneration() {
             <p className='text-lg md:text-2xl dark:text-white text-textGray'>
               unified internet service provider,
               <br />
-              enterprise grade solution
+              enterprise grade solutions,
               <br />
-              everywhere in dhaka.
+              anywhere we connect
               <br />
             </p>
 
@@ -31,12 +32,29 @@ export default function BetterNetForNewGeneration() {
               Get started
             </button>
             <span className="mx-1 text-white">or</span> */}
-              <a href='https://forms.gle/F2MHHRhDhCW9YDdXA' target='_blank'>
-                <button className='bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear dark:text-white text-textGray text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded inline-flex items-center'>
-                  <LinkIcon className='w-6 h-6 mr-1' />
-                  Connect me
-                </button>
-              </a>
+              {/* <a href='https://forms.gle/F2MHHRhDhCW9YDdXA' target='_blank'> */}
+              <button>
+                <Link href='/#pricing'>
+                  <a className="bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex flex items-center'">
+                    See pricing
+                    <svg
+                      className='ml-1 w-6 h-6'
+                      fill='none'
+                      stroke='currentColor'
+                      viewBox='0 0 24 24'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth={2}
+                        d='M17 8l4 4m0 0l-4 4m4-4H3'
+                      />
+                    </svg>
+                  </a>
+                </Link>
+              </button>
+              {/* </a> */}
             </div>
             {/* ShortParagraph/marketing Goes Here */}
             <h1 className='text-2xl font-bold dark:text-white text-textGray mx-2'>

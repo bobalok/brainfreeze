@@ -1,4 +1,11 @@
-import React from "react";
+import Image from "next/image";
+
+import WFH from "../public/images/wfh.gif";
+import WFO from "../public/images/wfo.gif";
+import IIS1 from "../public/images/islam-geo.gif";
+import IIS2 from "../public/images/islam.gif";
+import EDU1 from "../public/images/edu1.gif";
+import EDU2 from "../public/images/edu2.gif";
 
 export default function WhatMakesUsDifferent() {
   return (
@@ -25,7 +32,7 @@ export default function WhatMakesUsDifferent() {
 
           <dl className='grid grid-cols-1 gap-8 mt-8 md:grid-cols-3 sm:mt-16'>
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
+              <span className='flex-shrink-0 p-4 bg-gradient-to-br from-sky-500 to-blue-600 rounded'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -56,7 +63,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
+              <span className='flex-shrink-0 p-4 bg-gradient-to-br from-sky-500 to-blue-600 rounded'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -90,7 +97,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
+              <span className='flex-shrink-0 p-4 bg-gradient-to-br from-sky-500 to-blue-600 rounded'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -123,7 +130,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
+              <span className='flex-shrink-0 p-4 bg-gradient-to-br from-sky-500 to-blue-600 rounded'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -164,7 +171,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
+              <span className='flex-shrink-0 p-4 bg-gradient-to-br from-sky-500 to-blue-600 rounded'>
                 <svg
                   className='w-6 h-6'
                   fill='none'
@@ -197,7 +204,7 @@ export default function WhatMakesUsDifferent() {
             </div>
 
             <div className='flex items-start md:flex-col'>
-              <span className='flex-shrink-0 p-4 bg-secondaryBlue rounded'>
+              <span className='flex-shrink-0 p-4 bg-gradient-to-br from-sky-500 to-blue-600 rounded'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 640 512'
@@ -223,6 +230,75 @@ export default function WhatMakesUsDifferent() {
               </div>
             </div>
           </dl>
+          <div className='xl:max-w-5xl 2xl:max-w-7xl mx-auto py-16 text-white'>
+            <div className='max-w-2xl'>
+              <p className='dark:text-white text-textGray uppercase'>
+                special services
+              </p>
+              <h1 className='text-3xl font-bold sm:text-5xl dark:text-white text-textGray pb-4'>
+                Catered for{" "}
+                <span className='text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
+                  specific
+                </span>{" "}
+                needs
+              </h1>
+              <p className='dark:text-white text-textGray max-w-xl'>
+                Institutions like schools, universities, and Islamic training
+                centers need distinctive internet connectivity. So our R&D team
+                has developed a few ways to provide internet services to an
+                institution like these, so the students or employees don't get
+                distracted while they are learning or trying to be more
+                productive...
+              </p>
+            </div>
+
+            <div className='mt-6 py-6 grid  sm:gap-6 gap-4 place-items-center lg:grid-cols-4 grid-cols-2'>
+              <div className='rounded'>
+                <Image
+                  className='rounded'
+                  src={IIS2}
+                  width={310}
+                  height={220}
+                  blurDataURL='data:'
+                  placeholder='blur'
+                  // quality={70}
+                />
+              </div>
+              <div className='rounded'>
+                <Image
+                  className='rounded'
+                  src={WFH}
+                  width={310}
+                  height={220}
+                  blurDataURL='data:'
+                  placeholder='blur'
+                  quality={70}
+                />
+              </div>
+              <div className='rounded'>
+                <Image
+                  className='rounded'
+                  src={EDU1}
+                  width={310}
+                  height={220}
+                  blurDataURL='data:'
+                  placeholder='blur'
+                  quality={70}
+                />
+              </div>
+              <div className='rounded'>
+                <Image
+                  className='rounded'
+                  src={WFO}
+                  width={310}
+                  height={220}
+                  blurDataURL='data:'
+                  placeholder='blur'
+                  quality={70}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

@@ -8,6 +8,7 @@ import HorizontalLine from "../components/HorizontalLine";
 import PricingPlans from "../components/PricingPlans";
 import UnifiedMediaService from "../components/UnifiedMediaService";
 import WhatMakesUsDifferent from "../components/WhatMakesUsDifferent";
+import MediaServiceYouDeserve from "../components/MediaServiceYouDeserve";
 
 export default function Home() {
   return (
@@ -19,12 +20,13 @@ export default function Home() {
       <div className='flex flex-col items-center h-full'>
         <BetterNetForNewGeneration />
         <HorizontalLine />
-        <WhatMakesUsDifferent />
-        <HorizontalLine />
+        <MediaServiceYouDeserve />
         <UnifiedMediaService />
         <Gamers />
         <HorizontalLine />
         <HANetwork />
+        <WhatMakesUsDifferent />
+        <HorizontalLine />
         <CompleteWifi />
         <HorizontalLine />
         <PricingPlans />

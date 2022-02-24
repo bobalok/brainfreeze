@@ -376,7 +376,7 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Full QoS Support</span>
+                    <span>QoS Optimization</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -420,18 +420,12 @@ export default function PricingPlans() {
             </div>
           </div>
 
-          <div className='h-[.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700'></div>
-          <div className='py-14 lg:py-4'>
+          {/* <div className='h-[.5px] bg-gradient-to-l from-gray-700 via-gray-100 to-gray-700'></div> */}
+          {/* <div className='py-14 lg:py-4'>
             <div className='rounded-lg bg-gradient-to-bl from-sky-400 to-blue-500 md:max-w-4xl xl:max-w-7xl mx-auto'>
               <div className='h-full bg-hero-pattern bg-hero-size'>
                 <div className='min-h-full flex items-center justify-center text-white'>
                   <div className='grid md:grid-cols-2 2xl:grid-cols-4 gap-4 p-6 md:p-20 max-w-7xl'>
-                    {/* <div className='hidden md:col-span-2 2xl:col-span-4 md:flex md:justify-center pb-8'>
-                      <h1 className='text-5xl font-bold'>
-                        Unmatched Perfomance Optimization
-                      </h1>
-                    </div> */}
-                    {/* card 1 */}
                     <div className='p-6 rounded  md:col-span-2 bg-black/20 '>
                       <h1 className='uppercase'>Enhance Your Business With</h1>
                       <h1 className='text-3xl font-bold sm:text-5xl'>
@@ -445,7 +439,7 @@ export default function PricingPlans() {
                         commodo consequat.
                       </p>
                     </div>
-                    {/* form */}
+
                     <div className=' p-6 rounded md:col-span-2  bg-white text-gray-800'>
                       <form action='' className='space-y-4'>
                         <div>
@@ -566,21 +560,6 @@ export default function PricingPlans() {
                               {" "}
                               Get A Quotation{" "}
                             </span>
-
-                            <svg
-                              xmlns='http://www.w3.org/2000/svg'
-                              className='w-5 h-5 ml-3'
-                              fill='none'
-                              viewBox='0 0 24 24'
-                              stroke='currentColor'
-                            >
-                              <path
-                                stroke-linecap='round'
-                                stroke-linejoin='round'
-                                stroke-width='2'
-                                d='M14 5l7 7m0 0l-7 7m7-7H3'
-                              />
-                            </svg>
                           </button>
                         </div>
                       </form>
@@ -589,7 +568,7 @@ export default function PricingPlans() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>

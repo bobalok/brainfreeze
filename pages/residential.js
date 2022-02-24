@@ -3,12 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import residentialPic from "../public/images/residential.jpg";
 import completeWifi from "../public/images/complete-wifi.gif";
-// import video1 from "../public/videos/Streamingservice.webm";
+import RequestService from "../public/screen_main.jpg";
+import HorizontalLine from "../components/HorizontalLine";
 
 export default function residential() {
   return (
     <>
-      <motion.section exit={{ opacity: 0 }}>
+      <motion.section exit={{ opacity: 0 }} className=''>
         {/* 👇👇👇 Hero goes here 👇👇👇 */}
         <div className='w-full h-[500px] sm:h-[600px] relative flex items-center justify-center text-white'>
           <Image
@@ -63,15 +64,16 @@ export default function residential() {
             </div>
           </div>
         </div>
-        <div className='w-full h-max bg-blue-500 bg-hero-pattern bg-hero-size flex items-center text-white'>
+        {/* The Media Service You Deserve */}
+        <div className='h-max bg-gradient-to-tr from-rose-400 via-fuchsia-500 to-indigo-500 flex items-center text-thirdGray'>
           <div className='xl:max-w-5xl 2xl:max-w-7xl mx-auto px-4 md:py-16 sm:px-6 lg:px-8'>
-            <div className=''>
+            <div className='text-white'>
               <h1 className='text-3xl font-bold sm:text-5xl  pb-4 md:text-center mt-6'>
-                The Media Service You Deserve
+                Media Service You Deserve
               </h1>
               <p className='md:text-center max-w-xl mx-auto'>
-                Huge collection of High-definition (HD) Defination TV-Shows,
-                Movies and Music
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ipsum dolor sit amet,
               </p>
               <div class='pt-6 justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4'>
                 <a class='w-full sm:w-auto md:flex bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700'>
@@ -131,13 +133,32 @@ export default function residential() {
               src='/videos/Streamingservice.webm'
               type='video/webm'
             ></video>
-          </div>
-        </div>
+            <div>
+              <div className='pb-6 max-w-2xl mx-auto'>
+                <h1 className='text-3xl font-bold sm:text-5xl  pb-4 mt-6'>
+                  Simple Request Management
+                </h1>
+                <p className=' '>
+                  helps you find media you want to watch. With inline
+                  recommendations and suggestions, you will find yourself deeper
+                  and deeper in a rabbit hole of content you never knew you just
+                  had to have.
+                </p>
+              </div>
 
-        <div className='w-full h-[1084px] bg-green-500 bg-hero-pattern bg-hero-size flex items-center text-white'>
-          <h1 className='text-3xl font-bold sm:text-5xl  pb-4 md:text-center mt-6'>
-            The Media Service You Deserve
-          </h1>
+              <Image
+                className='rounded shadow-2xl'
+                src={RequestService}
+                alt='Games'
+                // width={1280}
+                // height={200}
+                layout='intrinsic'
+                // objectFit='cover'
+                // blurDataURL='data:'
+                placeholder='blur'
+              />
+            </div>
+          </div>
         </div>
 
         {/* 👆👆👆 Hero goes here 👆👆👆 */}

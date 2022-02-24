@@ -51,9 +51,9 @@ export default function UnifiedMediaService() {
             </p>
             <div className='pt-8'>
               <button>
-                <Link href='/residential'>
+                <Link href='/#pricing'>
                   <a className="bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex flex items-center'">
-                    Learn More
+                    Subscribe Now
                     <svg
                       className='ml-1 w-6 h-6'
                       fill='none'
@@ -84,7 +84,7 @@ export default function UnifiedMediaService() {
               layout='intrinsic'
               objectFit='cover'
               blurDataURL='data:'
-              // placeholder='blur'
+              placeholder='blur'
               // quality="60"
               // priority
             />

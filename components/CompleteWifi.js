@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import completeWifi from "../public/images/complete-wifi.gif";
+import Wifi from "../public/images/wifi.gif";
 
 export default function CompleteWifi() {
   return (
@@ -26,9 +27,9 @@ export default function CompleteWifi() {
             </p>
             <div className='pt-8 '>
               <button>
-                <Link href='/meshnetwork'>
+                <Link href='#'>
                   <a className=" bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex flex items-center'">
-                    What is a mesh network
+                    Get a mesh wifi
                     <svg
                       className='ml-1 w-6 h-6'
                       fill='none'
@@ -48,20 +49,48 @@ export default function CompleteWifi() {
               </button>
             </div>
           </div>
-          <div className='self-center'>
+          <div className='self-center pb-6 sm:pb-0'>
             <Image
               src={completeWifi}
               className='rounded'
               alt='smarthome'
-              //   width={600}
-              //   height={328}
-              layout='intrinsic'
+              // width={600}
+              // height={328}
+              layout='responsive'
               objectFit='cover'
               blurDataURL='data:'
               placeholder='blur'
-              // quality="60"
+              quality='100'
               // priority
             />
+          </div>
+        </div>
+        <div className='xl:max-w-5xl 2xl:max-w-7xl mx-auto pb-16'>
+          <div className='grid sm:grid-cols-2 gap-4 px-6 place-content-center'>
+            <div className='dark:text-white text-textGray text-xl'>
+              <p className='mb-5 underline'>With Mesh Wi-Fi setup:</p>
+              <video
+                className='w-full shadow-2xl rounded-lg'
+                // controls
+                autoPlay
+                muted
+                loop
+                src='/videos/mesh.mp4'
+                type='video/mp4'
+              ></video>
+            </div>
+            <div className='dark:text-white text-textGray text-xl'>
+              <p className='mb-5 underline'>Without Mesh Wi-Fi setup:</p>
+              <video
+                className='w-full shadow-2xl rounded-lg'
+                // controls
+                autoPlay
+                muted
+                loop
+                src='/videos/nomesh.mp4'
+                type='video/mp4'
+              ></video>
+            </div>
           </div>
         </div>
       </section>
