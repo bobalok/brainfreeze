@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 // Import heroicon component
-import { ArrowNarrowRight } from "@heroicons/react/solid";
+// import { ArrowNarrowRight } from "@heroicons/react/solid";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,6 +12,7 @@ import swiperThree from "../public/images/forswiper/swiperThree.png";
 import swiperFour from "../public/images/forswiper/swiperFour.png";
 import swiperFive from "../public/images/forswiper/swiperFive.png";
 import swiperSix from "../public/images/forswiper/swiperSix.png";
+import uifiedImageOne from "../public/images/unifiedImageOne.jpg";
 // import plexImg from "../public/images/plex.jpg";
 // import remote from "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80";
 
@@ -76,14 +77,14 @@ export default function UnifiedMediaService() {
 
           <div className='self-center'>
             <Image
-              src='https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80'
+              src={uifiedImageOne}
               className='rounded'
               alt='smarthome'
               width={600}
               height={328}
               layout='intrinsic'
               objectFit='cover'
-              blurDataURL='data:'
+              // blurDataURL='data:'
               placeholder='blur'
               // quality="60"
               // priority
