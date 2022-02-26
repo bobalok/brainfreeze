@@ -58,9 +58,9 @@ export default function CompleteWifi() {
               // height={328}
               layout='responsive'
               objectFit='cover'
-              blurDataURL='data:'
+              // blurDataURL='data:'
               placeholder='blur'
-              quality='100'
+              // quality='100'
               // priority
             />
           </div>
