@@ -221,11 +221,11 @@ export default function WhatMakesUsDifferent() {
                 </dt>
 
                 <dd className='mt-1 dark:text-white text-textGray'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  labore et dolore magna aliqua.
+                  A service level agreement (SLA) is used to define the services
+                  that will be provided to a client from betternet. An SLA is
+                  essential for businesses outsourcing any of their technology
+                  needs and serves to outline expectations to protect both the
+                  vendor and the customer.
                 </dd>
               </div>
             </div>
