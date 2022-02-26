@@ -48,10 +48,6 @@ export default function Gamers() {
               src={betterGamerImage}
               className='rounded'
               alt='Games'
-              width={600}
-              height={328}
-              layout='intrinsic'
-              objectFit='cover'
               // blurDataURL='data:' //automatically provided
               placeholder='blur'
               // quality='70'

@@ -80,10 +80,10 @@ export default function UnifiedMediaService() {
               src={uifiedImageOne}
               className='rounded'
               alt='smarthome'
-              width={600}
-              height={328}
-              layout='intrinsic'
-              objectFit='cover'
+              // width={600}
+              // height={328}
+              // layout='intrinsic'
+              // objectFit='cover'
               // blurDataURL='data:'
               placeholder='blur'
               // quality="60"
