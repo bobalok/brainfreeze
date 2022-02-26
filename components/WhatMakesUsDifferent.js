@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-import WFH from "../public/images/wfh.gif";
-import WFO from "../public/images/wfo.gif";
-import IIS1 from "../public/images/islam-geo.gif";
-import IIS2 from "../public/images/islam.gif";
-import EDU1 from "../public/images/edu1.gif";
-import EDU2 from "../public/images/edu2.gif";
+import WFH from "../public/images/animage/wfh.webp";
+import WFO from "../public/images/animage/wfo.webp";
+// import IIS1 from "../public/images/animage/islam-geo.gif";
+import IIS2 from "../public/images/animage/islam.webp";
+import EDU1 from "../public/images/animage/edu3.webp";
+// import EDU2 from "../public/images/animage/edu2.webp";
 
 export default function WhatMakesUsDifferent() {
   return (
@@ -259,9 +259,9 @@ export default function WhatMakesUsDifferent() {
                   src={IIS2}
                   width={310}
                   height={220}
-                  blurDataURL='data:'
-                  placeholder='blur'
-                  // quality={70}
+                  // blurDataURL='data:'
+                  // placeholder='blur'
+                  quality={70}
                 />
               </div>
               <div className='rounded'>
@@ -270,8 +270,8 @@ export default function WhatMakesUsDifferent() {
                   src={WFH}
                   width={310}
                   height={220}
-                  blurDataURL='data:'
-                  placeholder='blur'
+                  // blurDataURL='data:'
+                  // placeholder='blur'
                   quality={70}
                 />
               </div>
@@ -281,8 +281,8 @@ export default function WhatMakesUsDifferent() {
                   src={EDU1}
                   width={310}
                   height={220}
-                  blurDataURL='data:'
-                  placeholder='blur'
+                  // blurDataURL='data:'
+                  // placeholder='blur'
                   quality={70}
                 />
               </div>
@@ -292,8 +292,8 @@ export default function WhatMakesUsDifferent() {
                   src={WFO}
                   width={310}
                   height={220}
-                  blurDataURL='data:'
-                  placeholder='blur'
+                  // blurDataURL='data:'
+                  // placeholder='blur'
                   quality={70}
                 />
               </div>

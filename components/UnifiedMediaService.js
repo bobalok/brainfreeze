@@ -6,12 +6,12 @@ import { ArrowNarrowRight } from "@heroicons/react/solid";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import Image from "next/image";
-import GamersBG from "../public/images/gamer-bg.png";
-import reqserver from "../public/images/reqserver-bg.png";
-import primevideo from "../public/images/primevideo-bg.png";
-import netflix from "../public/images/netflix-bg.png";
-import hbomax from "../public/images/hbomax-bg.png";
-import disneyplus from "../public/images/disneyplus-bg.png";
+import swiperOne from "../public/images/forswiper/swiperOne.png";
+import swiperTwo from "../public/images/forswiper/swiperTwo.png";
+import swiperThree from "../public/images/forswiper/swiperThree.png";
+import swiperFour from "../public/images/forswiper/swiperFour.png";
+import swiperFive from "../public/images/forswiper/swiperFive.png";
+import swiperSix from "../public/images/forswiper/swiperSix.png";
 // import plexImg from "../public/images/plex.jpg";
 // import remote from "https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80";
 
@@ -105,7 +105,7 @@ export default function UnifiedMediaService() {
               <SwiperSlide className='text-gray-800'>
                 <Image
                   className='rounded'
-                  src={netflix}
+                  src={swiperOne}
                   alt='Netflix'
                   // width="850"
                   // height="478.125"
@@ -120,7 +120,7 @@ export default function UnifiedMediaService() {
               <SwiperSlide className='text-gray-800'>
                 <Image
                   className='rounded'
-                  src={hbomax}
+                  src={swiperTwo}
                   alt='HBO MAX'
                   // width="850"
                   // height="478.125"
@@ -135,7 +135,7 @@ export default function UnifiedMediaService() {
               <SwiperSlide className='text-gray-800'>
                 <Image
                   className='rounded'
-                  src={disneyplus}
+                  src={swiperThree}
                   alt='Disney+'
                   // width="850"
                   // height="478.125"
@@ -150,7 +150,7 @@ export default function UnifiedMediaService() {
               <SwiperSlide className='text-gray-800'>
                 <Image
                   className='rounded'
-                  src={primevideo}
+                  src={swiperFour}
                   alt='Amazon Prive Video'
                   // width="850"
                   // height="478.125"
@@ -165,7 +165,7 @@ export default function UnifiedMediaService() {
               <SwiperSlide className='text-gray-800'>
                 <Image
                   className='rounded'
-                  src={reqserver}
+                  src={swiperFive}
                   alt='reqserver'
                   // width="850"
                   // height="478.125"
@@ -180,7 +180,7 @@ export default function UnifiedMediaService() {
               <SwiperSlide className='text-gray-800'>
                 <Image
                   className='rounded'
-                  src={GamersBG}
+                  src={swiperSix}
                   alt='reqserver'
                   // width="850"
                   // height="478.125"

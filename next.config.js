@@ -7,6 +7,7 @@
 module.exports = {
   images: {
     domains: [
+      "https://drive.google.com",
       "https://cdn.pixabay.com",
       "images.unsplash.com",
       "https://www.tailwind-kit.com",

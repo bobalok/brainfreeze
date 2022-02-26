@@ -2,12 +2,13 @@ import React, { useEffect, useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
+// importing next/image & all the required images for the slider/swiperjs
 import Image from "next/image";
-import reqserver from "../public/images/reqserver-bg.png";
-import primevideo from "../public/images/primevideo-bg.png";
-import netflix from "../public/images/netflix-bg.png";
-import hbomax from "../public/images/hbomax-bg.png";
-import disneyplus from "../public/images/disneyplus-bg.png";
+import swiperOne from "../public/images/forswiper/swiperOne.png";
+import swiperTwo from "../public/images/forswiper/swiperTwo.png";
+import swiperThree from "../public/images/forswiper/swiperThree.png";
+import swiperFour from "../public/images/forswiper/swiperFour.png";
+import swiperFive from "../public/images/forswiper/swiperFive.png";
 
 // Import Swiper styles
 import "swiper/css";
@@ -32,79 +33,79 @@ function OttPlatform() {
           delay: 2600,
           disableOnInteraction: false,
         }}
-        className="mySwiper rounded-lg"
+        className='mySwiper rounded-lg'
       >
-        <SwiperSlide className="text-gray-800">
+        <SwiperSlide className='text-gray-800'>
           <Image
-            className="rounded-lg"
-            src={netflix}
-            alt="Netflix"
+            className='rounded-lg'
+            src={swiperOne}
+            alt='Netflix'
             // width="850"
             // height="478.125"
-            layout="fill"
-            objectFit="cover"
+            layout='fill'
+            objectFit='cover'
             // blurDataURL="data:" //automatically provided
-            placeholder="blur"
+            placeholder='blur'
             // quality="100"
             // priority />
           />
         </SwiperSlide>
-        <SwiperSlide className="text-gray-800">
+        <SwiperSlide className='text-gray-800'>
           <Image
-            className="rounded-lg"
-            src={hbomax}
-            alt="HBO MAX"
+            className='rounded-lg'
+            src={swiperTwo}
+            alt='HBO MAX'
             // width="850"
             // height="478.125"
-            layout="fill"
-            objectFit="cover"
+            layout='fill'
+            objectFit='cover'
             // blurDataURL="data:" //automatically provided
-            placeholder="blur"
+            placeholder='blur'
             // quality="100"
             // priority />
           />
         </SwiperSlide>
-        <SwiperSlide className="text-gray-800">
+        <SwiperSlide className='text-gray-800'>
           <Image
-            className="rounded-lg"
-            src={disneyplus}
-            alt="Disney+"
+            className='rounded-lg'
+            src={swiperThree}
+            alt='Disney+'
             // width="850"
             // height="478.125"
-            layout="fill"
-            objectFit="cover"
+            layout='fill'
+            objectFit='cover'
             // blurDataURL="data:" //automatically provided
-            placeholder="blur"
-            quality="100"
+            placeholder='blur'
+            quality='100'
             // priority />
           />
         </SwiperSlide>
-        <SwiperSlide className="text-gray-800">
+        <SwiperSlide className='text-gray-800'>
           <Image
-            className="rounded-lg"
-            src={primevideo}
-            alt="Amazon Prive Video"
+            className='rounded-lg'
+            src={swiperFour}
+            alt='Amazon Prive Video'
             // width="850"
             // height="478.125"
-            layout="fill"
-            objectFit="cover"
+            layout='fill'
+            objectFit='cover'
             // blurDataURL="data:" //automatically provided
-            placeholder="blur"
+            placeholder='blur'
             // quality="100"
             // priority />
           />
         </SwiperSlide>
-        <SwiperSlide className="text-gray-800">
+        <SwiperSlide className='text-gray-800'>
           <Image
-            className="rounded-lg"
-            src={reqserver}
-            alt="reqserver"
+            className='rounded-lg'
+            src={swiperFive}
+            alt='reqserver'
             // width="850"
             // height="478.125"
-            layout="fill"
-            objectFit="cover"
+            layout='fill'
+            objectFit='cover'
             // blurDataURL="data:" //automatically provided
-            placeholder="blur"
+            placeholder='blur'
             // quality="100"
             // priority />
           />

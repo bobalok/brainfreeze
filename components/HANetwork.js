@@ -1,12 +1,3 @@
-import Image from "next/image";
-
-import WFH from "../public/images/wfh.gif";
-import WFO from "../public/images/wfo.gif";
-import IIS1 from "../public/images/islam-geo.gif";
-import IIS2 from "../public/images/islam.gif";
-import EDU1 from "../public/images/edu1.gif";
-import EDU2 from "../public/images/edu2.gif";
-
 // import NetworkBlip from "../public/videos/video2.mp4";
 
 export default function HANetwork() {
@@ -29,8 +20,8 @@ export default function HANetwork() {
             autoPlay
             muted
             loop
-            src='/videos/HANetwork.webm'
-            type='video/webm'
+            src='/videos/HANetwork.mp4'
+            type='video/mp4'
           ></video>
         </div>
         {/* ------------##################==================+++++++++++++++ */}

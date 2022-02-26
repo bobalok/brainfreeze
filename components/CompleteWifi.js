@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import completeWifi from "../public/images/complete-wifi.gif";
-import Wifi from "../public/images/wifi.gif";
+import completeWifi from "../public/images/animage/complete-wifi.webp";
+// import Wifi from "../public/images/wifi.gif";
 
 export default function CompleteWifi() {
   return (
