@@ -260,7 +260,7 @@ export default function WhatMakesUsDifferent() {
                   width={310}
                   height={220}
                   // blurDataURL='data:'
-                  // placeholder='blur'
+                  placeholder='blur'
                   quality={70}
                 />
               </div>
@@ -271,7 +271,7 @@ export default function WhatMakesUsDifferent() {
                   width={310}
                   height={220}
                   // blurDataURL='data:'
-                  // placeholder='blur'
+                  placeholder='blur'
                   quality={70}
                 />
               </div>
@@ -282,7 +282,7 @@ export default function WhatMakesUsDifferent() {
                   width={310}
                   height={220}
                   // blurDataURL='data:'
-                  // placeholder='blur'
+                  placeholder='blur'
                   quality={70}
                 />
               </div>
@@ -293,7 +293,7 @@ export default function WhatMakesUsDifferent() {
                   width={310}
                   height={220}
                   // blurDataURL='data:'
-                  // placeholder='blur'
+                  placeholder='blur'
                   quality={70}
                 />
               </div>
