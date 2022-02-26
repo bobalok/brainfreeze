@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import residentialPic from "../public/images/residential.jpg";
-import completeWifi from "../public/images/complete-wifi.gif";
+// import completeWifi from "../public/images/complete-wifi.gif";
 import RequestService from "../public/screen_main.jpg";
-import HorizontalLine from "../components/HorizontalLine";
+// import HorizontalLine from "../components/HorizontalLine";
 
 export default function residential() {
   return (
