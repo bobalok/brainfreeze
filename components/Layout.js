@@ -3,7 +3,7 @@
 import Navi from "./Navi";
 import Footer from "./Footer";
 import ScrollToTop from "react-scroll-to-top";
-import { ArrowUp, ChevronUpIcon } from "@heroicons/react/solid";
+import { ChevronUpIcon } from "@heroicons/react/solid";
 import Head from "next/head";
 export default function Layout({ children }) {
   return (
@@ -36,16 +36,16 @@ export default function Layout({ children }) {
         <meta name='theme-color' content='#ffffff' />
       </Head>
       <Navi />
-      <ScrollToTop smooth top={100} component={<ChevronUpIcon />} />
+
+      <ScrollToTop
+        smooth
+        top={1000}
+        component={
+          <ChevronUpIcon className='bg-gradient-to-br from-sky-400 to-blue-500 rounded-sm text-white' />
+        }
+      />
+
       <main className='dark:bg-tatsuBG bg-thirdGray bg-hero-pattern bg-hero-size'>
-        {/* <Image
-          className=""
-          src="/images/landing-page-background-pattern.png"
-          alt="Picture of the author"
-          layout="intrinsic"
-          width={2881}
-          height={820}
-        /> */}
         {children}
       </main>
       <Footer />
