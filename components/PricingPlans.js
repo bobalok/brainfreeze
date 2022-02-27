@@ -42,7 +42,7 @@ export default function PricingPlans() {
                 </h3>
                 <div className='flex mt-8 justify-center'>
                   <h1 className='text-5xl font-black bg-clip-text text-transparent bg-gradient-to-bl from-green-200 via-green-400 to-purple-700'>
-                    ৳700
+                    <span className='font-mono'>৳</span>700
                   </h1>
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
@@ -137,7 +137,7 @@ export default function PricingPlans() {
 
                 <div className='flex mt-8 justify-center'>
                   <h1 className='text-5xl font-black bg-clip-text text-transparent bg-gradient-to-bl from-rose-400 via-fuchsia-500 to-indigo-500'>
-                    ৳1000
+                    <span className='font-mono'>৳</span>1000
                   </h1>
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
@@ -235,7 +235,7 @@ export default function PricingPlans() {
                 </h3>
                 <div className='flex mt-8 justify-center'>
                   <h1 className='text-5xl font-black bg-clip-text text-transparent bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600'>
-                    ৳2000
+                    <span className='font-mono'>৳</span>2000
                   </h1>
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
@@ -332,7 +332,7 @@ export default function PricingPlans() {
                 </h3>
                 <div className='flex mt-8 justify-center'>
                   <h1 className='text-5xl font-black bg-clip-text text-transparent bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500'>
-                    ৳4000
+                    <span className='font-mono'>৳</span>4000
                   </h1>
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
