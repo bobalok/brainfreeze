@@ -3,18 +3,29 @@
 @tailwind utilities;
 
 ::-webkit-scrollbar {
-  width: 0.5em;
-  background: rgb(119, 119, 119);
+  width: 0.4em;
+  background: rgb(40, 42, 46);
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(119, 119, 119);
+  background: rgb(40, 42, 46);
   border-radius: 100vw;
   margin-top: 0em;
   margin-bottom: 0em;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(255, 100, 38);
+  background: rgb(38, 194, 255);
   border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 132, 184);
+}
+
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-color: rgb(38, 194, 255) rgb(40, 42, 46);
+    scrollbar-width: thin;
+  }
 }
