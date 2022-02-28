@@ -1,6 +1,7 @@
-import { LinkIcon } from "@heroicons/react/solid";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
+
 export default function BetterNetForNewGeneration() {
   return (
     <>
@@ -77,98 +78,98 @@ export default function BetterNetForNewGeneration() {
 
           <div className='mx-6 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-10 items-center justify-items-center'>
             <div>
-              <img
+              <Image
                 width='64'
-                height='auto'
-                src='./LogosForNeutechWeb/steam.svg'
+                height='86'
+                src='/LogosForNeutechWeb/steam.svg'
                 alt='Steam'
               />
             </div>
             <div>
-              <img
+              <Image
                 width='64'
-                height='auto'
-                src='./LogosForNeutechWeb/epic.svg'
+                height='86'
+                src='/LogosForNeutechWeb/epic.svg'
                 alt='Epic Games'
               />
             </div>
             <div>
-              <img
+              <Image
                 width='64'
-                height='auto'
-                src='./LogosForNeutechWeb/rockstar.svg'
+                height='86'
+                src='/LogosForNeutechWeb/rockstar.svg'
                 alt='Rockstar Games'
               />
             </div>
             <div>
-              <img
+              <Image
                 width='64'
-                height='auto'
-                src='./LogosForNeutechWeb/origin.svg'
+                height='86'
+                src='/LogosForNeutechWeb/origin.svg'
                 alt='EA Origin'
               />
             </div>
             <div>
-              <img
-                width='84'
-                height='auto'
-                src='./LogosForNeutechWeb/riotgames.svg'
+              <Image
+                width='64'
+                height='86'
+                src='/LogosForNeutechWeb/riotgames.svg'
                 alt='riotgames'
               />
             </div>
             <div>
-              <img
+              <Image
                 width='64'
-                height='auto'
-                src='./LogosForNeutechWeb/ubisoft.svg'
+                height='86'
+                src='/LogosForNeutechWeb/ubisoft.svg'
                 alt='ubisoft'
               />
             </div>
             <div>
-              <img
+              <Image
                 width='64'
-                height='auto'
-                src='./LogosForNeutechWeb/bdix.svg'
+                height='86'
+                src='/LogosForNeutechWeb/bdix.svg'
                 alt=''
               />
             </div>
             <div>
-              <img
+              <Image
                 width='64'
-                height='auto'
-                src='./LogosForNeutechWeb/ftp.svg'
+                height='86'
+                src='/LogosForNeutechWeb/ftp.svg'
                 alt='best ftp in bangladesh'
               />
             </div>
             <div>
-              <img
+              <Image
                 width='64'
-                height='auto'
-                src='./LogosForNeutechWeb/youtube.svg'
+                height='86'
+                src='/LogosForNeutechWeb/youtube.svg'
                 alt='youtube'
               />
             </div>
             <div>
-              <img
+              <Image
                 width='64'
-                height='auto'
-                src='./LogosForNeutechWeb/wsus.svg'
+                height='86'
+                src='/LogosForNeutechWeb/wsus.svg'
                 alt='windows software update server'
               />
             </div>
             <div>
-              <img
+              <Image
                 width='64'
-                height='auto'
-                src='./LogosForNeutechWeb/facebook.svg'
+                height='86'
+                src='/LogosForNeutechWeb/facebook.svg'
                 alt='metaverse'
               />
             </div>
             <div>
-              <img
-                width='84'
-                height='auto'
-                src='./LogosForNeutechWeb/betternetLogoBW.svg'
+              <Image
+                width='64'
+                height='86'
+                src='/LogosForNeutechWeb/betternetLogoBW.svg'
                 alt='betternet logo'
               />
             </div>

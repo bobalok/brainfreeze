@@ -16,15 +16,11 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         "hero-pattern": "url('/images/hero-pattern-1.png')",
-        "hero-pattern-2": "url('/images/hero-pattern-2.png')",
-        "hero-pattern-3": "url('/images/hero-pattern-3.png')",
         "logo-dark": "url('/LogosForNeutechWeb/betternetTextBW.svg')",
         "logo-white": "url('/LogosForNeutechWeb/betternetText.svg')",
-        residential: "url('/images/residential.jpg')",
       }),
       backgroundSize: {
         "hero-size": "1100px",
-        // "hero-size": "100%",
       },
     },
   },
