@@ -240,7 +240,7 @@ export default function PricingPlans() {
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
                 <span className='absolute -mt-3 mr-3 top-0 shadow-xl right-0 text-xs font-semibold inline-block py-1 px-2 rounded text-blue-600 bg-blue-200 uppercase'>
-                  value for money
+                  recomended
                 </span>
                 <div className='text-sm text-gray-600 mt-4 space-y-3'>
                   <p className=''>
