@@ -29,7 +29,7 @@ export default function CompleteWifi() {
               <button>
                 <Link href='#'>
                   <a className=" bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex flex items-center'">
-                    Get a mesh wifi
+                    Get a quote
                     <svg
                       className='ml-1 w-6 h-6'
                       fill='none'

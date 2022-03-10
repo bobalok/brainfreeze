@@ -24,7 +24,7 @@ export default function ContactUs() {
 
   return (
     <>
-      <section className='dark:text-white text-textGray'>
+      <section id='contact' className='dark:text-white text-textGray'>
         <div className='bg-hero-pattern bg-hero-size max-w-screen-xl px-4 md:py-16 pb-6 mx-auto sm:px-6 lg:px-8'>
           <div className='grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5'>
             <div className='lg:py-12 lg:col-span-2'>
@@ -56,7 +56,8 @@ export default function ContactUs() {
                 </a>
 
                 <address className='mt-2 not-italic text-white'>
-                  Sonargaon Janapath, Sector-11, Uttara Dhaka-1230
+                  Registered Office : 105 S.R. Tower, 8th Floor, Uttara
+                  Commercial Area, Sector-7, Uttara, Dhaka-1230.
                 </address>
               </div>
             </div>

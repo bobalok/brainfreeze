@@ -21,7 +21,7 @@ export default function MediaServiceYouDeserve() {
             // autoPlay
             muted
             loop
-            src='/videos/StreamingService.mp4'
+            src='/videos/StreamingService2.mp4'
             type='video/mp4'
           ></video>
         </div>
