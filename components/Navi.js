@@ -71,7 +71,7 @@ export default function Navi() {
                     <a className='bg-logo-white bg-no-repeat w-48 h-14 dark:bg-logo-dark'></a>
                   </Link>
                 </div>
-                <div className='hidden md:block sm:ml-6'>
+                <div className='hidden md:block sm:ml-6 select-none'>
                   <div className='flex md:space-x-0 lg:space-x-4 py-4'>
                     {navigation.map((item) => (
                       <MyLink
@@ -112,7 +112,7 @@ export default function Navi() {
               <div className='absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0'>
                 <button className='hidden bg-secondaryBlue hover:bg-white transition-all ease-linear py-4 px-4 border-2 border-secondaryBlue hover:border-transparent rounded md:inline-flex items-center text-white text-base font-bold hover:text-secondaryBlue'>
                   {/* <BriefcaseIcon className='h-6 w-6 mr-1' aria-hidden='true' /> */}
-                  <span className='uppercase'>#betterinternet</span>
+                  <span className='uppercase select-none'>#betterinternet</span>
                 </button>
               </div>
             </div>
