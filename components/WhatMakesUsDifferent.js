@@ -10,7 +10,7 @@ import EDU1 from "../public/images/animage/edu3.webp";
 export default function WhatMakesUsDifferent() {
   return (
     <>
-      <section className='text-white'>
+      <section id='whyus' className='text-white'>
         <div className='xl:max-w-5xl 2xl:max-w-7xl px-4 pb-6 md:py-16 sm:px-6 lg:px-8'>
           <div className='max-w-xl'>
             <p className='mt-6 text-gray-400'>WHY US</p>

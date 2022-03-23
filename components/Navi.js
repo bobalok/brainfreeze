@@ -13,9 +13,9 @@ import Image from "next/image";
 const navigation = [
   // { name: "Residential", href: "/residential", current: false },
   { name: "Business", href: "/", current: false },
-  { name: "Tutorial", href: "#", current: false },
   { name: "Blog", href: "#", current: false },
-  { name: "Contact", href: "#contact", current: false },
+  { name: "Why us", href: "#whyus", current: false },
+  { name: "Contact | Social", href: "#contact", current: false },
 ];
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");

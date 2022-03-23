@@ -4,12 +4,15 @@ function Footer() {
       <footer className='bg-gray-50 bg-hero-pattern bg-hero-size'>
         <div className='max-w-screen-xl px-4 py-16 mx-auto space-y-12 sm:px-6 lg:px-8'>
           <div className='lg:items-center lg:justify-between lg:flex'>
-            <span className='inline-block w-44 h-max'>
-              <p className='pb-1'>Powered by</p>
+            <span className='inline-block w-48 h-max'>
+              <p className='pb-1'>Developed by</p>
               <img src='/neutechLogoColorWithText.svg' alt='' />
             </span>
 
             <div className='flex mt-8 space-x-6 text-gray-500 lg:mt-0'>
+              <span className='sm:inline-block hidden'>
+                <p className='pb-1'>Join us</p>
+              </span>
               <a
                 href='https://t.me/betternetbd'
                 target='_blank'
