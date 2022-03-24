@@ -20,7 +20,7 @@ export default function BetterNetForNewGeneration() {
           <p className='text-lg md:text-2xl dark:text-white text-textGray'>
             unified internet service provider,
             <br />
-            enterprise grade solutions
+            enterprise grade solution
             <br />
             anywhere we connect
             <br />

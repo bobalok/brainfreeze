@@ -19,10 +19,10 @@ export default function Gamers() {
             <p className='mt-6 '>
               Whether you are a pro-gamer or like to play games occasionally, we
               are bound to treat you equally. Betternet will optimize your
-              network by configuring your router and PC, e.g. QoS optimization,
-              NAT optimization, etc. If you are subscribed to betternet and want
-              to enhance the download speed of your game clients, please use
-              this DNS 1.1.1.1, 1.0.0.1
+              network by configuring your router and PC, e.g. Quality of Service
+              (QoS) optimization, NAT optimization, etc. If you are subscribed
+              to betternet and want to enhance the download speed of your game
+              clients, please use this DNS 1.1.1.1, 1.0.0.1
             </p>
             <div className='mx-auto pt-8'>
               <button className='hidden bg-transparent hover:bg-tatsuBTN2 transition-all ease-linear dark:text-white text-textGray text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex items-center'>

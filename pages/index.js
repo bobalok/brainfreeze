@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>betternet | Home</title>
+        <title>betternet bangladesh limited</title>
       </Head>
 
       <div className='flex flex-col items-center h-full'>

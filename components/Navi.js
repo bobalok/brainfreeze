@@ -15,7 +15,8 @@ const navigation = [
   { name: "Business", href: "/", current: false },
   { name: "Blog", href: "#", current: false },
   { name: "Why us", href: "#whyus", current: false },
-  { name: "Contact | Social", href: "#contact", current: false },
+  { name: "Contact", href: "#contact", current: false },
+  // { name: "F.A.Q", href: "/", current: false },
 ];
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
