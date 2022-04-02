@@ -11,7 +11,9 @@ function Footer() {
 
             <div className='flex mt-8 space-x-6 text-gray-500 lg:mt-0'>
               <span className='sm:inline-block hidden'>
-                <p className='pb-1'>Join us</p>
+                <p className='pb-1'>
+                  For better technical support & any update, join us:
+                </p>
               </span>
               <a
                 href='https://t.me/betternetbd'

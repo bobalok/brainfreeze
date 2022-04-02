@@ -55,7 +55,7 @@ export default function WhatMakesUsDifferent() {
                 <dd className='mt-1 dark:text-white text-textGray'>
                   Connect your home, office, or institutions with blazing-fast
                   internet connectivity. We offer internet service options with
-                  Quality of Service (QoS) optimization to enhance your user
+                  Quality of Service (QoS) optimization to enhance your internet
                   exeperience, choose a cost-effective internet plan best suited
                   to your day-to-day online activities.
                 </dd>
