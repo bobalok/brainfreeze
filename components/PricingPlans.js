@@ -42,14 +42,14 @@ export default function PricingPlans() {
                 </h3>
                 <div className='flex mt-8 justify-center'>
                   <h1 className='text-5xl font-black bg-clip-text text-transparent bg-gradient-to-bl from-green-200 via-green-400 to-purple-700'>
-                    <span className='font-mono'>৳</span>700
+                    <span className='font-mono'>৳</span>1000
                   </h1>
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
                 <div className='text-sm text-gray-600 mt-4 space-y-3'>
                   <p className=''>
                     <span className='text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
-                      20Mbps{" "}
+                      10Mbps{" "}
                     </span>
                     (Shared)
                   </p>
@@ -137,7 +137,7 @@ export default function PricingPlans() {
 
                 <div className='flex mt-8 justify-center'>
                   <h1 className='text-5xl font-black bg-clip-text text-transparent bg-gradient-to-bl from-rose-400 via-fuchsia-500 to-indigo-500'>
-                    <span className='font-mono'>৳</span>1000
+                    <span className='font-mono'>৳</span>1200
                   </h1>
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
@@ -148,7 +148,7 @@ export default function PricingPlans() {
                 <div className='text-sm text-gray-600 mt-4 space-y-3'>
                   <p className=''>
                     <span className='text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
-                      40Mbps{" "}
+                      15Mbps{" "}
                     </span>
                     (Shared)
                   </p>
@@ -235,7 +235,7 @@ export default function PricingPlans() {
                 </h3>
                 <div className='flex mt-8 justify-center'>
                   <h1 className='text-5xl font-black bg-clip-text text-transparent bg-gradient-to-tr from-green-300 via-blue-500 to-purple-600'>
-                    <span className='font-mono'>৳</span>2000
+                    <span className='font-mono'>৳</span>1500
                   </h1>
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
@@ -245,9 +245,9 @@ export default function PricingPlans() {
                 <div className='text-sm text-gray-600 mt-4 space-y-3'>
                   <p className=''>
                     <span className='text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
-                      20Mbps{" "}
+                      30Mbps{" "}
                     </span>
-                    (Dedicated)
+                    (Shared)
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -332,7 +332,7 @@ export default function PricingPlans() {
                 </h3>
                 <div className='flex mt-8 justify-center'>
                   <h1 className='text-5xl font-black bg-clip-text text-transparent bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500'>
-                    <span className='font-mono'>৳</span>4000
+                    <span className='font-mono'>৳</span>2500
                   </h1>
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
@@ -341,7 +341,7 @@ export default function PricingPlans() {
                     <span className='text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                       50Mbps{" "}
                     </span>
-                    (Dedicated)
+                    (Shared)
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
