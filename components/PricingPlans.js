@@ -51,7 +51,7 @@ export default function PricingPlans() {
                     <span className='text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                       10Mbps{" "}
                     </span>
-                    (Shared)
+                    (up to 40Mbps)
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -65,21 +65,21 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Multi-platform Streaming</span>
+                    <span>Betternet VA-Services</span>
                   </p>
                   <p className='my-2 flex'>
                     <ExclamationIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Fixed Bandwith</span>
+                    <span>Gigabit Networking</span>
                   </p>
                   <p className='my-2 flex'>
                     <PlusCircleIcon
                       className='h-5 w-5 mr-1 text-orange-500'
                       aria-hidden='true'
                     />
-                    <span>Real IPv4</span>
+                    <span>Public IPv4</span>
                   </p>
                   <p className='my-2 flex'>
                     <ExclamationIcon
@@ -93,21 +93,22 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
-                    <span>Smart Home Integration</span>
+                    <span>Advance Network Filtration</span>
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
                       className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
-                    <span>IoT Integration Support</span>
+                    <span>Smart Home Integration</span>
                   </p>
+
                   <p className='my-2 flex'>
                     <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Advance Parental Controll</span>
+                    <span>Parental Controll Access*</span>
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
@@ -150,7 +151,7 @@ export default function PricingPlans() {
                     <span className='text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                       15Mbps{" "}
                     </span>
-                    (Shared)
+                    (up to 50Mbps)
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -160,25 +161,25 @@ export default function PricingPlans() {
                     <span>Secure | private FTP Access</span>
                   </p>
                   <p className='my-2 flex'>
-                    <ExclamationIcon
+                    <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Multi-platform Streaming</span>
+                    <span>Betternet VA-Services</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Reliable Bandwith</span>
+                    <span>Gigabit Networking</span>
                   </p>
                   <p className='my-2 flex'>
                     <PlusCircleIcon
                       className='h-5 w-5 mr-1 text-orange-500'
                       aria-hidden='true'
                     />
-                    <span>Real IPv4</span>
+                    <span>Public IPv4</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -192,21 +193,22 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
+                    <span>Advance Network Filtration</span>
+                  </p>
+                  <p className='my-2 flex'>
+                    <XCircleIcon
+                      className='h-5 w-5 mr-1 text-gray-500'
+                      aria-hidden='true'
+                    />
                     <span>Smart Home Integration</span>
                   </p>
+
                   <p className='my-2 flex'>
                     <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>IoT Integration Support</span>
-                  </p>
-                  <p className='my-2 flex'>
-                    <CheckCircleIcon
-                      className='h-5 w-5 mr-1 text-green-500'
-                      aria-hidden='true'
-                    />
-                    <span>Advance Parental Controll</span>
+                    <span>Parental Controll Access*</span>
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
@@ -247,7 +249,7 @@ export default function PricingPlans() {
                     <span className='text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                       30Mbps{" "}
                     </span>
-                    (Shared)
+                    (up to 60Mbps)
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -261,21 +263,21 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Multi-platform Streaming</span>
+                    <span>Betternet VA-Services</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Fixed Bandwith</span>
+                    <span>Gigabit Networking</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Real IPv4 </span>
+                    <span>Public IPv4</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -285,25 +287,26 @@ export default function PricingPlans() {
                     <span>QoS Optimization</span>
                   </p>
                   <p className='my-2 flex'>
+                    <CheckCircleIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
+                    <span>Advance Network Filtration</span>
+                  </p>
+                  <p className='my-2 flex'>
                     <XCircleIcon
                       className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Smart Home Integration</span>
                   </p>
+
                   <p className='my-2 flex'>
                     <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>IoT Integration Support</span>
-                  </p>
-                  <p className='my-2 flex'>
-                    <CheckCircleIcon
-                      className='h-5 w-5 mr-1 text-green-500'
-                      aria-hidden='true'
-                    />
-                    <span>Advance Parental Controll</span>
+                    <span>Parental Controll Access*</span>
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
@@ -341,7 +344,7 @@ export default function PricingPlans() {
                     <span className='text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                       50Mbps{" "}
                     </span>
-                    (Shared)
+                    (up to 90Mbps)
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -355,21 +358,21 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Multi-platform Streaming</span>
+                    <span>Betternet VA-Services</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Fixed Bandwith</span>
+                    <span>Gigabit Networking</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Real IPv4</span>
+                    <span>Public IPv4</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -383,6 +386,13 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
+                    <span>Advance Network Filtration</span>
+                  </p>
+                  <p className='my-2 flex'>
+                    <CheckCircleIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
                     <span>Smart Home Integration</span>
                   </p>
                   <p className='my-2 flex'>
@@ -390,14 +400,7 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>IoT Integration Support</span>
-                  </p>
-                  <p className='my-2 flex'>
-                    <CheckCircleIcon
-                      className='h-5 w-5 mr-1 text-green-500'
-                      aria-hidden='true'
-                    />
-                    <span>Advance Parental Controll</span>
+                    <span>Parental Controll Access*</span>
                   </p>
 
                   <p className='my-2 flex'>
