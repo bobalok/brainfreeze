@@ -120,11 +120,12 @@ export default function WhatMakesUsDifferent() {
                 </dt>
 
                 <dd className='mt-1 dark:text-white text-textGray'>
-                  Regardless of your subscribed plans, betternet offers you
-                  comprehensive integration of IoT devices like Surveillance
-                  systems, Smart home solutions, Mesh Wi-Fi Zone, and other
-                  devices you can think of, also you can rent these devices from
-                  us. <strong>T&C is applicable*</strong>
+                  Reduce off-task activity, distractions, and misbehavior
+                  through fine-grained network traffic filtering. Comprehensive
+                  network-level filtering that allows every institution and
+                  corporate office to restrict access to some of the NSFW
+                  websites and apps based on group membership, category, time of
+                  day, etc.
                 </dd>
               </div>
             </div>
