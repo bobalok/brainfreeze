@@ -12,7 +12,7 @@ export default function BetterNetForNewGeneration() {
         <div className='text-center'>
           <h1 className='text-4xl md:text-7xl dark:text-white text-textGray font-extrabold px-6 py-16'>
             <span className='bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
-              an ISP
+              internet
             </span>{" "}
             for new generation
           </h1>
