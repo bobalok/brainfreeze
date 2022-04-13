@@ -108,7 +108,7 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Parental Controll Access*</span>
+                    <span>Parental Control Access*</span>
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
@@ -119,7 +119,7 @@ export default function PricingPlans() {
                   </p>
                 </div>
                 <a
-                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=GRAPPLER+%7C%7C+TK.700+%7C%7C%F0%9F%94%B0'
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=GRAPPLER+%F0%9F%94%B0+%7C%7C+TK.1000+%7C%7C+up+to+40mbps'
                   target='_blank'
                 >
                   <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
@@ -219,7 +219,7 @@ export default function PricingPlans() {
                   </p>
                 </div>
                 <a
-                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=MAINSTREAM+%7C%7C+TK.1000+%7C%7C%E2%9C%A8'
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=MAINSTREAM+%E2%9C%A8+%7C%7C+TK.1200+%7C%7C+up+to+50mbps'
                   target='_blank'
                 >
                   <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
@@ -317,7 +317,7 @@ export default function PricingPlans() {
                   </p>
                 </div>
                 <a
-                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=EXPRESS+%7C%7C+TK.2000+%7C%7C%F0%9F%8E%A8'
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=EXPRESS+%F0%9F%8E%A8+%7C%7C+TK.1500+%7C%7C+up+to+60mbps'
                   target='_blank'
                 >
                   <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
@@ -412,7 +412,7 @@ export default function PricingPlans() {
                   </p>
                 </div>
                 <a
-                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=SUPREME+%7C%7C+TK.4000+%7C%7C%F0%9F%9A%80'
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=SUPREME+%F0%9F%9A%80+%7C%7C+TK.2500+%7C%7C+up+to+90mbps'
                   target='_blank'
                 >
                   <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
