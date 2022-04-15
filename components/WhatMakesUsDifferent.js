@@ -182,22 +182,22 @@ export default function WhatMakesUsDifferent() {
                     strokeLinecap='round'
                     strokeLinejoin='round'
                     strokeWidth={2}
-                    d='M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z'
+                    d='M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z'
                   />
                 </svg>
               </span>
 
               <div className='ml-3 md:mt-3 md:ml-0'>
                 <dt className='text-xl font-medium dark:text-white text-textGray'>
-                  Workstation Optimization
+                  More Active Community
                 </dt>
 
                 <dd className='mt-1 dark:text-white text-textGray'>
-                  As we know that the methodology of the workplace is changing
-                  day by day because of the pandemic, with that in mind, we are
-                  providing many solutions to make your remote work experience
-                  better by optimizing the system and networks, creating a VPN,
-                  and many other QoS tweakings.
+                  You are invited to join our community-based internet as it is
+                  the best way to use internet services. you can play games with
+                  the friendly players from the community no need to wait for
+                  your friends to join, got stuck with a simple problem ask in
+                  the community you will get answers in no time
                 </dd>
               </div>
             </div>
