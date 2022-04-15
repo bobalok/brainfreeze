@@ -36,7 +36,7 @@ export default function BetterNetForNewGeneration() {
             {/* <a href='https://forms.gle/F2MHHRhDhCW9YDdXA' target='_blank'> */}
             <button>
               <Link href='/#pricing'>
-                <a className="bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex flex items-center'">
+                <a className="shadow-lg bg-tatsuBTN2 hover:bg-transparent dark:text-white text-white transition-all ease-linear text-base font-bold hover:text-textGray dark:hover:text-white py-4 px-4 border-2 bo border-transparent  hover:border-slate-400 rounded md:inline-flex flex items-center'">
                   See pricing
                   <svg
                     className='ml-1 w-6 h-6'
