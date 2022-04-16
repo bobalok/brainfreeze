@@ -43,7 +43,7 @@ export default function UnifiedMediaService() {
               </span>{" "}
               service
             </h1>
-            <p className='mt-6'>
+            <p className='mt-6 text-lg'>
               Take your home entertainment to the next level. Enjoy all your
               favorite TV Shows, Movies, and songs directly from your Smart TV,
               Mobile, PC, Consoles, and more without any extra charges included

@@ -16,7 +16,7 @@ export default function Gamers() {
               </span>{" "}
               experience{" "}
             </h1>
-            <p className='mt-6 '>
+            <p className='mt-6 text-lg'>
               Whether you are a pro-gamer or like to play games occasionally, we
               are bound to treat you equally. Betternet will optimize your
               network by configuring your router and PC, e.g. Quality of Service

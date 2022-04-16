@@ -21,7 +21,7 @@ export default function WhatMakesUsDifferent() {
               </span>
             </h2>
 
-            <p className='mt-6 dark:text-white text-textGray'>
+            <p className='mt-6 dark:text-white text-textGray sm:text-lg'>
               At <strong>betternet</strong>, our primary goal is to provide
               enterprise-grade internet service combined with other value-added
               services to our end-users. We always use cutting-edge technology
@@ -241,13 +241,13 @@ export default function WhatMakesUsDifferent() {
                 </span>{" "}
                 for everyone
               </h1>
-              <p className='dark:text-white text-textGray max-w-xl'>
+              <p className='dark:text-white text-textGray max-w-xl sm:text-lg'>
                 Institutions like schools, universities, and Islamic training
-                centers need distinctive internet connectivity. So our R&D team
-                has developed a few ways to provide internet services to an
-                institution like these, so the students or employees don't get
-                distracted while they are learning or trying to be more
-                productive...
+                centers need distinctive internet connectivity. Our Research &
+                Development team has developed a few ways to provide internet
+                services to an institution like these, so the students or
+                employees don't get distracted while they are learning or trying
+                to be more productive
               </p>
             </div>
 

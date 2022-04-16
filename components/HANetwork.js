@@ -12,7 +12,7 @@ export default function HANetwork() {
                 betternet
               </span>
             </h1>
-            <p className='0 md:text-center max-w-xl mx-auto'>
+            <p className='0 md:text-center max-w-2xl mx-auto sm:text-lg'>
               Your Internet should be at its best every day. We’re committed to
               investing in the capacity and reliability of our network
               infrastructure, <strong>better experience assured.</strong>
