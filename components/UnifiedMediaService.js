@@ -79,7 +79,7 @@ export default function UnifiedMediaService() {
             <Image
               src={uifiedImageOne}
               className='rounded'
-              alt='smarthome'
+              alt='unified entertainment for you'
               // width={600}
               // height={328}
               // layout='intrinsic'
