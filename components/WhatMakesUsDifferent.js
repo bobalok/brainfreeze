@@ -193,11 +193,11 @@ export default function WhatMakesUsDifferent() {
                 </dt>
 
                 <dd className='mt-1 dark:text-white text-textGray'>
-                  You are invited to join our community-based internet as it is
-                  the best way to use internet services. you can play games with
-                  the friendly players from the community no need to wait for
-                  your friends to join, got stuck with a simple problem ask in
-                  the community you will get answers in no time
+                  Join our community-based internet as it is the best way to use
+                  & enhance your internet services. At betternet, we understand
+                  you and actively work with you online and offline to fulfill
+                  your internet requirement. Reach us on Discord, Telegram,
+                  Facebook, Instagram, basically, we are everywhere ;)
                 </dd>
               </div>
             </div>
