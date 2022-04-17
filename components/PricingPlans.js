@@ -123,8 +123,8 @@ export default function PricingPlans() {
                   href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=GRAPPLER+%F0%9F%94%B0+%7C%7C+TK.1000+%7C%7C+up+to+40mbps'
                   target='_blank'
                 >
-                  <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
-                    Choose Plan
+                  <button className='font-bold w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
+                    GET STARTED
                   </button>
                 </a>
               </div>
@@ -223,8 +223,8 @@ export default function PricingPlans() {
                   href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=MAINSTREAM+%E2%9C%A8+%7C%7C+TK.1200+%7C%7C+up+to+50mbps'
                   target='_blank'
                 >
-                  <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
-                    Choose Plan
+                  <button className='font-bold w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
+                    GET STARTED
                   </button>
                 </a>
               </div>
@@ -321,8 +321,8 @@ export default function PricingPlans() {
                   href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=EXPRESS+%F0%9F%8E%A8+%7C%7C+TK.1500+%7C%7C+up+to+60mbps'
                   target='_blank'
                 >
-                  <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
-                    Choose Plan
+                  <button className='font-bold w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
+                    GET STARTED
                   </button>
                 </a>
               </div>
@@ -416,8 +416,8 @@ export default function PricingPlans() {
                   href='https://docs.google.com/forms/d/e/1FAIpQLSc1Sqr6wkSqnee0sRN4jlgJxtGXFL01XQ0f_AqYZ2GOAIRp0Q/viewform?usp=pp_url&entry.1911656282=SUPREME+%F0%9F%9A%80+%7C%7C+TK.2500+%7C%7C+up+to+90mbps'
                   target='_blank'
                 >
-                  <button className='w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
-                    Choose Plan
+                  <button className='font-bold w-full text-tatsuBTN2 border border-tatsuBTN2 rounded hover:bg-tatsuBTN2 hover:text-white hover:shadow-xl transition duration-150 ease-in-out py-4 mt-4'>
+                    GET STARTED
                   </button>
                 </a>
               </div>
