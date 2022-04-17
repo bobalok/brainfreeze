@@ -12,7 +12,7 @@ function Footer() {
             <div className='flex mt-8 space-x-6 text-gray-500 lg:mt-0'>
               <span className='sm:inline-block hidden'>
                 <p className='pb-1'>
-                  For better technical support & any update, join us:
+                  For better technical support & updates, join us @
                 </p>
               </span>
               <a
@@ -132,61 +132,56 @@ function Footer() {
 
           <div className='grid grid-cols-1 gap-8 pt-12 border-t border-gray-200 sm:grid-cols-2 lg:grid-cols-4'>
             <div>
-              <p className='font-medium'>Company</p>
+              <p className='font-medium'>COMPANY</p>
 
               <nav className='flex flex-col mt-4 space-y-2 text-sm text-gray-500'>
                 <a href='' className='hover:opacity-75'>
                   About
                 </a>
                 <a href='' className='hover:opacity-75'>
+                  Jobs
+                </a>
+                <a href='' className='hover:opacity-75'>
                   Meet the Team
                 </a>
-                <a href='' className='hover:opacity-75'>
+                {/* <a href='' className='hover:opacity-75'>
                   History
-                </a>
-                <a href='' className='hover:opacity-75'>
+                </a> */}
+                {/* <a href='' className='hover:opacity-75'>
                   Careers
-                </a>
+                </a> */}
               </nav>
             </div>
 
             <div>
-              <p className='font-medium'>Services</p>
+              <p className='font-medium'>COMMUNITIES</p>
 
               <nav className='flex flex-col mt-4 space-y-2 text-sm text-gray-500'>
                 <a href='#' className='hover:opacity-75'>
                   {/* 1on1 Coaching */}
-                  Broadband Internet
+                  For Gamers
                 </a>
                 <a href='#' className='hover:opacity-75'>
                   {/* Company Review */}
-                  Corporate/SME Support
+                  Developers
                 </a>
                 <a href='#' className='hover:opacity-75'>
                   {/* Accounts Review */}
-                  Institutional Internet
+                  Multimedia
                 </a>
-                <a href='#' className='hover:opacity-75'>
-                  {/* HR Consulting */}
+                {/* <a href='#' className='hover:opacity-75'>
+                  HR Consulting
                   Developer Friendly Network
-                </a>
-                <a href='#' className='hover:opacity-75'>
-                  {/* SEO Optimisation */}
-                  Research & Development
-                </a>
-                <a href='#' className='hover:opacity-75'>
-                  {/* SEO Optimisation */}
-                  Customized Services
-                </a>
+                </a> */}
               </nav>
             </div>
 
             <div>
-              <p className='font-medium'>Helpful Links</p>
+              <p className='font-medium'>USEFUL LINKS</p>
 
               <nav className='flex flex-col mt-4 space-y-2 text-sm text-gray-500'>
                 <a href='' className='hover:opacity-75'>
-                  Contact
+                  Support
                 </a>
                 <a href='' className='hover:opacity-75'>
                   FAQs
@@ -198,7 +193,7 @@ function Footer() {
             </div>
 
             <div>
-              <p className='font-medium'>Legal</p>
+              <p className='font-medium'>LEGAL</p>
 
               <nav className='flex flex-col mt-4 space-y-2 text-sm text-gray-500'>
                 <a href='' className='hover:opacity-75'>
@@ -210,9 +205,9 @@ function Footer() {
                 <a href='' className='hover:opacity-75'>
                   Returns Policy
                 </a>
-                <a href='' className='hover:opacity-75'>
+                {/* <a href='' className='hover:opacity-75'>
                   Accessibility
-                </a>
+                </a> */}
               </nav>
             </div>
           </div>
