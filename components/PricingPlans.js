@@ -66,7 +66,7 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Betternet VA-Services</span>
+                    <span>Value-added services</span>
                   </p>
                   <p className='my-2 flex'>
                     <ExclamationIcon
@@ -166,7 +166,7 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Betternet VA-Services</span>
+                    <span>Value-added services</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -264,7 +264,7 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Betternet VA-Services</span>
+                    <span>Value-added services</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -359,7 +359,7 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>Betternet VA-Services</span>
+                    <span>Value-added services</span>
                   </p>
                   <p className='my-2 flex'>
                     <CheckCircleIcon
