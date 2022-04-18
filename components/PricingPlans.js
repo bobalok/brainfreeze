@@ -12,10 +12,10 @@ export default function PricingPlans() {
         <div className='xl:max-w-5xl 2xl:max-w-7xl w-screen lg:py-16 px-4 sm:px-10 md:px-8 lg:px-8 lg:pb-16'>
           <div className='mb-6'>
             <p className='mt-6 dark:text-white text-textGray uppercase'>
-              monthly
+              pricing
             </p>
             <h2 className='text-3xl font-bold sm:text-5xl dark:text-white text-textGray'>
-              Pricing{" "}
+              Subscription{" "}
               <span className='text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                 plans
               </span>
@@ -26,9 +26,9 @@ export default function PricingPlans() {
               lot or a little, we have packages that will suit your needs.{" "}
               <span className='italic'>
                 Enjoy up to 1Gbps fast download speed from BDIX, Game-clients
-                and some local FTPs applicable for every plans
+                and local FTPs applicable for every plans
               </span>{" "}
-              <br />
+              {/* <br /> */}
               <a href='#' className='text-blue-600 underline'>
                 learn more
               </a>
