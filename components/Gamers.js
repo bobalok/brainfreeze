@@ -4,7 +4,7 @@ import betterGamerImage from "../public/images/betterGamerImage.jpg";
 export default function Gamers() {
   return (
     <>
-      <section className='dark:text-white text-textGray'>
+      <section id='gaming' className='dark:text-white text-textGray'>
         <div className='xl:max-w-5xl 2xl:max-w-7xl mx-auto px-4 md:py-16 sm:px-6 pb-4 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-4'>
           <div className='max-w-xl'>
             <p className='mt-6  uppercase'>play without lag</p>

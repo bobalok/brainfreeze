@@ -6,14 +6,14 @@ import completeWifi from "../public/images/animage/complete-wifi.webp";
 export default function CompleteWifi() {
   return (
     <>
-      <section className='dark:text-white text-textGray'>
+      <section id='wifi' className='dark:text-white text-textGray'>
         <div className='xl:max-w-5xl 2xl:max-w-7xl mx-auto px-4 lg:py-16 sm:px-6 lg:px-8 grid lg:grid-cols-2 md:grid-cols-1 gap-4'>
           <div className='max-w-xl'>
-            <p className='mt-6 uppercase'>Mesh Wi-Fi Extender & Booster</p>
+            <p className='mt-6 uppercase'>Better Wi-Fi</p>
             <h1 className='text-3xl font-bold sm:text-5xl'>
               Complete{" "}
               <span className='text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
-                Wi-Fi
+                WiFi
               </span>{" "}
               solution
             </h1>

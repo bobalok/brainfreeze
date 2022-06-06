@@ -8,14 +8,17 @@ import {
   XIcon,
 } from "@heroicons/react/outline";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 
 const navigation = [
   // { name: "Residential", href: "/residential", current: false },
   // { name: "Business", href: "/", current: false },
   // { name: "Blog", href: "#", current: false },
-  { name: "Why us", href: "#whyus", current: false },
+  { name: "Business", href: "#corporate", current: false },
   { name: "Contact", href: "#contact", current: false },
+  { name: "Gaming", href: "#gaming", current: false },
+  { name: "Wifi", href: "#wifi", current: false },
+  { name: "Why-us", href: "#whyus", current: false },
   // { name: "F.A.Q", href: "/", current: false },
 ];
 function classNames(...classes) {

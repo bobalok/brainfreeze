@@ -229,17 +229,20 @@ export default function WhatMakesUsDifferent() {
               </div>
             </div>
           </dl>
-          <div className='xl:max-w-5xl 2xl:max-w-7xl mx-auto py-16 text-white'>
+          <div
+            id='corporate'
+            className='xl:max-w-5xl 2xl:max-w-7xl mx-auto py-16 text-white'
+          >
             <div className='max-w-2xl'>
               <p className='dark:text-white text-textGray uppercase'>
-                betternet for organizations
+                betternet for corporations
               </p>
               <h1 className='text-3xl font-bold sm:text-5xl dark:text-white text-textGray pb-4'>
                 Customized{" "}
                 <span className='text-3xl font-extrabold sm:text-5xl bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
                   internet
                 </span>{" "}
-                for everyone
+                for every corporations
               </h1>
               <p className='dark:text-white text-textGray max-w-xl sm:text-lg'>
                 Institutions like schools, universities, and Islamic training
