@@ -47,6 +47,9 @@ export default function PricingPlans() {
                   </h1>
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
+                <span className='absolute -mt-3 mr-3 top-0 shadow-xl right-0 text-xs font-semibold inline-block py-1 px-2 rounded text-green-600 bg-green-200 uppercase'>
+                  popular
+                </span>
                 <div className='text-sm text-gray-600 mt-4 space-y-3'>
                   <p className=''>
                     <span className='text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-sky-400 to-blue-500'>
@@ -143,9 +146,9 @@ export default function PricingPlans() {
                   </h1>
                   <p className='text-xl text-gray-700 self-end'>/month</p>
                 </div>
-                <span className='absolute -mt-3 mr-3 top-0 shadow-xl right-0 text-xs font-semibold inline-block py-1 px-2 rounded text-fuchsia-600 bg-fuchsia-200 uppercase'>
+                {/* <span className='absolute -mt-3 mr-3 top-0 shadow-xl right-0 text-xs font-semibold inline-block py-1 px-2 rounded text-fuchsia-600 bg-fuchsia-200 uppercase'>
                   popular
-                </span>
+                </span> */}
 
                 <div className='text-sm text-gray-600 mt-4 space-y-3'>
                   <p className=''>
