@@ -1,7 +1,7 @@
 import {
   CheckCircleIcon,
   XCircleIcon,
-  ExclamationIcon,
+  ExclamationCircleIcon,
   PlayIcon,
   UserCircleIcon,
 } from "@heroicons/react/solid";
@@ -73,7 +73,7 @@ export default function PricingPlans() {
                     <span>Value-added services</span>
                   </p>
                   <p className='my-2 flex'>
-                    <ExclamationIcon
+                    <ExclamationCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
@@ -87,7 +87,7 @@ export default function PricingPlans() {
                     <span>Public IPv4</span>
                   </p>
                   <p className='my-2 flex'>
-                    <ExclamationIcon
+                    <ExclamationCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
