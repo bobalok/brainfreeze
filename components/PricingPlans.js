@@ -2,13 +2,8 @@ import {
   CheckCircleIcon,
   XCircleIcon,
   ExclamationIcon,
-  PlusCircleIcon,
   PlayIcon,
-  ArrowCircleUp,
-  CloudUploadIcon,
-  ArrowCircleDownIcon,
-  CloudDownloadIcon,
-  UserIcon,
+  UserCircleIcon,
 } from "@heroicons/react/solid";
 
 export default function PricingPlans() {
@@ -129,7 +124,7 @@ export default function PricingPlans() {
                   </p> */}
                   <hr className='text-gray-200' />
                   <p className='my-2 flex'>
-                    <UserIcon
+                    <UserCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
@@ -251,7 +246,7 @@ export default function PricingPlans() {
                   </p> */}
                   <hr className='text-gray-200' />
                   <p className='my-2 flex'>
-                    <UserIcon
+                    <UserCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
@@ -371,7 +366,7 @@ export default function PricingPlans() {
                   </p> */}
                   <hr className='text-gray-200' />
                   <p className='my-2 flex'>
-                    <UserIcon
+                    <UserCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
@@ -488,7 +483,7 @@ export default function PricingPlans() {
                   </p> */}
                   <hr className='text-gray-200' />
                   <p className='my-2 flex'>
-                    <UserIcon
+                    <UserCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
