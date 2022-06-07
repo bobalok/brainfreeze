@@ -3,6 +3,12 @@ import {
   XCircleIcon,
   ExclamationIcon,
   PlusCircleIcon,
+  PlayIcon,
+  ArrowCircleUp,
+  CloudUploadIcon,
+  ArrowCircleDownIcon,
+  CloudDownloadIcon,
+  UserIcon,
 } from "@heroicons/react/solid";
 
 export default function PricingPlans() {
@@ -65,7 +71,7 @@ export default function PricingPlans() {
                     <span>Secure | private FTP Access</span>
                   </p>
                   <p className='my-2 flex'>
-                    <ExclamationIcon
+                    <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
@@ -79,7 +85,7 @@ export default function PricingPlans() {
                     <span>Gigabit Networking</span>
                   </p>
                   <p className='my-2 flex'>
-                    <PlusCircleIcon
+                    <XCircleIcon
                       className='h-5 w-5 mr-1 text-orange-500'
                       aria-hidden='true'
                     />
@@ -94,18 +100,18 @@ export default function PricingPlans() {
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
-                      className='h-5 w-5 mr-1 text-gray-500'
+                      className='h-5 w-5 mr-1 text-orange-500'
                       aria-hidden='true'
                     />
                     <span>Advance Network Filtration</span>
                   </p>
-                  <p className='my-2 flex'>
+                  {/* <p className='my-2 flex'>
                     <XCircleIcon
                       className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Smart Home Integration</span>
-                  </p>
+                  </p> */}
 
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -114,12 +120,34 @@ export default function PricingPlans() {
                     />
                     <span>Parental Control Access*</span>
                   </p>
-                  <p className='my-2 flex'>
+                  {/* <p className='my-2 flex'>
                     <XCircleIcon
                       className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Workstation Optimization</span>
+                  </p> */}
+                  <hr className='text-gray-200' />
+                  <p className='my-2 flex'>
+                    <UserIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
+                    <span>1 Individual VAS Account</span>
+                  </p>
+                  <p className='my-2 flex'>
+                    <PlayIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
+                    <span>Media-on-demand</span>
+                  </p>
+                  <p className='my-2 flex'>
+                    <XCircleIcon
+                      className='h-5 w-5 mr-1 text-orange-500'
+                      aria-hidden='true'
+                    />
+                    <span>Remoteplay Access</span>
                   </p>
                 </div>
                 <a
@@ -179,7 +207,7 @@ export default function PricingPlans() {
                     <span>Gigabit Networking</span>
                   </p>
                   <p className='my-2 flex'>
-                    <PlusCircleIcon
+                    <XCircleIcon
                       className='h-5 w-5 mr-1 text-orange-500'
                       aria-hidden='true'
                     />
@@ -194,18 +222,18 @@ export default function PricingPlans() {
                   </p>
                   <p className='my-2 flex'>
                     <XCircleIcon
-                      className='h-5 w-5 mr-1 text-gray-500'
+                      className='h-5 w-5 mr-1 text-orange-500'
                       aria-hidden='true'
                     />
                     <span>Advance Network Filtration</span>
                   </p>
-                  <p className='my-2 flex'>
+                  {/* <p className='my-2 flex'>
                     <XCircleIcon
                       className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Smart Home Integration</span>
-                  </p>
+                  </p> */}
 
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -214,12 +242,34 @@ export default function PricingPlans() {
                     />
                     <span>Parental Controll Access*</span>
                   </p>
-                  <p className='my-2 flex'>
+                  {/* <p className='my-2 flex'>
                     <XCircleIcon
                       className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Workstation Optimization</span>
+                  </p> */}
+                  <hr className='text-gray-200' />
+                  <p className='my-2 flex'>
+                    <UserIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
+                    <span>2 Individual VAS Account</span>
+                  </p>
+                  <p className='my-2 flex'>
+                    <PlayIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
+                    <span>Media-on-demand</span>
+                  </p>
+                  <p className='my-2 flex'>
+                    <XCircleIcon
+                      className='h-5 w-5 mr-1 text-orange-500'
+                      aria-hidden='true'
+                    />
+                    <span>Remoteplay Access</span>
                   </p>
                 </div>
                 <a
@@ -297,13 +347,13 @@ export default function PricingPlans() {
                     />
                     <span>Advance Network Filtration</span>
                   </p>
-                  <p className='my-2 flex'>
+                  {/* <p className='my-2 flex'>
                     <XCircleIcon
                       className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Smart Home Integration</span>
-                  </p>
+                  </p> */}
 
                   <p className='my-2 flex'>
                     <CheckCircleIcon
@@ -312,12 +362,34 @@ export default function PricingPlans() {
                     />
                     <span>Parental Controll Access*</span>
                   </p>
-                  <p className='my-2 flex'>
+                  {/* <p className='my-2 flex'>
                     <XCircleIcon
                       className='h-5 w-5 mr-1 text-gray-500'
                       aria-hidden='true'
                     />
                     <span>Workstation Optimization</span>
+                  </p> */}
+                  <hr className='text-gray-200' />
+                  <p className='my-2 flex'>
+                    <UserIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
+                    <span>3 Individual VAS Account</span>
+                  </p>
+                  <p className='my-2 flex'>
+                    <PlayIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
+                    <span>Media-on-demand</span>
+                  </p>
+                  <p className='my-2 flex'>
+                    <CheckCircleIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
+                    <span>Remoteplay Access</span>
                   </p>
                 </div>
                 <a
@@ -392,13 +464,13 @@ export default function PricingPlans() {
                     />
                     <span>Advance Network Filtration</span>
                   </p>
-                  <p className='my-2 flex'>
+                  {/* <p className='my-2 flex'>
                     <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
                     <span>Smart Home Integration</span>
-                  </p>
+                  </p> */}
                   <p className='my-2 flex'>
                     <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
@@ -407,12 +479,34 @@ export default function PricingPlans() {
                     <span>Parental Controll Access*</span>
                   </p>
 
-                  <p className='my-2 flex'>
+                  {/* <p className='my-2 flex'>
                     <CheckCircleIcon
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
                     <span>Workstation Optimization</span>
+                  </p> */}
+                  <hr className='text-gray-200' />
+                  <p className='my-2 flex'>
+                    <UserIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
+                    <span>3+ Individual VAS Account</span>
+                  </p>
+                  <p className='my-2 flex'>
+                    <PlayIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
+                    <span>Media-on-demand</span>
+                  </p>
+                  <p className='my-2 flex'>
+                    <CheckCircleIcon
+                      className='h-5 w-5 mr-1 text-green-500'
+                      aria-hidden='true'
+                    />
+                    <span>Remoteplay Access</span>
                   </p>
                 </div>
                 <a
