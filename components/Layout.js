@@ -45,7 +45,7 @@ export default function Layout({ children }) {
         }
       />
 
-      <main className='select-none dark:bg-tatsuBG bg-thirdGray bg-hero-pattern bg-hero-size'>
+      <main className='font-default select-none dark:bg-tatsuBG bg-thirdGray bg-hero-pattern bg-hero-size'>
         {children}
       </main>
       <Footer />

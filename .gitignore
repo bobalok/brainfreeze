@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/.yarn
 /.pnp
 .pnp.js
 
@@ -39,6 +40,3 @@ README.md
 # no yarn.lock|package-lock.json file
 yarn.lock
 package-lock.json
-
-
-yarn.lock
