@@ -250,7 +250,7 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>2 Individual VAS Account</span>
+                    <span>2 Individual VAS Accounts</span>
                   </p>
                   <p className='my-2 flex'>
                     <PlayIcon
@@ -370,7 +370,7 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>3 Individual VAS Account</span>
+                    <span>3 Individual VAS Accounts</span>
                   </p>
                   <p className='my-2 flex'>
                     <PlayIcon
@@ -487,7 +487,7 @@ export default function PricingPlans() {
                       className='h-5 w-5 mr-1 text-green-500'
                       aria-hidden='true'
                     />
-                    <span>3+ Individual VAS Account</span>
+                    <span>3+ Individual VAS Accounts</span>
                   </p>
                   <p className='my-2 flex'>
                     <PlayIcon
