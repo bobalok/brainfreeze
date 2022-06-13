@@ -299,7 +299,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.0":
+"autoprefixer@npm:^10.4.7":
   version: 10.4.7
   resolution: "autoprefixer@npm:10.4.7"
   dependencies:
@@ -1617,7 +1617,7 @@ next@latest:
     "@headlessui/react": ^1.4.2
     "@heroicons/react": ^1.0.5
     "@tailwindcss/forms": ^0.4.0
-    autoprefixer: ^10.4.0
+    autoprefixer: ^10.4.7
     next: latest
     postcss: ^8.4.4
     react: ^17.0.2
