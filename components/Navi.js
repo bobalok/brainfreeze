@@ -1,9 +1,11 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment, useState } from "react";
-import { Disclosure, Menu, Transition, Switch } from "@headlessui/react";
+// import { Fragment, useState } from "react";
+
+// import { Disclosure, Menu, Transition, Switch } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 import {
-  BriefcaseIcon,
-  BellIcon,
+  // BriefcaseIcon,
+  // BellIcon,
   MenuIcon,
   XIcon,
 } from "@heroicons/react/outline";
@@ -14,8 +16,8 @@ const navigation = [
   // { name: "Residential", href: "/residential", current: false },
   // { name: "Business", href: "/", current: false },
   // { name: "Blog", href: "#", current: false },
-  { name: "Business", href: "#corporate", current: false },
   { name: "Contact", href: "#contact", current: false },
+  { name: "Business", href: "#corporate", current: false },
   { name: "Gaming", href: "#gaming", current: false },
   { name: "Wifi", href: "#wifi", current: false },
   { name: "Why-us", href: "#whyus", current: false },
