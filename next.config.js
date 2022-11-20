@@ -2,6 +2,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
+    unoptimized: false,
     domains: [
       "https://drive.google.com",
       "https://cdn.pixabay.com",
