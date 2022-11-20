@@ -21,7 +21,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang='en' className='scroll-smooth'>
+      <Html lang='en'>
         <Head />
         <body>
           <Main />
