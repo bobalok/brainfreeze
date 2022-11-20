@@ -22,7 +22,7 @@ export default function Layout({ children }) {
         />
         <link
           rel='icon'
-          type='image/png'
+          // type='image/png'
           sizes='16x16'
           href='./meta/favicon-16x16.png'
         />
