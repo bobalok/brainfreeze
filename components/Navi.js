@@ -119,7 +119,7 @@ export default function Navi() {
                 <button className='hidden bg-secondaryBlue hover:bg-white transition-all ease-linear py-4 px-4 border-2 border-secondaryBlue hover:border-transparent rounded md:inline-flex items-center text-white text-base font-bold hover:text-secondaryBlue'>
                   {/* <BriefcaseIcon className='h-6 w-6 mr-1' aria-hidden='true' /> */}
                   <span className='uppercase select-none'>
-                    under development
+                    ⌛ under development
                   </span>
                 </button>
               </div>
