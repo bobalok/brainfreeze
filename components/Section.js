@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import CCC from "../public/images/businessSol.png";
 
 export default function Section() {

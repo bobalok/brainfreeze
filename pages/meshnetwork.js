@@ -6,7 +6,7 @@ import {
   ExclamationIcon,
   PlusCircleIcon,
 } from "@heroicons/react/solid";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import FAQ from "../components/FAQ";
 import meshrouter from "../public/images/meshrouter.jpg";
 import Completewifi from "../components/CompleteWifi";

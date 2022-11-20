@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import completeWifi from "../public/images/animage/complete-wifi.webp";
 // import Wifi from "../public/images/wifi.gif";

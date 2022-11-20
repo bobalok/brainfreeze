@@ -2,8 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// importing next/image & all the required images for the slider/swiperjs
-import Image from "next/image";
+import Image from "next/legacy/image";
 import swiperOne from "../public/images/forswiper/swiperOne.png";
 import swiperTwo from "../public/images/forswiper/swiperTwo.png";
 import swiperThree from "../public/images/forswiper/swiperThree.png";
