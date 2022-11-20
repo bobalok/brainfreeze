@@ -30,8 +30,8 @@ function classNames(...classes) {
 function MyLink(props) {
   let { href, children, ...rest } = props;
   return (
-    <Link href={href}>
-      <a {...rest}>{children}</a>
+    <Link href={href} {...rest}>
+      {children}
     </Link>
   );
 }
@@ -73,8 +73,10 @@ export default function Navi() {
                     <span className="className='bg-logo-white bg-no-repeat w-48 h-14 dark:bg-logo-dark"></span>
                   </Link> */}
 
-                  <Link href='/'>
-                    <a className='bg-logo-white bg-no-repeat w-48 h-14 dark:bg-logo-dark'></a>
+                  <Link
+                    href='/'
+                    className='bg-logo-white bg-no-repeat w-48 h-14 dark:bg-logo-dark'>
+
                   </Link>
                 </div>
                 <div className='hidden md:block sm:ml-6 select-none'>

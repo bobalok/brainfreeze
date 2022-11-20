@@ -6,27 +6,29 @@ function Navbar() {
       {/* <h1>i am a header</h1> */}
 
       <div className="max-w-7xl mx-auto relative flex items-center divide-x-2 divide-gray-200">
-        <Link href="/">
+        <Link href="/" legacyBehavior>
           <img className="cursor-pointer h-14" src="/nlbw.svg" alt="" />
         </Link>
 
         <div className="hidden md:block md:ml-4 md:space-x-6 text-white font-semibold md:px-4">
-          <Link href="#">
-            <a className="hover:text-tatsuBTN focus:text-tatsuBTN:bg-tatsuBG:blur">
+          <Link
+            href="#"
+            className="hover:text-tatsuBTN focus:text-tatsuBTN:bg-tatsuBG:blur">
+            
               Dashboard
-            </a>
+            
           </Link>
-          <Link href="#">
-            <a className="hover:text-tatsuBTN focus:text-white">Services</a>
+          <Link href="#" className="hover:text-tatsuBTN focus:text-white">
+            Services
           </Link>
-          <Link href="#">
-            <a className="hover:text-tatsuBTN focus:text-white">Pricing</a>
+          <Link href="#" className="hover:text-tatsuBTN focus:text-white">
+            Pricing
           </Link>
-          <Link href="#">
-            <a className="hover:text-tatsuBTN focus:text-white">Wiki</a>
+          <Link href="#" className="hover:text-tatsuBTN focus:text-white">
+            Wiki
           </Link>
-          <Link href="#">
-            <a className="hover:text-tatsuBTN focus:text-white">Contact</a>
+          <Link href="#" className="hover:text-tatsuBTN focus:text-white">
+            Contact
           </Link>
 
           <button className="absolute inset-y-0 sm:visible right-0 bg-tatsuBTN hover:bg-white transition-all ease-linear hover:text-tatsuBTN py-4 px-4 border-2 border-indigo-400 hover:border-transparent rounded inline-flex items-center text-white text-base font-bold">
