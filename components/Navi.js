@@ -75,9 +75,8 @@ export default function Navi() {
 
                   <Link
                     href='/'
-                    className='bg-logo-white bg-no-repeat w-48 h-14 dark:bg-logo-dark'>
-
-                  </Link>
+                    className='bg-logo-white bg-no-repeat w-48 h-14 dark:bg-logo-dark'
+                  ></Link>
                 </div>
                 <div className='hidden md:block sm:ml-6 select-none'>
                   <div className='flex md:space-x-0 lg:space-x-4 py-4'>
@@ -133,7 +132,7 @@ export default function Navi() {
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
-                  as='a'
+                  // as='a'
                   href={item.href}
                   className={classNames(
                     item.current
