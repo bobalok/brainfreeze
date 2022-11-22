@@ -4,13 +4,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "analyze": "ANALYZE=true next build"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.4",
     "@heroicons/react": "v1",
+    "@next/bundle-analyzer": "^13.0.4",
     "@tailwindcss/forms": "^0.5.3",
-    "next": "latest",
+    "next": "13.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-scroll": "^1.8.8",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",
+    "eslint": "^8.28.0",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.1"
   }
