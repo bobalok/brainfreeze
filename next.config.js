@@ -1,11 +1,11 @@
-// module.exports = {
-//   // Use the CDN in production and localhost for development.
-//     basePath: '/brainfreeze',
-//     assetPrefix: 'https://technocalorie.github.io/brainfreeze',
-// };
-
-module.exports = {
+/** @type {import('next').NextConfig} */
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: process.env.ANALYZE === "true",
+});
+module.exports = withBundleAnalyzer({
+  reactStrictMode: true,
   images: {
+    unoptimized: false,
     domains: [
       "https://drive.google.com",
       "https://cdn.pixabay.com",
@@ -18,4 +18,4 @@ module.exports = {
       "https://media.gettyimages.com",
     ],
   },
-};
+});

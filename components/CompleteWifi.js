@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import completeWifi from "../public/images/animage/complete-wifi.webp";
 // import Wifi from "../public/images/wifi.gif";
@@ -27,24 +27,25 @@ export default function CompleteWifi() {
             </p>
             <div className='pt-8 '>
               <button>
-                <Link href='#'>
-                  <a className=" bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex flex items-center'">
-                    Get a quote
-                    <svg
-                      className='ml-1 w-6 h-6'
-                      fill='none'
-                      stroke='currentColor'
-                      viewBox='0 0 24 24'
-                      xmlns='http://www.w3.org/2000/svg'
-                    >
-                      <path
-                        strokeLinecap='round'
-                        strokeLinejoin='round'
-                        strokeWidth={2}
-                        d='M17 8l4 4m0 0l-4 4m4-4H3'
-                      />
-                    </svg>
-                  </a>
+                <Link
+                  href='#'
+                  className=" bg-transparent hover:bg-tatsuBTN2 dark:text-white text-textGray transition-all ease-linear text-base font-bold hover:text-white py-4 px-4 border-2 border-slate-400 hover:border-transparent rounded md:inline-flex flex items-center'"
+                >
+                  Get a quote
+                  <svg
+                    className='ml-1 w-6 h-6'
+                    fill='none'
+                    stroke='currentColor'
+                    viewBox='0 0 24 24'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M17 8l4 4m0 0l-4 4m4-4H3'
+                    />
+                  </svg>
                 </Link>
               </button>
             </div>

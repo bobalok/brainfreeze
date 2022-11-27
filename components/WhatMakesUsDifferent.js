@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 import WFH from "../public/images/animage/wfh.webp";
 import WFO from "../public/images/animage/wfo.webp";
