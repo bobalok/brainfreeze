@@ -13,6 +13,7 @@
 /.next/
 /out/
 /analyze/
+/.swc/
 
 # production
 /build
